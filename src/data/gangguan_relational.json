@@ -1,0 +1,62 @@
+[
+  {
+    "id": "parent-child-relational-problem",
+    "name": "Masalah Hubungan Orang Tua-Anak",
+    "category": "Relational",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Fokus pada pola interaksi negatif yang menyebabkan distres.",
+    "fullDesc": "Bukan gangguan mental individu, tapi dinamika yang merusak kesehatan mental anggota keluarga.",
+    "types": [
+      {
+        "name": "Conflictual",
+        "desc": "Sering pertengkaran."
+      }
+    ],
+    "symptoms": [
+      "Komunikasi buruk",
+      "Ketegangan kronis"
+    ],
+    "handling": "Terapi keluarga, mediasi, konseling komunikasi."
+  },
+  {
+    "id": "partner-relational-problem",
+    "name": "Masalah Hubungan Pasangan",
+    "category": "Relational",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Konflik atau ketidakpuasan dalam hubungan romantis.",
+    "fullDesc": "Pemicu umum munculnya kecemasan atau depresi pada pasangan.",
+    "types": [
+      {
+        "name": "Discord",
+        "desc": "Ketidakharmonisan."
+      }
+    ],
+    "symptoms": [
+      "Komunikasi agresif/pasif",
+      "Hilang keintiman"
+    ],
+    "handling": "Terapi pasangan (Couples Therapy), EFT."
+  },
+  {
+    "id": "sibling-relational-problem",
+    "name": "Masalah Hubungan Saudara",
+    "category": "Relational",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Dinamika rivalitas atau konflik antar saudara yang destruktif.",
+    "fullDesc": "Dapat berlanjut hingga dewasa dan memengaruhi fungsi sosial.",
+    "types": [
+      {
+        "name": "Sibling rivalry",
+        "desc": "Persaingan tidak sehat."
+      }
+    ],
+    "symptoms": [
+      "Kompetisi berlebih",
+      "Kurang dukungan"
+    ],
+    "handling": "Konseling keluarga."
+  }
+]

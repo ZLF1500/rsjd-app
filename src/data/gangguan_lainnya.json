@@ -1,0 +1,803 @@
+[
+  {
+    "id": "kleptomania",
+    "name": "Kleptomania",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Dorongan kompulsif yang tak tertahankan untuk mencuri benda-benda yang tidak memiliki nilai material berarti.",
+    "fullDesc": "Gangguan kontrol impuls di mana penderitanya merasakan ketegangan emosional sebelum melakukan pencurian dan kepuasan serta kelegaan luar biasa setelahnya, bukan didorong oleh kebutuhan finansial atau motif keuntungan materi.",
+    "types": [
+      {
+        "name": "Impulsive Theft Behavior",
+        "desc": "Tindakan pencurian spontan yang dilakukan tanpa perencanaan matang akibat lonjakan dorongan psikologis."
+      }
+    ],
+    "symptoms": [
+      "Rasa tegang yang meningkat dan gelisah sebelum melakukan tindakan pencurian",
+      "Perasaan lega, puas, atau terlepas dari beban emosional setelah berhasil mengambil barang",
+      "Perasaan bersalah, penyesalan, atau rasa malu yang mendalam setelah aksi selesai"
+    ],
+    "handling": "Penerapan Cognitive Behavioral Therapy (CBT), teknik manajemen kontrol impuls, serta penggunaan obat golongan SSRI untuk meredakan dorongan kompulsif."
+  },
+  {
+    "id": "pyromania",
+    "name": "Piromania",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Dorongan sengaja dan berulang untuk menyulut atau membakar sesuatu demi kesenangan dan pelepasan emosi.",
+    "fullDesc": "Gangguan kendali impuls yang sangat berbahaya, ditandai dengan ketertarikan yang ekstrem terhadap api, peralatan pemadam, serta rasa puas yang intens saat melihat kehancuran atau kobaran api.",
+    "types": [
+      {
+        "name": "Fire-Setting Compulsion",
+        "desc": "Obsesi patologis merencanakan dan menyalakan api yang membahayakan keselamatan umum."
+      }
+    ],
+    "symptoms": [
+      "Ketertarikan yang tidak wajar dan mendalam terhadap segala hal yang berkaitan dengan api",
+      "Perencanaan matang sebelum melakukan aksi pembakaran objek tertentu",
+      "Rasa senang, gembira, atau kelegaan emosional yang intens saat melihat kobaran api dan dampaknya"
+    ],
+    "handling": "Terapi perilaku intensif, pengawasan ketat lingkungan sosial, serta penanganan psikiatri komprehensif."
+  },
+  {
+    "id": "trichotillomania",
+    "name": "Trikotilomania",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Dorongan kompulsif yang berulang untuk mencabut rambut sendiri dari kepala, alis, atau bulu mata.",
+    "fullDesc": "Gangguan yang masuk dalam spektrum obsesif-kompulsif, di mana penderitanya mencabut rambut sebagai cara untuk meredakan kecemasan, stres, atau kejenuhan ekstrem.",
+    "types": [
+      {
+        "name": "Focused Pulling",
+        "desc": "Tindakan mencabut rambut yang dilakukan secara sadar untuk meredakan ketegangan emosional."
+      },
+      {
+        "name": "Automatic Pulling",
+        "desc": "Tindakan mencabut rambut yang dilakukan secara tidak sadar saat melamun atau bosan."
+      }
+    ],
+    "symptoms": [
+      "Adanya area kebotakan (alopecia) yang jelas pada kulit kepala, alis, atau bulu mata akibat dicabut",
+      "Perasaan lega sementara saat rambut tercabut, sering disusul rasa bersalah"
+    ],
+    "handling": "Habit Reversal Training (HRT), terapi perilaku kognitif, dan penggunaan alat bantu untuk menjaga tangan tetap sibuk."
+  },
+  {
+    "id": "excoriation-disorder",
+    "name": "Gangguan Menguliti Kulit (Excoriation)",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kebiasaan kompulsif mengorek, merusak, atau mengelupas kulit sendiri hingga menimbulkan luka.",
+    "fullDesc": "Gangguan psikologis di mana penderita terdorong untuk 'memperbaiki' ketidaksempurnaan kulit, jerawat, atau keropeng kecil secara berlebihan, yang berujung pada kerusakan jaringan kulit permanen.",
+    "types": [
+      {
+        "name": "Chronic Skin Picking",
+        "desc": "Aksi mengorek kulit secara terus-menerus yang sulit dihentikan meskipun sudah berdarah."
+      }
+    ],
+    "symptoms": [
+      "Luka koreng, infeksi, dan bekas luka parut di berbagai area tubuh",
+      "Kecenderungan melakukan kebiasaan ini secara sembunyi-sembunyi karena malu",
+      "Rasa cemas yang melonjak jika tidak segera mengorek permukaan kulit tertentu"
+    ],
+    "handling": "Cognitive Behavioral Therapy (CBT), terapi okupasi, serta menjaga kuku tetap pendek atau memakai sarung tangan pelindung."
+  },
+  {
+    "id": "conversion-disorder",
+    "name": "Gangguan Konversi (Functional Neurological Disorder)",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kemunculan gejala neurologis seperti buta atau lumpuh tanpa adanya kerusakan medis fisik.",
+    "fullDesc": "Kondisi di mana tekanan mental atau stres psikologis yang sangat berat diubah (dikonversi) secara tidak sadar oleh otak menjadi gangguan fungsi motorik atau sensorik tubuh.",
+    "types": [
+      {
+        "name": "Psychogenic Blindness / Paralysis",
+        "desc": "Hilangnya fungsi penglihatan atau kelumpuhan anggota gerak secara mendadak pasca trauma psikis."
+      }
+    ],
+    "symptoms": [
+      "Episode kejang fungsional yang menyerupai epilepsi namun hasil pemeriksaan EEG normal",
+      "Kelumpuhan pada lengan atau kaki tanpa dasar kerusakan saraf organik",
+      "Kehilangan sensasi rasa atau fungsi indra tertentu secara tiba-tiba"
+    ],
+    "handling": "Rehabilitasi fisioterapi fisik, CBT, serta pemrosesan trauma psikologis mendalam."
+  },
+  {
+    "id": "body-dysmorphic",
+    "name": "Body Dysmorphic Disorder (BDD)",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Obsesi berlebihan terhadap 'cacat' atau kekurangan fisik yang sebenarnya sangat kecil atau tidak ada.",
+    "fullDesc": "Gangguan kesehatan mental di mana penderita melihat diri mereka sangat jelek atau cacat secara fisik, menghabiskan waktu berjam-jam di depan cermin, atau berulang kali menjalani prosedur operasi plastik yang tidak memuaskan.",
+    "types": [
+      {
+        "name": "Muscle Dysmorphia (Bigorexia)",
+        "desc": "Obsesi bahwa massa otot tubuhnya kurang besar atau terlalu kecil meskipun sudah berbadan kekar."
+      }
+    ],
+    "symptoms": [
+      "Memeriksa cermin atau menutupi bagian tubuh tertentu secara kompulsif",
+      "Secara aktif menghindari pengambilan foto atau pantulan diri",
+      "Keinginan kuat dan berulang untuk menjalani operasi kosmetik"
+    ],
+    "handling": "CBT khusus BDD yang berfokus pada restrukturisasi citra tubuh, serta peresepan obat antidepresan golongan SSRI."
+  },
+  {
+    "id": "insomnia-disorder",
+    "name": "Gangguan Insomnia",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kesulitan memulai atau mempertahankan tidur yang terjadi secara kronis dan konsisten.",
+    "fullDesc": "Bukan sekadar masalah susah tidur sesekali, melainkan gangguan kualitas tidur jangka panjang yang merusak energi, suasana hati, serta produktivitas fisik dan mental di siang hari.",
+    "types": [
+      {
+        "name": "Sleep Onset Insomnia",
+        "desc": "Kesulitan ekstrem saat hendak mulai tidur di awal malam."
+      },
+      {
+        "name": "Sleep Maintenance Insomnia",
+        "desc": "Sering terbangun di tengah malam dan kesulitan untuk tidur kembali."
+      }
+    ],
+    "symptoms": [
+      "Kelelahan, kantuk, dan penurunan energi yang parah di siang hari",
+      "Penurunan kemampuan konsentrasi, daya ingat, dan fokus kerja",
+      "Rasa cemas atau frustrasi yang meningkat saat mendekati waktu tidur"
+    ],
+    "handling": "Penerapan Sleep Hygiene yang ketat, Cognitive Behavioral Therapy for Insomnia (CBT-I), serta pengaturan jadwal istirahat."
+  },
+  {
+    "id": "narcolepsy",
+    "name": "Narkolepsi",
+    "category": "Lainnya",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Gangguan sistem saraf kronis yang menyebabkan serangan tidur mendadak di siang hari.",
+    "fullDesc": "Kondisi neurologis di mana otak kehilangan kemampuan untuk mengatur siklus tidur-bangun, membuat penderitanya bisa jatuh tertidur seketika di tengah aktivitas seperti berjalan atau makan.",
+    "types": [
+      {
+        "name": "Narcolepsy with Cataplexy",
+        "desc": "Serangan lemas atau lumpuh otot mendadak yang dipicu oleh emosi kuat seperti tertawa atau marah."
+      }
+    ],
+    "symptoms": [
+      "Sleep attacks (serangan tidur tak tertahankan di siang hari)",
+      "Halusinasi hipnagogik yang sangat nyata saat hendak tidur",
+      "Sleep paralysis (lumpuh tidur) sesaat setelah bangun atau akan tidur"
+    ],
+    "handling": "Pemberian obat stimulan sistem saraf pusat, pengaturan jadwal tidur siang terstruktur, dan edukasi gaya hidup."
+  },
+  {
+    "id": "nightmare-disorder",
+    "name": "Gangguan Mimpi Buruk",
+    "category": "Lainnya",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Mimpi buruk berulang yang sangat menakutkan dan mengganggu kualitas tidur.",
+    "fullDesc": "Pengalaman mimpi mengerikan yang berulang kali membangunkan penderitanya dari tidur REM, sering kali berkaitan dengan sisa trauma psikologis atau stres tingkat tinggi.",
+    "types": [
+      {
+        "name": "Traumatic Nightmare",
+        "desc": "Mimpi buruk berulang yang memuat ulang skenario peristiwa traumatis masa lalu."
+      }
+    ],
+    "symptoms": [
+      "Terbangun dari tidur dalam kondisi ketakutan, panik, dan berkeringat dingin",
+      "Memori yang sangat jelas dan detail mengenai alur mimpi buruk tersebut",
+      "Muncul kecemasan atau keengganan untuk tidur kembali karena takut bermimpi buruk"
+    ],
+    "handling": "Imagery Rehearsal Therapy (IRT) untuk mengubah akhir cerita mimpi buruk, serta teknik manajemen stres."
+  },
+  {
+    "id": "enuresis",
+    "name": "Enuresis (Mengompol)",
+    "category": "Lainnya",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Kebiasaan mengompol berulang pada usia di mana anak seharusnya sudah mampu mengontrol kandung kemih.",
+    "fullDesc": "Gangguan eliminasi urin yang tidak disengaja, baik pada siang maupun malam hari, yang dapat dipengaruhi oleh faktor perkembangan biologis, emosional, atau medis.",
+    "types": [
+      {
+        "name": "Nocturnal Enuresis",
+        "desc": "Kondisi mengompol yang murni terjadi saat anak sedang tidur malam hari."
+      }
+    ],
+    "symptoms": [
+      "Kecelakaan mengompol di tempat tidur atau pakaian secara berulang",
+      "Perasaan malu, rendah diri, atau tertekan pada anak yang mengalaminya"
+    ],
+    "handling": "Pelatihan otot kandung kemih, penggunaan alarm sensor ngompol, serta pendekatan dukungan positif psikologis."
+  },
+  {
+    "id": "encopresis",
+    "name": "Enkopresis",
+    "category": "Lainnya",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Buang air besar di tempat yang tidak semestinya (seperti di celana) pada anak.",
+    "fullDesc": "Gangguan eliminasi tinja berulang yang sering kali berakar dari masalah konstipasi kronis (sembelit) dan kebiasaan menahan BAB akibat trauma toilet training.",
+    "types": [
+      {
+        "name": "Retentive Encopresis",
+        "desc": "Kondisi menahan feses secara kronis yang berujung pada kebocoran feses cair tanpa disadari."
+      }
+    ],
+    "symptoms": [
+      "Adanya noda feses di celana secara berulang",
+      "Riwayat sembelit kronis, perut kembung, dan nyeri perut"
+    ],
+    "handling": "Modifikasi pola makan dan asupan serat, manajemen latihan buang air besar, serta psikoterapi suportif."
+  },
+  {
+    "id": "factitious-disorder",
+    "name": "Gangguan Faktisius",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Pura-pura sakit secara sengaja atau memanipulasi gejala untuk mendapatkan perhatian medis.",
+    "fullDesc": "Sebelumnya dikenal sebagai sindrom Munchausen, di mana penderitanya memalsukan tanda-tanda penyakit fisik atau psikologis bukan demi keuntungan materi, melainkan untuk menikmati peran sebagai orang sakit yang dirawat.",
+    "types": [
+      {
+        "name": "Munchausen Syndrome",
+        "desc": "Bentuk ekstrem di mana seseorang secara aktif melukai diri sendiri atau memanipulasi hasil lab agar terlihat sakit parah."
+      }
+    ],
+    "symptoms": [
+      "Riwayat medis yang penuh kebohongan dramatis namun inkonsisten",
+      "Manipulasi hasil laboratorium atau sengaja menularkan infeksi pada diri sendiri",
+      "Sering berpindah-pindah rumah sakit dan meminta prosedur operasi berulang"
+    ],
+    "handling": "Psikoterapi psikiatris intensif, kolaborasi erat tim medis untuk mencegah tindakan bahaya diri, serta penanganan akar masalah emosional."
+  },
+  {
+    "id": "delirium",
+    "name": "Delirium",
+    "category": "Lainnya",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Gangguan kesadaran, atensi, dan fungsi kognitif yang muncul secara akut dan mendadak.",
+    "fullDesc": "Kondisi darurat medis serius yang umumnya dipicu oleh infeksi berat, ketidakseimbangan elektrolit, atau keracunan obat. Berbeda dengan demensia yang lambat, delirium terjadi cepat dan dapat disembuhkan jika pemicu fisiknya diatasi.",
+    "types": [
+      {
+        "name": "Hyperactive Delirium",
+        "desc": "Ditandai dengan agitasi tinggi, gelisah, hiperaktif, dan halusinasi."
+      },
+      {
+        "name": "Hypoactive Delirium",
+        "desc": "Ditandai dengan kelesuan ekstrem, menarik diri, dan penurunan kesadaran pasif."
+      }
+    ],
+    "symptoms": [
+      "Kebingungan mental yang datang secara tiba-tiba",
+      "Disorientasi total terhadap waktu, tempat, dan orang sekitar",
+      "Fluktuasi tingkat kesadaran yang naik turun drastis sepanjang hari"
+    ],
+    "handling": "Penanganan darurat medis untuk mengobati infeksi atau racun pemicu, menciptakan lingkungan kamar yang tenang, serta observasi ketat."
+  },
+  {
+    "id": "alzheimer-dementia",
+    "name": "Demensia Alzheimer",
+    "category": "Lainnya",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Penyakit degeneratif otak progresif yang menyebabkan penurunan memori dan fungsi kognitif.",
+    "fullDesc": "Jenis demensia paling umum pada lansia, di mana terjadi penumpukan plak protein di otak yang merusak sel-sel saraf secara permanen dan memburuk dari waktu ke waktu.",
+    "types": [
+      {
+        "name": "Early-Onset Alzheimer",
+        "desc": "Bentuk demensia Alzheimer langka yang muncul sebelum usia 65 tahun."
+      },
+      {
+        "name": "Late-Onset Alzheimer",
+        "desc": "Bentuk paling umum yang mulai berkembang pada usia di atas 65 tahun."
+      }
+    ],
+    "symptoms": [
+      "Kehilangan daya ingat jangka pendek secara drastis (sering lupa percundangan baru)",
+      "Kesulitan berbahasa, menyusun kata, dan mengenali benda",
+      "Perubahan kepribadian, kebingungan, dan hilangnya kemampuan merawat diri"
+    ],
+    "handling": "Pemberian obat penghambat kolinesterase, terapi dukungan keluarga, serta pengamanan lingkungan rumah."
+  },
+  {
+    "id": "vascular-dementia",
+    "name": "Demensia Vaskular",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Penurunan fungsi kognitif akibat gangguan aliran darah ke otak (misalnya pasca stroke).",
+    "fullDesc": "Kerusakan jaringan otak yang terjadi karena penyumbatan atau pecahnya pembuluh darah kecil, membuat kemampuan berpikir penderita menurun secara bertahap atau mendadak setelah serangan stroke.",
+    "types": [
+      {
+        "name": "Multi-Infarct Dementia",
+        "desc": "Kerusakan fungsi kognitif akibat banyak area kecil di otak mengalami stroke ringan berulang."
+      }
+    ],
+    "symptoms": [
+      "Kesulitan membuat perencanaan, keputusan, dan memecahkan masalah",
+      "Proses berpikir yang melambat dan gangguan koordinasi motorik tubuh",
+      "Riwayat gangguan pembuluh darah atau serangan stroke sebelumnya"
+    ],
+    "handling": "Pengontrolan ketat tekanan darah, kadar kolesterol, manajemen risiko stroke, dan rehabilitasi kognitif."
+  },
+  {
+    "id": "parkinson-dementia",
+    "name": "Demensia Parkinson",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Penurunan fungsi kognitif dan memori yang muncul pada tahap lanjut penyakit Parkinson.",
+    "fullDesc": "Komplikasi dari penyakit Parkinson di mana endapan protein merambat ke bagian otak yang mengatur memori, penalaran, dan perilaku, memperparah gejala motorik yang sudah ada.",
+    "types": [
+      {
+        "name": "Parkinson-Plus Cognitive Syndrome",
+        "desc": "Kombinasi demensia berat dengan gangguan motorik ekstrapiramidal."
+      }
+    ],
+    "symptoms": [
+      "Tremor, kekakuan otot, dan lambatnya gerakan tubuh (bradikinesia)",
+      "Halusinasi visual yang detail dan ketakutan tidak beralasan",
+      "Apati, penurunan ekspresi wajah, dan gangguan konsentrasi"
+    ],
+    "handling": "Manajemen obat dopaminergik oleh neurologist, terapi wicara, serta terapi okupasi pendukung."
+  },
+  {
+    "id": "huntington-disease",
+    "name": "Penyakit Huntington",
+    "category": "Lainnya",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Kelainan genetik warisan yang menyebabkan kerusakan sel saraf otak secara progresif.",
+    "fullDesc": "Penyakit degeneratif bawaan yang memicu gerakan tubuh tak terkendali (korea), gangguan kestabilan emosi mendalam, serta demensia parah seiring berjalannya waktu.",
+    "types": [
+      {
+        "name": "Juvenile Huntington Disease",
+        "desc": "Bentuk penyakit Huntington yang muncul pada usia anak atau remaja dengan perkembangan lebih agresif."
+      }
+    ],
+    "symptoms": [
+      "Gerakan tubuh menyentak dan tak terkendali (korea) pada tangan, kaki, atau wajah",
+      "Perubahan emosi yang drastis, depresi, dan ledakan amarah",
+      "Penurunan kognitif bertahap menuju demensia total"
+    ],
+    "handling": "Terapi suportif medis jangka panjang, obat pengendali gerakan tubuh, serta konseling genetik keluarga."
+  },
+  {
+    "id": "lewy-body-dementia",
+    "name": "Demensia Lewy Body",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Jenis demensia yang ditandai dengan kemunculan halusinasi visual yang sangat jelas dan nyata.",
+    "fullDesc": "Gangguan akibat penumpukan protein abnormal (Lewy bodies) di otak, ditandai dengan tingkat kewaspadaan dan kognisi penderita yang sangat berfluktuasi dari satu hari ke hari berikutnya.",
+    "types": [
+      {
+        "name": "Cognitive Fluctuation Variant",
+        "desc": "Kondisi kesadaran dan kejelasan berpikir pasien yang naik turun secara drastis."
+      }
+    ],
+    "symptoms": [
+      "Halusinasi visual yang sangat detail (melihat orang atau hewan yang tidak ada)",
+      "Kekakuan otot, gaya berjalan kaku, dan risiko sering terjatuh",
+      "Gangguan perilaku tidur REM (sering meronta saat bermimpi)"
+    ],
+    "handling": "Pemberian antipsikotik dosis sangat hati-hati, terapi stimulasi kognitif, dan pengamanan mobilitas fisik."
+  },
+  {
+    "id": "frontotemporal-dementia",
+    "name": "Demensia Frontotemporal",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Kerusakan pada lobus frontal dan temporal otak yang mengubah kepribadian dan kemampuan bahasa.",
+    "fullDesc": "Jenis demensia yang cenderung menyerang usia lebih muda, di mana penderitanya mengalami perubahan perilaku sosial yang drastis (kehilangan filter kesopanan) sebelum memori mereka terganggu.",
+    "types": [
+      {
+        "name": "Behavioral Variant FTD",
+        "desc": "Bentuk dominan dengan perubahan perilaku sosial yang ekstrem dan impulsif."
+      }
+    ],
+    "symptoms": [
+      "Perilaku tidak pantas secara sosial, impulsif, dan hilangnya rasa empati",
+      "Penurunan drastis dalam kebersihan diri dan kontrol diri",
+      "Kesulitan merangkai kata dan memahami makna bahasa (afasia)"
+    ],
+    "handling": "Terapi modifikasi perilaku, manajemen gejala impulsivitas, serta dukungan penuh bagi perawat/keluarga."
+  },
+  {
+    "id": "substance-induced-dementia",
+    "name": "Demensia Induksi Zat",
+    "category": "Lainnya",
+    "severity": "Sedang - Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Penurunan fungsi kognitif permanen akibat penggunaan alkohol atau zat psikoaktif jangka panjang.",
+    "fullDesc": "Kerusakan jaringan saraf otak akibat toksisitas zat atau malnutrisi parah kronis yang menyertainya, seperti Sindrom Wernicke-Korsakoff akibat defisiensi vitamin B1 berat pada pecandu alkohol.",
+    "types": [
+      {
+        "name": "Wernicke-Korsakoff Syndrome",
+        "desc": "Kerusakan otak akibat kekurangan tiamin (Vitamin B1) akut yang merusak memori."
+      }
+    ],
+    "symptoms": [
+      "Konfabulasi (kecenderungan tidak sadar mengarang cerita untuk menutupi lubang ingatan)",
+      "Kehilangan memori parah terutama informasi baru",
+      "Gangguan koordinasi gerak tubuh (ataksia)"
+    ],
+    "handling": "Suplementasi vitamin B1 dosis tinggi, penghentian total zat pemicu, dan rehabilitasi kognitif."
+  },
+  {
+    "id": "sleep-terror-disorder",
+    "name": "Gangguan Teror Tidur (Sleep Terror)",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Episode terbangun dari tidur secara tiba-tiba dalam kondisi berteriak dan ketakutan hebat.",
+    "fullDesc": "Parasomnia yang terjadi pada fase tidur NREM dalam, di mana penderita menjerit panik, mengalami lonjakan detak jantung, namun biasanya tidak ingat kejadian tersebut keesokan harinya.",
+    "types": [
+      {
+        "name": "Pavor Nocturnus",
+        "desc": "Episode teror tidur parah yang sering dialami anak-anak pada fase awal malam."
+      }
+    ],
+    "symptoms": [
+      "Berteriak atau meronta panik secara tiba-tiba di tengah malam",
+      "Keringat dingin, napas terengah-engah, dan detak jantung sangat cepat",
+      "Mata terbuka lebar namun tampak tidak sadar atau mengenali orang di sekitar"
+    ],
+    "handling": "Menjaga keteraturan jadwal tidur, manajemen stres harian, dan memastikan keamanan area tidur agar pasien tidak terluka."
+  },
+  {
+    "id": "sleepwalking",
+    "name": "Somnambulisme (Sleepwalking)",
+    "category": "Lainnya",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Aktivitas motorik kompleks yang dilakukan seseorang saat sedang berada dalam fase tidur nyenyak.",
+    "fullDesc": "Gangguan tidur di mana penderita bangun dan berjalan, membereskan barang, atau bahkan memasak dalam keadaan tidur tanpa memiliki kesadaran atau memori keesokan paginya.",
+    "types": [
+      {
+        "name": "Complex Sleep Behavior",
+        "desc": "Aktivitas rumit yang dilakukan tanpa kesadaran sadar saat tidur."
+      }
+    ],
+    "symptoms": [
+      "Berjalan atau berkeliling rumah saat malam hari dalam keadaan tidur",
+      "Tampak bingung dan disorientasi jika seseorang mencoba membangunkan mereka",
+      "Tidak mengingat sama sekali kejadian tersebut keesokan paginya"
+    ],
+    "handling": "Mengunci pintu dan jendela rumah rapat-rapat untuk keamanan, menjaga rutinitas tidur, serta menghindari kelelahan ekstrem."
+  },
+  {
+    "id": "circadian-rhythm-disorder",
+    "name": "Gangguan Irama Sirkadian",
+    "category": "Lainnya",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Ketidakmampuan menyinkronkan jam internal biologis tubuh dengan siklus terang-gelap lingkungan.",
+    "fullDesc": "Ketidakselarasan jadwal tidur alami tubuh yang sering dialami oleh pekerja shift malam, pilot, atau orang dengan sindrom fase tidur tertunda (delayed sleep phase).",
+    "types": [
+      {
+        "name": "Delayed Sleep Phase Syndrome",
+        "desc": "Pola di mana seseorang baru bisa tidur jam 3 pagi dan kesulitan bangun sebelum siang hari."
+      }
+    ],
+    "symptoms": [
+      "Kesulitan ekstrem untuk tidur pada jam normal malam hari",
+      "Rasa mengantuk yang teramat sangat saat jam kerja atau sekolah pagi hari"
+    ],
+    "handling": "Terapi paparan cahaya terang (light therapy), suplementasi melatonin, dan penataan ulang jadwal tidur."
+  },
+  {
+    "id": "hypersomnolence-disorder",
+    "name": "Gangguan Hipersomnolensi",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Rasa kantuk berlebihan sepanjang hari meskipun durasi tidur malam sudah tercukupi.",
+    "fullDesc": "Kondisi di mana penderita merasa sangat sulit untuk tetap terjaga di siang hari, sering tidur siang dalam durasi sangat lama, namun tetap merasa lelah dan tidak segar.",
+    "types": [
+      {
+        "name": "Idiopathic Hypersomnia",
+        "desc": "Rasa kantuk berat kronis yang muncul tanpa adanya penyebab medis atau neurologis lain yang jelas."
+      }
+    ],
+    "symptoms": [
+      "Kesulitan luar biasa untuk bangun pagi (sleep inertia yang berat)",
+      "Durasi tidur siang yang sangat lama namun tidak menyegarkan fisik",
+      "Kelelahan kognitif dan fisik yang konstan"
+    ],
+    "handling": "Pemberian obat stimulan perangsang terjaga, penerapan rutinitas tidur ketat, dan evaluasi polysomnography (PSG)."
+  },
+  {
+    "id": "restless-legs",
+    "name": "Sindrom Kaki Gelisah (RLS)",
+    "category": "Lainnya",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Dorongan tak tertahankan untuk menggerakkan kaki akibat sensasi tidak nyaman saat beristirahat.",
+    "fullDesc": "Gangguan sensorik saraf yang memicu sensasi gatal, merayap, atau nyeri di bagian kaki saat malam hari atau saat sedang duduk santai, yang mereda seketika jika kaki digerakkan.",
+    "types": [
+      {
+        "name": "Primary Idiopathic RLS",
+        "desc": "Sindrom kaki gelisah murni yang diturunkan secara genetik dalam keluarga."
+      }
+    ],
+    "symptoms": [
+      "Sensasi rasa gatal, panas, atau merayap di dalam otot betis/kaki",
+      "Dorongan motorik kuat yang memaksa kaki harus digerakkan agar rasa tidak nyaman hilang"
+    ],
+    "handling": "Pemeriksaan kadar feritin dan suplementasi zat besi (jika rendah), pijat otot kaki, serta obat pengatur dopamin."
+  },
+  {
+    "id": "malingering",
+    "name": "Malingering",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Berpura-pura sakit secara sadar demi motif keuntungan eksternal tertentu.",
+    "fullDesc": "Bukan merupakan gangguan mental klinis, melainkan perilaku penipuan di mana seseorang merekayasa gejala fisik atau psikis demi mendapatkan uang asuransi, menghindari hukuman hukum, atau bebas tugas kerja.",
+    "types": [
+      {
+        "name": "Compensation-Seeking Behavior",
+        "desc": "Rekayasa penyakit untuk memperoleh ganti rugi finansial atau material."
+      }
+    ],
+    "symptoms": [
+      "Gejala yang dilaporkan sangat tidak konsisten dengan temuan pemeriksaan medis objektif",
+      "Menolak atau menghindar dari prosedur pemeriksaan klinis yang mendetail"
+    ],
+    "handling": "Evaluasi psikiatri forensik ketat, verifikasi data medis objektif, dan konfrontasi terapeutik profesional."
+  },
+  {
+    "id": "pseudodementia",
+    "name": "Pseudodemensia (Depressive Cognitive Impairment)",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Penurunan fungsi kognitif yang menyerupai demensia namun bersumber dari depresi berat.",
+    "fullDesc": "Kondisi di mana seseorang (terutama lansia) mengalami penurunan daya ingat dan konsentrasi parah akibat depresi klinis. Berbeda dari demensia asli, pasien sering menjawab 'saya tidak tahu' saat dites.",
+    "types": [
+      {
+        "name": "Depressive Pseudodementia",
+        "desc": "Gangguan memori palsu yang pulih total saat kondisi depresi utamanya disembuhkan."
+      }
+    ],
+    "symptoms": [
+      "Keluhan lupa ingatan dan kebingungan yang disertai mood sangat rendah",
+      "Kehilangan minat total pada aktivitas hidup dan ekspresi keputusasaan",
+      "Skor tes kognitif membaik secara dramatis setelah depresi diobati"
+    ],
+    "handling": "Pemberian obat antidepresan yang tepat, psikoterapi suportif, dan stimulasi sosial."
+  },
+  {
+    "id": "foreign-accent",
+    "name": "Sindrom Aksen Asing",
+    "category": "Lainnya",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Perubahan pola bicara setelah trauma otak yang membuat penderita terdengar beraksen asing.",
+    "fullDesc": "Kelainan motorik bicara yang sangat jarang, biasanya dipicu oleh stroke atau cedera kepala berat, di mana artikulasi pengucapan pasien berubah sehingga terdengar seperti orang asing.",
+    "types": [
+      {
+        "name": "Psychogenic Foreign Accent",
+        "desc": "Perubahan nada dan intonasi bicara beraksen yang dipicu oleh stres psikis berat."
+      }
+    ],
+    "symptoms": [
+      "Perubahan intonasi, pelafalan vokal, dan aksen bicara secara mendadak",
+      "Struktur bahasa asli tetap sama namun cara pengucapannya berubah drastis"
+    ],
+    "handling": "Terapi wicara intensif bersama terapis profesional, serta konseling psikologis jika berakar dari faktor psikogenik."
+  },
+  {
+    "id": "alexithymia",
+    "name": "Aleksitimia",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Ketidakmampuan psikologis untuk mengenali, mengidentifikasi, atau mengekspresikan emosi diri sendiri.",
+    "fullDesc": "Bukan gangguan jiwa formal, melainkan trait kepribadian di mana seseorang merasa 'buta emosi', kesulitan memahami perasaan sendiri, serta sering menyamakan sensasi fisik dengan emosi.",
+    "types": [
+      {
+        "name": "Affective Blindness Trait",
+        "desc": "Kondisi ketidakpekaan total terhadap spektrum emosi internal diri maupun orang lain."
+      }
+    ],
+    "symptoms": [
+      "Kesulitan besar menyebutkan nama emosi yang sedang dirasakan (sedih, marah, senang)",
+      "Kurangnya imajinasi dan ekspresi wajah yang datar",
+      "Kecenderungan berpikir sangat kaku, logis berlebih, dan analitis"
+    ],
+    "handling": "Terapi eksplorasi emosi, pelatihan kesadaran diri (mindfulness), dan konseling psikologis."
+  },
+  {
+    "id": "somatization-disorder",
+    "name": "Gangguan Somatisasi",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Keluhan gejala fisik berulang yang tidak memiliki penjelasan medis organik yang memadai.",
+    "fullDesc": "Kondisi di mana penderitanya merasakan nyeri tubuh, mual, atau kelelahan kronis yang teramat nyata secara fisik, namun seluruh hasil pemeriksaan laboratorium medis menunjukkan kondisi yang bersih.",
+    "types": [
+      {
+        "name": "Somatic Symptom Disorder",
+        "desc": "Kecemasan berlebih terhadap keluhan fisik yang dirasakan sehari-hari."
+      }
+    ],
+    "symptoms": [
+      "Keluhan nyeri kronis berpindah-pindah di sekujur tubuh",
+      "Gangguan pencernaan dan pusing berulang tanpa diagnosis medis jelas",
+      "Kecemasan berlebihan terkait kondisi kesehatan fisik"
+    ],
+    "handling": "Psikoterapi CBT, edukasi mengenai hubungan erat antara pikiran dan tubuh (mind-body connection), serta manajemen stres."
+  },
+  {
+    "id": "body-integrity",
+    "name": "Body Integrity Dysphoria (BID)",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Keinginan kuat dan persisten untuk menjadi difabel agar tubuh terasa selaras.",
+    "fullDesc": "Kelainan langka dan kontroversial di mana penderitanya merasakan ketidakcocokan identitas fisik yang ekstrem, meyakini bahwa salah satu anggota tubuhnya (seperti kaki atau tangan) seharusnya tidak ada.",
+    "types": [
+      {
+        "name": "Apotemnophilia",
+        "desc": "Ketertarikan psikologis intens terhadap gagasan memiliki tubuh yang diamputasi."
+      }
+    ],
+    "symptoms": [
+      "Obsesi konstan terhadap gagasan menjalani amputasi anggota gerak tubuh yang sehat",
+      "Perasaan asing dan penolakan mental terhadap bagian tubuh tertentu"
+    ],
+    "handling": "Konseling psikologis suportif, manajemen keselamatan lingkungan, dan pendekatan psikiatri khusus."
+  },
+  {
+    "id": "diogenes-syndrome",
+    "name": "Sindrom Diogenes",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Pengabaian diri yang ekstrem, hidup dalam lingkungan sangat kotor, dan gemar menimbun barang.",
+    "fullDesc": "Gangguan perilaku parah yang umumnya ditemukan pada lansia, ditandai dengan isolasi sosial total, penolakan terhadap bantuan luar, serta kebiasaan menumpuk sampah di dalam rumah.",
+    "types": [
+      {
+        "name": "Severe Squalor Living",
+        "desc": "Kondisi hidup dalam kemelaratan ekstrem akibat isolasi diri total."
+      }
+    ],
+    "symptoms": [
+      "Menimbun sampah dan barang tak berguna dalam jumlah masif",
+      "Pengabaian total terhadap kebersihan diri, mandi, dan kesehatan",
+      "Penolakan agresif terhadap intervensi bantuan sosial atau medis"
+    ],
+    "handling": "Intervensi layanan sosial terpadu, pembersihan lingkungan rumah besar-besaran, serta dukungan psikiatri keluarga."
+  },
+  {
+    "id": "pathological-laughter",
+    "name": "Tawa Patologis (Pseudobulbar Affect)",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Episode tertawa atau menangis tanpa kendali yang tidak dipicu oleh situasi lucu atau sedih.",
+    "fullDesc": "Gangguan akibat kerusakan jalur saraf di otak (sering kali pasca stroke atau cedera kepala) yang membuat ekspresi emosi pasien meledak-ledak di luar kendali kesadaran.",
+    "types": [
+      {
+        "name": "Pseudobulbar Affect Syndrome",
+        "desc": "Ketidakmampuan mengontrol refleks tawa atau tangis akibat gangguan saraf pusat."
+      }
+    ],
+    "symptoms": [
+      "Tertawa terbahak-bahak secara tiba-tiba tanpa ada hal lucu yang terjadi",
+      "Ketidakmampuan menghentikan ekspresi tawa atau tangis meskipun ingin mereda"
+    ],
+    "handling": "Pemberian obat antidepresan dosis rendah untuk menstabilkan saraf, serta edukasi keluarga."
+  },
+  {
+    "id": "sleep-onset-insomnia",
+    "name": "Insomnia Awal Tidur",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Kesulitan utama untuk memulai proses tidur pada awal malam.",
+    "fullDesc": "Sub-tipe insomnia di mana penderita menghabiskan waktu berjam-jam berbaring di atas tempat tidur dalam kondisi terjaga sebelum akhirnya bisa terlelap.",
+    "types": [
+      {
+        "name": "Primary Sleep-Onset Difficulty",
+        "desc": "Kesulitan tidur awal tanpa adanya kondisi penyakit medis penyerta."
+      }
+    ],
+    "symptoms": [
+      "Mata terbuka lebar dan pikiran terus berputar saat berbaring malam hari",
+      "Rasa cemas dan frustrasi yang meningkat karena tak kunjung bisa tidur"
+    ],
+    "handling": "Cognitive Behavioral Therapy for Insomnia (CBT-I) dan aturan kebersihan tidur (sleep hygiene)."
+  },
+  {
+    "id": "primary-hypersomnia",
+    "name": "Hipersomnia Primer",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Rasa kantuk berlebihan yang persisten tanpa adanya penyebab medis sekunder.",
+    "fullDesc": "Gangguan tidur primer di mana seseorang membutuhkan waktu tidur 10 hingga 12 jam sehari namun tetap merasa lelah dan berat untuk beraktivitas.",
+    "types": [
+      {
+        "name": "Idiopathic Hypersomnia Pure",
+        "desc": "Kondisi kantuk parah yang penyebab pastinya tidak diketahui secara medis."
+      }
+    ],
+    "symptoms": [
+      "Kesulitan luar biasa untuk bangun dari tidur di pagi hari",
+      "Kelelahan kronis dan penurunan tingkat kewaspadaan di siang hari"
+    ],
+    "handling": "Pemberian obat stimulan medis, pengaturan jadwal tidur teratur, dan evaluasi polysomnography."
+  },
+  {
+    "id": "gender-dysphoria",
+    "name": "Disforia Gender",
+    "category": "Lainnya",
+    "severity": "Sedang - Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Distres klinis yang dialami akibat ketidaksesuaian antara identitas gender dengan seks biologis.",
+    "fullDesc": "Fokus klinis ditempatkan pada penderitaan psikologis dan kecemasan mendalam (distres) yang dirasakan individu karena identitas gender mereka tidak selaras dengan tubuh biologis sejak lahir.",
+    "types": [
+      {
+        "name": "Adolescent/Adult Onset Dysphoria",
+        "desc": "Perasaan ketidaksesuaian gender yang muncul atau menguat pada masa remaja hingga dewasa."
+      }
+    ],
+    "symptoms": [
+      "Kecemasan tubuh yang persisten terkait karakteristik seks primer/sekunder",
+      "Distres identitas yang mengganggu fungsi sosial dan pekerjaan sehari-hari"
+    ],
+    "handling": "Psikoterapi suportif, konseling psikologis inklusif, serta langkah transisi medis sesuai standar klinis."
+  },
+  {
+    "id": "non-suicidal-self-injury",
+    "name": "NSSI (Non-Suicidal Self-Injury / Self-Harm)",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Tindakan melukai diri sendiri secara sengaja tanpa adanya niat atau dorongan untuk bunuh diri.",
+    "fullDesc": "Perilaku merusak diri (seperti menyayat kulit atau membakar) yang digunakan oleh penderita sebagai mekanisme penoping darurat untuk meredakan gejolak emosi negatif atau rasa sakit psikis yang tak tertahankan.",
+    "types": [
+      {
+        "name": "Cutting Behavior",
+        "desc": "Tindakan menyayat permukaan kulit menggunakan benda tajam untuk melampiaskan emosi."
+      }
+    ],
+    "symptoms": [
+      "Adanya bekas luka sayatan, lebam, atau luka bakar baru dan lama pada tubuh",
+      "Kecenderungan menyembunyikan luka di balik pakaian tertutup",
+      "Perasaan lega emosional sesaat setelah tindakan melukai diri dilakukan"
+    ],
+    "handling": "Dialectical Behavior Therapy (DBT), pelatihan keterampilan regulasi emosi, dan konseling psikisiatri."
+  },
+  {
+    "id": "unspecified-disorder",
+    "name": "Gangguan Mental Tidak Spesifik (NOS)",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kategori klinis untuk gejala yang menimbulkan distres namun belum memenuhi kriteria diagnosis formal.",
+    "fullDesc": "Klasifikasi sementara yang digunakan oleh tenaga profesional kesehatan mental ketika seorang pasien menunjukkan gangguan fungsi sosial atau penderitaan psikologis yang jelas, tetapi pola gejalanya belum masuk ke dalam kategori spesifik.",
+    "types": [
+      {
+        "name": "Not Otherwise Specified (NOS)",
+        "desc": "Sisa kategori klinis untuk gejala unik yang belum terstandarisasi."
+      }
+    ],
+    "symptoms": [
+      "Distres emosional yang signifikan dan mengganggu produktivitas harian",
+      "Gangguan fungsi sosial atau pekerjaan tanpa pola diagnosis yang khas"
+    ],
+    "handling": "Pemantauan klinis berkala, sesi psikoterapi suportif, dan evaluasi lanjutan."
+  }
+]

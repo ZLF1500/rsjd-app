@@ -1,0 +1,3092 @@
+[
+  {
+    "id": "mdd",
+    "name": "Gangguan Depresi Mayor (MDD)",
+    "category": "Mood",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Rasa sedih yang mendalam dan kehilangan minat secara terus-menerus.",
+    "fullDesc": "Major Depressive Disorder (MDD) mempengaruhi perasaan, cara berpikir, dan perilaku seseorang secara mendalam hingga mengganggu aktivitas harian.",
+    "types": [
+      {
+        "name": "Depresi Unipolar",
+        "desc": "Episode depresi berat tanpa masa mania."
+      },
+      {
+        "name": "Depresi Atipikal",
+        "desc": "Suasana hati membaik sementara saat merespons kejadian positif."
+      }
+    ],
+    "symptoms": [
+      "Sedih/hampa berkepanjangan",
+      "Anhedonia (hilang minat)",
+      "Perubahan pola tidur & nafsu makan",
+      "Ideasi bunuh diri"
+    ],
+    "handling": "Psikoterapi CBT, obat Antidepresan (SSRI/SNRI), dan dukungan sosial."
+  },
+  {
+    "id": "dysthymia",
+    "name": "Distimia (Persistent Depressive Disorder)",
+    "category": "Mood",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Bentuk depresi kronis berkepanjangan yang berlangsung minimal 2 tahun.",
+    "fullDesc": "Meskipun gejalanya tidak seberat depresi mayor, gejalanya menetap dalam jangka panjang dan membuat penderita sulit merasa bahagia.",
+    "types": [
+      {
+        "name": "Early Onset",
+        "desc": "Muncul sebelum usia 21 tahun."
+      },
+      {
+        "name": "Late Onset",
+        "desc": "Muncul setelah usia 21 tahun."
+      }
+    ],
+    "symptoms": [
+      "Kurang berenergi kronis",
+      "Harga diri rendah",
+      "Kehilangan harapan",
+      "Gelisah berlebih"
+    ],
+    "handling": "Psikoterapi psikodinamik, CBT, serta perubahan gaya hidup."
+  },
+  {
+    "id": "pmdd",
+    "name": "Premenstrual Dysphoric Disorder (PMDD)",
+    "category": "Mood",
+    "severity": "Sedang - Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Bentuk PMS yang jauh lebih berat dengan gangguan emosional signifikan sebelum siklus haid.",
+    "fullDesc": "PMDD menyebabkan perubahan suasana hati yang sangat parah sebelum menstruasi yang merusak hubungan interpersonal dan pekerjaan.",
+    "types": [
+      {
+        "name": "PMDD Emosional",
+        "desc": "Didominasi mood swing dan iritabilitas."
+      },
+      {
+        "name": "PMDD Fisik-Emosional",
+        "desc": "Disertai nyeri fisik berat dan kram ekstrem."
+      }
+    ],
+    "symptoms": [
+      "Perubahan mood drastis",
+      "Iritabilitas/marah parah",
+      "Kecemasan intens",
+      "Nyeri payudara/sendi"
+    ],
+    "handling": "Terapi hormon, SSRI dosis rendah, dan manajemen diet."
+  },
+  {
+    "id": "bipolar-1",
+    "name": "Gangguan Bipolar Tipe I",
+    "category": "Mood",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Perubahan mood ekstrem dengan minimal satu episode mania berat.",
+    "fullDesc": "Penderita mengalami episode mania ekstrem di mana mereka kehilangan kontak dengan realitas, membutuhkan perawatan intensif.",
+    "types": [
+      {
+        "name": "Mania dengan Fitur Psikotik",
+        "desc": "Disertai halusinasi/delusi saat fase mania."
+      },
+      {
+        "name": "Episode Campuran",
+        "desc": "Gejala mania dan depresi terjadi bersamaan."
+      }
+    ],
+    "symptoms": [
+      "Berbicara sangat cepat",
+      "Merasa tidak butuh tidur",
+      "Perilaku sangat impulsif/berisiko",
+      "Fase depresi berat"
+    ],
+    "handling": "Mood Stabilizer (Lithium), Antipsikotik, dan psikoterapi jangka panjang."
+  },
+  {
+    "id": "bipolar-2",
+    "name": "Gangguan Bipolar Tipe II",
+    "category": "Mood",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Pola episode hipomania (mania lebih ringan) dan depresi mayor.",
+    "fullDesc": "Penderita tidak pernah mengalami mania penuh, tetapi episode depresinya sering kali sangat parah dan melumpuhkan.",
+    "types": [
+      {
+        "name": "Rapid Cycling",
+        "desc": "Mengalami 4 atau lebih episode mood dalam setahun."
+      }
+    ],
+    "symptoms": [
+      "Hipomania (energi naik tanpa hilangnya realitas)",
+      "Depresi berkepanjangan",
+      "Mudah tersinggung"
+    ],
+    "handling": "Mood stabilizer, pencegahan pemicu stres, dan pola tidur teratur."
+  },
+  {
+    "id": "cyclothymia",
+    "name": "Siklotimia",
+    "category": "Mood",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Fluktuasi mood antara hipomania ringan dan depresi ringan selama 2 tahun.",
+    "fullDesc": "Bentuk bipolar yang lebih ringan namun terus-menerus mengganggu stabilitas emosional seseorang.",
+    "types": [
+      {
+        "name": "Siklotimia Remaja",
+        "desc": "Dimulai pada masa remaja dengan fluktuasi cepat."
+      }
+    ],
+    "symptoms": [
+      "Perubahan energi tidak stabil",
+      "Mudah bersemangat lalu tiba-tiba murung"
+    ],
+    "handling": "Psikoterapi konseling, edukasi pola hidup, dan pemantauan mood."
+  },
+  {
+    "id": "postpartum-depression",
+    "name": "Depresi Pasca Melahirkan (Postpartum)",
+    "category": "Mood",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Depresi berat yang dialami ibu setelah melahirkan bayi.",
+    "fullDesc": "Bukan sekadar 'baby blues', kondisi ini mempengaruhi kesehatan fisik dan mental ibu serta ikatan batin dengan bayi.",
+    "types": [
+      {
+        "name": "Postpartum Depression",
+        "desc": "Depresi emosional mendalam pasca melahirkan."
+      },
+      {
+        "name": "Postpartum Psychosis",
+        "desc": "Bentuk langka dengan halusinasi dan risiko bahaya fisik."
+      }
+    ],
+    "symptoms": [
+      "Sulit bonding dengan bayi",
+      "Takut menjadi ibu yang buruk",
+      "Menangis tanpa alasan",
+      "Kelelahan ekstrem"
+    ],
+    "handling": "Terapi konseling, Antidepresan aman menyusui, dan dukungan keluarga."
+  },
+  {
+    "id": "seasonal-affective",
+    "name": "Gangguan Afektif Musiman (SAD)",
+    "category": "Mood",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Depresi yang dipicu oleh perubahan musim (biasanya musim dingin/hujan).",
+    "fullDesc": "Terkait dengan kurangnya paparan sinar matahari yang mempengaruhi kadar serotonin dan melatonin di otak.",
+    "types": [
+      {
+        "name": "Winter-pattern SAD",
+        "desc": "Depresi di musim dingin/hujan."
+      },
+      {
+        "name": "Summer-pattern SAD",
+        "desc": "Depresi di musim panas (lebih jarang)."
+      }
+    ],
+    "symptoms": [
+      "Keinginan makan karbohidrat berlebih",
+      "Hipersomnia (tidur terus)",
+      "Menarik diri di musim tertentu"
+    ],
+    "handling": "Terapi Cahaya (Light Therapy), CBT, dan vitamin D."
+  },
+  {
+    "id": "gad",
+    "name": "Gangguan Kecemasan Umum (GAD)",
+    "category": "Anxiety",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Kecemasan berlebihan terhadap berbagai hal dalam kehidupan sehari-hari.",
+    "fullDesc": "Kecemasan kronis yang sulit dikendalikan terkait pekerjaan, finansial, atau keluarga selama minimal 6 bulan.",
+    "types": [
+      {
+        "name": "GAD Somatik",
+        "desc": "Kecemasan yang sangat mendominasi fisik (otot tegang, sakit perut)."
+      }
+    ],
+    "symptoms": [
+      "Otot tegang",
+      "Pikiran berputar (overthinking)",
+      "Gelisah dan sulit fokus",
+      "Gangguan tidur"
+    ],
+    "handling": "CBT, latihan relaksasi/mindfulness, obat Anksiolitik/SSRI."
+  },
+  {
+    "id": "panic-disorder",
+    "name": "Gangguan Panik (Panic Disorder)",
+    "category": "Anxiety",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Serangan rasa takut hebat mendadak tanpa pemicu yang jelas.",
+    "fullDesc": "Melibatkan gelombang ketakutan fisik mendadak yang memuncak dalam hitungan menit.",
+    "types": [
+      {
+        "name": "Panic Disorder + Agorafobia",
+        "desc": "Takut berada di tempat umum karena takut kena serangan."
+      }
+    ],
+    "symptoms": [
+      "Jantung berdebar keras",
+      "Sesak napas",
+      "Nyeri dada",
+      "Takut merasa gila/mati"
+    ],
+    "handling": "Exposure Therapy, teknik pernapasan diafragma, obat anti-ansietas."
+  },
+  {
+    "id": "agoraphobia",
+    "name": "Agorafobia",
+    "category": "Anxiety",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Ketakutan berada di tempat terbuka atau situasi yang sulit melarikan diri.",
+    "fullDesc": "Penderita sering kali tidak berani keluar rumah sama sekali karena takut terperangkap saat krisis.",
+    "types": [
+      {
+        "name": "Agorafobia Rumah",
+        "desc": "Tidak bisa meninggalkan rumah sama sekali tanpa pendamping."
+      }
+    ],
+    "symptoms": [
+      "Menghindari kerumunan/transportasi umum",
+      "Kebutuhan akan pendamping saat keluar rumah"
+    ],
+    "handling": "Desensitisasi sistematis, Exposure Therapy bertahap, dan CBT."
+  },
+  {
+    "id": "social-phobia",
+    "name": "Gangguan Kecemasan Sosial (SAD)",
+    "category": "Anxiety",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Ketakutan mendalam akan dinilai negatif atau dipermalukan di depan umum.",
+    "fullDesc": "Bukan sekadar pemalu, kecemasan fisik hebat muncul saat berinteraksi sosial atau tampil.",
+    "types": [
+      {
+        "name": "SAD Spesifik",
+        "desc": "Hanya cemas saat public speaking."
+      },
+      {
+        "name": "SAD Tergeneralisasi",
+        "desc": "Cemas di semua interaksi sosial."
+      }
+    ],
+    "symptoms": [
+      "Wajah memerah dan gemetar",
+      "Menghindari acara sosial",
+      "Analisis berlebih pasca interaksi"
+    ],
+    "handling": "Terapi pemaparan sosial, CBT kelompok, Beta-blocker."
+  },
+  {
+    "id": "specific-phobia",
+    "name": "Fobia Spesifik",
+    "category": "Anxiety",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Ketakutan ekstrem dan irasional terhadap objek atau situasi tertentu.",
+    "fullDesc": "Ketakutan yang tidak proporsional terhadap hal-hal seperti ketinggian, hewan tertentu, atau darah.",
+    "types": [
+      {
+        "name": "Acrophobia",
+        "desc": "Fobia ketinggian."
+      },
+      {
+        "name": "Claustrophobia",
+        "desc": "Fobia ruang sempit."
+      },
+      {
+        "name": "Arachnophobia",
+        "desc": "Fobia laba-laba."
+      }
+    ],
+    "symptoms": [
+      "Panik seketika saat melihat objek",
+      "Penghindaran ekstrem terhadap pemicu"
+    ],
+    "handling": "Systematic Desensitization dan Virtual Reality Exposure Therapy (VRET)."
+  },
+  {
+    "id": "separation-anxiety",
+    "name": "Kecemasan Perpisahan (Separation Anxiety)",
+    "category": "Anxiety",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Ketakutan berlebih terpisah dari sosok terdekat (orang tua/pasangan).",
+    "fullDesc": "Bisa dialami anak-anak maupun dewasa saat harus berjauhan dengan figur pelekat.",
+    "types": [
+      {
+        "name": "Separation Anxiety Dewasa",
+        "desc": "Kecemasan parah jika pasangan/anak jauh."
+      }
+    ],
+    "symptoms": [
+      "Mimpi buruk tentang perpisahan",
+      "Gejala fisik saat akan berpisah",
+      "Khawatir bahaya menimpa orang terdekat"
+    ],
+    "handling": "Terapi keluarga, CBT, dan latihan kemandirian emosional."
+  },
+  {
+    "id": "selective-mutism",
+    "name": "Mutisme Selektif",
+    "category": "Anxiety",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Ketidakmampuan bicara dalam situasi sosial tertentu padahal bisa bicara di rumah.",
+    "fullDesc": "Gangguan kecemasan berbasis sosial yang umumnya dimulai sejak masa kanak-kanak.",
+    "types": [
+      {
+        "name": "Mutisme Sekolah",
+        "desc": "Hanya tidak mau bicara saat di sekolah/depan guru."
+      }
+    ],
+    "symptoms": [
+      "Bicara lancar di rumah tapi membisu total di tempat umum",
+      "Postur tubuh kaku saat cemas"
+    ],
+    "handling": "Behavioral therapy, Stimulus Fading, dan Shaping."
+  },
+  {
+    "id": "ptsd",
+    "name": "PTSD (Post-Traumatic Stress Disorder)",
+    "category": "Trauma",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Gangguan akibat mengalami atau menyaksikan peristiwa traumatis.",
+    "fullDesc": "Pengalaman traumatis seperti bencana, perang, atau kekerasan membuat otak terus dalam mode bahaya.",
+    "types": [
+      {
+        "name": "Acute PTSD",
+        "desc": "Gejala kurang dari 3 bulan."
+      },
+      {
+        "name": "Delayed Expression PTSD",
+        "desc": "Gejala baru muncul 6 bulan pasca trauma."
+      }
+    ],
+    "symptoms": [
+      "Flashback kilas balik",
+      "Mimpi buruk berulang",
+      "Kewaspadaan berlebih (Hyperarousal)"
+    ],
+    "handling": "Terapi EMDR, Trauma-Focused CBT, dan obat-obatan."
+  },
+  {
+    "id": "c-ptsd",
+    "name": "Complex PTSD (C-PTSD)",
+    "category": "Trauma",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "PTSD akibat trauma berulang jangka panjang (misal: abuse masa kecil).",
+    "fullDesc": "Mempengaruhi regulasi emosi, persepsi diri, dan kemampuan mempertahankan hubungan.",
+    "types": [
+      {
+        "name": "Developmental Trauma",
+        "desc": "Trauma pengabaian atau penyiksaan sejak kecil."
+      }
+    ],
+    "symptoms": [
+      "Deregulasi emosi berat",
+      "Rasa bersalah/berdosa kronis",
+      "Krisis identitas"
+    ],
+    "handling": "Terapi EMDR jangka panjang, Somatic Experiencing, dan DBT."
+  },
+  {
+    "id": "acute-stress-disorder",
+    "name": "Gangguan Stres Akut (ASD)",
+    "category": "Trauma",
+    "severity": "Sedang - Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Reaksi trauma intens yang terjadi dalam 1 bulan pertama pasca kejadian.",
+    "fullDesc": "Mirip PTSD tetapi sifatnya jangka pendek. Jika bertahan lebih dari 1 bulan, diagnosis berubah menjadi PTSD.",
+    "types": [
+      {
+        "name": "ASD Disosiatif",
+        "desc": "Didominasi perasaan linglung dan amnesia trauma."
+      }
+    ],
+    "symptoms": [
+      "Mati rasa secara emosional",
+      "Menghindari pemicu trauma",
+      "Gelisah hebat"
+    ],
+    "handling": "Crisis Intervention, dukungan psikologis awal (PFA), dan konseling."
+  },
+  {
+    "id": "adjustment-disorder",
+    "name": "Gangguan Penyesuaian (Adjustment Disorder)",
+    "category": "Trauma",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Reaksi emosional tidak proporsional terhadap perubahan hidup besar.",
+    "fullDesc": "Kesulitan beradaptasi dengan stresor baru seperti perceraian, PHK, atau pindah rumah.",
+    "types": [
+      {
+        "name": "Dengan Depresi",
+        "desc": "Didominasi rasa sedih."
+      },
+      {
+        "name": "Dengan Kecemasan",
+        "desc": "Didominasi rasa panik."
+      }
+    ],
+    "symptoms": [
+      "Sedih/cemas berlebih pasca perubahan hidup",
+      "Penurunan fungsi kerja/belajar"
+    ],
+    "handling": "Konseling singkat, CBT, dan teknik manajemen stres."
+  },
+  {
+    "id": "reactive-attachment",
+    "name": "Gangguan Kelekatan Reaktif",
+    "category": "Neurodevelopmental",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Anak yang sangat terganggu secara emosional dan gagal membentuk ikatan dengan pengasuh.",
+    "fullDesc": "Akibat pola asuh yang sangat buruk atau penelantaran masa kecil.",
+    "types": [
+      {
+        "name": "Inhibited",
+        "desc": "Terlalu menarik diri."
+      },
+      {
+        "name": "Inhibited RAD",
+        "desc": "Anak menarik diri dan menolak kasih sayang."
+      }
+    ],
+    "symptoms": [
+      "Tidak mencari kenyamanan",
+      "Emosi datar",
+      "Tidak responsif",
+      "Menolak pelukan/kenyamanan saat sedih",
+      "Emosi tidak terduga pada pengasuh"
+    ],
+    "handling": "Terapi kelekatan, lingkungan pengasuhan stabil."
+  },
+  {
+    "id": "borderline-pd",
+    "name": "Gangguan Kepribadian Ambang (BPD)",
+    "category": "Personality",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Pola ketidakstabilan hubungan, citra diri, dan emosi yang ekstrem.",
+    "fullDesc": "BPD melibatkan ketakutan kronis akan penolakan, impulsivitas, dan perubahan suasana hati yang sangat cepat.",
+    "types": [
+      {
+        "name": "Quiet BPD",
+        "desc": "Gejala ditujukan ke dalam (self-harm, menyalahkan diri sendiri)."
+      },
+      {
+        "name": "Petulant BPD",
+        "desc": "Cenderung manipulatif dan mudah marah pada orang lain."
+      }
+    ],
+    "symptoms": [
+      "Takut ditinggalkan",
+      "Hubungan interpersonal sangat intens tapi labil",
+      "Impulsivitas",
+      "Perasaan hampa",
+      "Self-harm",
+      "Mood berubah tiap jam",
+      "Hubungan 'love-hate'"
+    ],
+    "handling": "Dialectical Behavior Therapy (DBT), terapi kelompok, dan mood stabilizer."
+  },
+  {
+    "id": "narcissistic-pd",
+    "name": "Gangguan Kepribadian Narsistik (NPD)",
+    "category": "Personality",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Pola kebutuhan akan pemujaan dan kurangnya empati terhadap orang lain.",
+    "fullDesc": "Penderita memiliki rasa kepentingan diri yang berlebihan, namun di baliknya sering terdapat harga diri yang sangat rapuh.",
+    "types": [
+      {
+        "name": "Grandiose NPD",
+        "desc": "Tampil sangat dominan dan superior."
+      },
+      {
+        "name": "Vulnerable NPD",
+        "desc": "Tampil sangat sensitif terhadap kritik (fragile)."
+      },
+      {
+        "name": "Vulnerable narcissist",
+        "desc": "Narsistik yang mudah tersinggung."
+      }
+    ],
+    "symptoms": [
+      "Fantasi sukses tak terbatas",
+      "Eksploitasi orang lain",
+      "Kurang empati",
+      "Sombong",
+      "Butuh dipuji",
+      "Iri pada orang lain"
+    ],
+    "handling": "Psikoterapi individu (mengajarkan empati), manajemen regulasi emosi."
+  },
+  {
+    "id": "antisocial-pd",
+    "name": "Gangguan Kepribadian Antisosial (ASPD)",
+    "category": "Personality",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Pola pengabaian dan pelanggaran hak orang lain secara sistematis.",
+    "fullDesc": "Sering disebut psikopati/sosiopati, ditandai dengan kurangnya penyesalan atas tindakan yang merugikan orang lain.",
+    "types": [
+      {
+        "name": "High-functioning",
+        "desc": "Terintegrasi di masyarakat namun tetap manipulatif."
+      },
+      {
+        "name": "Psychopathy",
+        "desc": "Tanpa hati nurani."
+      }
+    ],
+    "symptoms": [
+      "Berbohong patologis",
+      "Agresivitas",
+      "Impulsif",
+      "Kurang rasa bersalah",
+      "Manipulatif",
+      "Tidak ada rasa sesal"
+    ],
+    "handling": "Manajemen perilaku (behavioral management) dan terapi kognitif fokus pada konsekuensi."
+  },
+  {
+    "id": "avoidant-pd",
+    "name": "Gangguan Kepribadian Menghindar (AvPD)",
+    "category": "Personality",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Pola hambatan sosial, perasaan tidak mampu, dan hipersensitif terhadap evaluasi negatif.",
+    "fullDesc": "Berbeda dengan pemalu, mereka sangat ingin berinteraksi tapi takut sekali ditolak atau dipermalukan.",
+    "types": [
+      {
+        "name": "General AvPD",
+        "desc": "Menghindari hampir semua interaksi sosial."
+      },
+      {
+        "name": "Inhibited",
+        "desc": "Sangat menarik diri."
+      }
+    ],
+    "symptoms": [
+      "Menghindari pekerjaan dengan kontak sosial tinggi",
+      "Takut dikritik",
+      "Merasa tidak menarik diri",
+      "Takut ditolak",
+      "Merasa tidak berharga",
+      "Menghindari hubungan baru"
+    ],
+    "handling": "Social Skills Training, CBT, dan Exposure Therapy."
+  },
+  {
+    "id": "dependent-pd",
+    "name": "Gangguan Kepribadian Dependen",
+    "category": "Personality",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kebutuhan berlebih untuk diurus yang menyebabkan perilaku patuh dan takut berpisah.",
+    "fullDesc": "Sulit mengambil keputusan sehari-hari tanpa nasehat atau jaminan dari orang lain.",
+    "types": [
+      {
+        "name": "Passive-Dependent",
+        "desc": "Sangat pasif dalam hidup sendiri."
+      },
+      {
+        "name": "Submissive",
+        "desc": "Sangat penurut."
+      }
+    ],
+    "symptoms": [
+      "Sulit memulai proyek sendiri",
+      "Butuh dukungan terus-menerus",
+      "Takut sendirian",
+      "Sulit ambil keputusan",
+      "Terlalu mengandalkan orang lain"
+    ],
+    "handling": "Assertiveness training, terapi kemandirian, dan CBT."
+  },
+  {
+    "id": "schizoid-pd",
+    "name": "Gangguan Kepribadian Skizoid",
+    "category": "Personality",
+    "severity": "Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Pola detasemen dari hubungan sosial dan ekspresi emosi yang terbatas.",
+    "fullDesc": "Penderita cenderung tidak peduli pada pujian atau kritik dan lebih suka menyendiri.",
+    "types": [
+      {
+        "name": "Isolated Type",
+        "desc": "Benar-benar menutup diri dari kontak sosial."
+      },
+      {
+        "name": "Solitary",
+        "desc": "Penyendiri sejati."
+      }
+    ],
+    "symptoms": [
+      "Tidak punya teman dekat",
+      "Minat seksual rendah",
+      "Dingin secara emosional",
+      "Flat affect (datar)",
+      "Kurang aktivitas menyenangkan"
+    ],
+    "handling": "Social skills therapy, dukungan lingkungan yang tidak memaksa."
+  },
+  {
+    "id": "adhd",
+    "name": "ADHD (Attention-Deficit/Hyperactivity Disorder)",
+    "category": "Neurodevelopmental",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Pola inatensi, hiperaktivitas, dan impulsivitas yang menetap.",
+    "fullDesc": "Sering terdiagnosis saat anak-anak, tapi gejalanya bisa berlanjut hingga dewasa.",
+    "types": [
+      {
+        "name": "Inattentive Type",
+        "desc": "Sulit fokus (dulu disebut ADD)."
+      },
+      {
+        "name": "Hyperactive-Impulsive",
+        "desc": "Energi berlebih, sulit diam."
+      }
+    ],
+    "symptoms": [
+      "Sering lupa/kehilangan barang",
+      "Tidak bisa diam",
+      "Sulit mendengarkan instruksi",
+      "Impulsif"
+    ],
+    "handling": "Obat stimulan/non-stimulan, Behavioral coaching, lingkungan terstruktur."
+  },
+  {
+    "id": "autism-spectrum",
+    "name": "Autism Spectrum Disorder (ASD)",
+    "category": "Neurodevelopmental",
+    "severity": "Variatif",
+    "severityVariant": "amber",
+    "shortDesc": "Gangguan perkembangan saraf dengan tantangan interaksi sosial dan perilaku repetitif.",
+    "fullDesc": "Spektrum yang sangat luas, dari kebutuhan dukungan rendah hingga sangat tinggi.",
+    "types": [
+      {
+        "name": "High-functioning Autism",
+        "desc": "Mampu fungsi harian mandiri dengan tantangan sosial."
+      },
+      {
+        "name": "Requiring Substantial Support",
+        "desc": "Butuh dukungan intensif untuk komunikasi."
+      }
+    ],
+    "symptoms": [
+      "Kontak mata terbatas",
+      "Sensitivitas sensorik (suara/cahaya)",
+      "Minat sangat spesifik/repetitif"
+    ],
+    "handling": "Terapi Wicara, Occupational Therapy, Social Skills Training."
+  },
+  {
+    "id": "intellectual-disability",
+    "name": "Disabilitas Intelektual",
+    "category": "Neurodevelopmental",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Defisit dalam fungsi intelektual dan adaptif.",
+    "fullDesc": "Mempengaruhi penalaran, pemecahan masalah, perencanaan, dan belajar dari pengalaman.",
+    "types": [
+      {
+        "name": "Mild",
+        "desc": "Masih bisa belajar keterampilan praktis."
+      },
+      {
+        "name": "Severe/Profound",
+        "desc": "Butuh dukungan penuh seumur hidup."
+      }
+    ],
+    "symptoms": [
+      "Lambat bicara/belajar",
+      "Kesulitan mengelola uang/waktu",
+      "Iq rendah"
+    ],
+    "handling": "Pendidikan khusus, dukungan okupasi, dan kemandirian."
+  },
+  {
+    "id": "specific-learning",
+    "name": "Gangguan Belajar Spesifik",
+    "category": "Neurodevelopmental",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Kesulitan belajar keterampilan akademik tertentu (baca, tulis, hitung).",
+    "fullDesc": "Bukan karena kurang intelegensi, tapi cara otak memproses informasi yang berbeda.",
+    "types": [
+      {
+        "name": "Disleksia",
+        "desc": "Kesulitan membaca/mengeja."
+      },
+      {
+        "name": "Diskalkulia",
+        "desc": "Kesulitan menghitung."
+      }
+    ],
+    "symptoms": [
+      "Huruf terbalik",
+      "Lambat membaca",
+      "Sulit memahami angka"
+    ],
+    "handling": "Terapi remedial (bimbingan belajar khusus), teknologi bantu (speech-to-text)."
+  },
+  {
+    "id": "tourette-syndrome",
+    "name": "Sindrom Tourette",
+    "category": "Neurodevelopmental",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Adanya tic motorik dan vokal yang berulang dan tidak disengaja.",
+    "fullDesc": "Sering muncul di masa kanak-kanak dan biasanya berkurang intensitasnya di masa dewasa.",
+    "types": [
+      {
+        "name": "Motor Tic",
+        "desc": "Gerakan berulang (kedip, bahu)."
+      },
+      {
+        "name": "Vocal Tic",
+        "desc": "Suara/kata tidak disengaja."
+      }
+    ],
+    "symptoms": [
+      "Kedipan mata",
+      "Sentakan kepala",
+      "Suara-suara di tenggorokan"
+    ],
+    "handling": "Habit Reversal Training, obat-obatan antipsikotik (jika parah)."
+  },
+  {
+    "id": "anorexia-nervosa",
+    "name": "Anorexia Nervosa",
+    "category": "Eating",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Ketakutan berlebih menambah berat badan dengan membatasi asupan kalori.",
+    "fullDesc": "Gangguan makan yang sangat berbahaya karena bisa memicu kegagalan organ.",
+    "types": [
+      {
+        "name": "Restricting Type",
+        "desc": "Puasa ketat/olahraga berlebih."
+      },
+      {
+        "name": "Binge-eating/Purging Type",
+        "desc": "Makan banyak lalu memuntahkannya."
+      }
+    ],
+    "symptoms": [
+      "Sangat kurus tapi merasa gemuk",
+      "Obsesi kalori",
+      "Ketakutan makan"
+    ],
+    "handling": "Rawat inap (re-feeding), terapi keluarga, konseling nutrisi."
+  },
+  {
+    "id": "bulimia-nervosa",
+    "name": "Bulimia Nervosa",
+    "category": "Eating",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Episode makan berlebih (binge) yang diikuti perilaku kompensasi (muntah).",
+    "fullDesc": "Penderita sering merasa tidak berdaya saat episode binge dan sangat bersalah setelahnya.",
+    "types": [
+      {
+        "name": "Purging",
+        "desc": "Menggunakan pencahar/muntah."
+      },
+      {
+        "name": "Non-purging",
+        "desc": "Olahraga berlebih/puasa untuk kompensasi."
+      }
+    ],
+    "symptoms": [
+      "Makan sangat banyak dalam waktu singkat",
+      "Muntah setelah makan",
+      "Obsesi bentuk tubuh"
+    ],
+    "handling": "CBT-E, antidepresan, konseling psikodinamik."
+  },
+  {
+    "id": "binge-eating-disorder",
+    "name": "Binge Eating Disorder (BED)",
+    "category": "Eating",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Episode makan dalam jumlah besar tanpa perilaku kompensasi (seperti muntah).",
+    "fullDesc": "Berbeda dengan bulimia, penderita tidak mengeluarkan makanan, menyebabkan obesitas dan depresi.",
+    "types": [
+      {
+        "name": "Chronic BED",
+        "desc": "Binge yang terjadi mingguan selama berbulan-bulan."
+      }
+    ],
+    "symptoms": [
+      "Makan cepat sampai sesak",
+      "Makan saat tidak lapar",
+      "Makan sendirian karena malu"
+    ],
+    "handling": "CBT, terapi kelompok, manajemen diet."
+  },
+  {
+    "id": "pica",
+    "name": "Pica",
+    "category": "Eating",
+    "severity": "Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Keinginan memakan zat yang bukan makanan (tanah, kertas, kapur).",
+    "fullDesc": "Sering dikaitkan dengan defisiensi mineral atau gangguan perkembangan.",
+    "types": [
+      {
+        "name": "Geophagy",
+        "desc": "Makan tanah."
+      }
+    ],
+    "symptoms": [
+      "Makan benda non-nutrisi",
+      "Potensi keracunan fisik"
+    ],
+    "handling": "Pemeriksaan fisik (cek darah/anemia), terapi perilaku."
+  },
+  {
+    "id": "rumination-disorder",
+    "name": "Gangguan Ruminasi",
+    "category": "Eating",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Memuntahkan kembali makanan, dikunyah lagi, lalu ditelan atau dibuang.",
+    "fullDesc": "Bukan karena muntah/mual, tapi kebiasaan fisik setelah makan.",
+    "types": [
+      {
+        "name": "Regurgitation",
+        "desc": "Mengunyah balik."
+      },
+      {
+        "name": "Voluntary Rumination",
+        "desc": "Terjadi secara sadar setelah makan."
+      }
+    ],
+    "symptoms": [
+      "Mengunyah makanan berkali-kali",
+      "Memuntahkan kembali makanan",
+      "Sering merasa mual"
+    ],
+    "handling": "Terapi perilaku, teknik relaksasi diafragma."
+  },
+  {
+    "id": "avoidant-restrictive-food",
+    "name": "ARFID",
+    "category": "Eating",
+    "severity": "Sedang - Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Gangguan makan karena tekstur/bau (bukan karena takut gemuk).",
+    "fullDesc": "Sangat selektif memilih makanan sampai berisiko malnutrisi.",
+    "types": [
+      {
+        "name": "Sensory sensitivity",
+        "desc": "Sensitif rasa/tekstur."
+      },
+      {
+        "name": "Sensory-based",
+        "desc": "Hanya makan makanan tekstur tertentu."
+      }
+    ],
+    "symptoms": [
+      "Hanya mau makan tertentu",
+      "Takut tersedak",
+      "Pilih-pilih makanan ekstrem",
+      "Defisiensi gizi"
+    ],
+    "handling": "Terapi nutrisi, CBT untuk makan, terapi sensori."
+  },
+  {
+    "id": "dissociative-identity",
+    "name": "Gangguan Identitas Disosiatif (DID)",
+    "category": "Disosiatif",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Terdapat dua atau lebih identitas/kepribadian yang berbeda dalam satu tubuh.",
+    "fullDesc": "Dulu disebut kepribadian ganda. Muncul akibat trauma berat di masa kecil.",
+    "types": [
+      {
+        "name": "Possession-form",
+        "desc": "Merasa kerasukan/dikendalikan entitas lain."
+      }
+    ],
+    "symptoms": [
+      "Hilang ingatan (amnesia)",
+      "Suara-suara di kepala",
+      "Perubahan perilaku drastis"
+    ],
+    "handling": "Integrasi kepribadian, terapi trauma, jangka waktu sangat panjang."
+  },
+  {
+    "id": "dissociative-amnesia",
+    "name": "Amnesia Disosiatif",
+    "category": "Disosiatif",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Ketidakmampuan mengingat informasi personal penting akibat trauma.",
+    "fullDesc": "Bukan amnesia fisik (benturan kepala), melainkan blocking memori oleh otak.",
+    "types": [
+      {
+        "name": "Localized",
+        "desc": "Lupa kejadian spesifik."
+      },
+      {
+        "name": "Generalized",
+        "desc": "Lupa seluruh identitas diri."
+      }
+    ],
+    "symptoms": [
+      "Linglung",
+      "Kehilangan memori identitas",
+      "Kebingungan"
+    ],
+    "handling": "Psikoterapi, hipnoterapi (untuk memanggil memori)."
+  },
+  {
+    "id": "depersonalization-derealization",
+    "name": "Depersonalisasi/Derealisasi",
+    "category": "Disosiatif",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Merasa terlepas dari diri sendiri atau dunia sekitar terasa tidak nyata.",
+    "fullDesc": "Seperti melihat diri sendiri dari luar film atau merasa dunia ini adalah mimpi.",
+    "types": [
+      {
+        "name": "Chronic",
+        "desc": "Gejala terus ada dalam waktu lama."
+      }
+    ],
+    "symptoms": [
+      "Merasa robot/asing",
+      "Dunia terlihat berkabut",
+      "Distorsi visual"
+    ],
+    "handling": "Grounding techniques, manajemen kecemasan, CBT."
+  },
+  {
+    "id": "schizophrenia",
+    "name": "Skizofrenia",
+    "category": "Psikotik",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Gangguan mental kronis yang menyebabkan interpretasi realitas yang abnormal.",
+    "fullDesc": "Melibatkan kombinasi halusinasi, delusi, dan gangguan berpikir yang sangat berat, mengganggu fungsi harian secara signifikan.",
+    "types": [
+      {
+        "name": "Paranoid",
+        "desc": "Didominasi delusi kejar (dikejar orang)."
+      },
+      {
+        "name": "Disorganized",
+        "desc": "Bicara dan perilaku sangat tidak teratur."
+      }
+    ],
+    "symptoms": [
+      "Halusinasi (mendengar suara)",
+      "Delusi (waham)",
+      "Bicara kacau",
+      "Menarik diri"
+    ],
+    "handling": "Antipsikotik, rehabilitasi psikososial, dukungan keluarga intensif."
+  },
+  {
+    "id": "schizoaffective",
+    "name": "Gangguan Skizoafektif",
+    "category": "Psikotik",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Kombinasi gejala Skizofrenia dan gangguan Mood (Bipolar/Depresi).",
+    "fullDesc": "Penderita mengalami gejala psikotik sekaligus fluktuasi suasana hati yang ekstrem dalam satu periode.",
+    "types": [
+      {
+        "name": "Bipolar Type",
+        "desc": "Disertai episode mania."
+      },
+      {
+        "name": "Depressive Type",
+        "desc": "Disertai episode depresi mayor."
+      }
+    ],
+    "symptoms": [
+      "Halusinasi",
+      "Mania atau Depresi berat",
+      "Gangguan fungsi kognitif"
+    ],
+    "handling": "Kombinasi Antipsikotik dan Mood Stabilizer."
+  },
+  {
+    "id": "delusional-disorder",
+    "name": "Gangguan Waham",
+    "category": "Psikotik",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Memiliki keyakinan palsu yang sangat kuat namun tidak disertai halusinasi berat.",
+    "fullDesc": "Penderita tetap bisa berfungsi sosial selama wahamnya tidak disinggung, namun keyakinannya sangat sulit diubah.",
+    "types": [
+      {
+        "name": "Erotomanik",
+        "desc": "Yakin ada orang terkenal mencintainya."
+      },
+      {
+        "name": "Persecutory",
+        "desc": "Yakin ada yang mau mencelakai."
+      }
+    ],
+    "symptoms": [
+      "Keyakinan tidak rasional",
+      "Kecurigaan berlebih",
+      "Tidak ada halusinasi visual jelas"
+    ],
+    "handling": "Psikoterapi, antipsikotik dosis rendah."
+  },
+  {
+    "id": "brief-psychotic",
+    "name": "Gangguan Psikotik Singkat",
+    "category": "Psikotik",
+    "severity": "Sedang - Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Episode psikotik yang berlangsung kurang dari 1 bulan akibat stres berat.",
+    "fullDesc": "Biasanya dipicu oleh trauma mendadak, dan penderita bisa kembali ke fungsi normal dengan cepat.",
+    "types": [
+      {
+        "name": "Postpartum Psychotic",
+        "desc": "Psikotik singkat pasca melahirkan."
+      }
+    ],
+    "symptoms": [
+      "Bingung mendadak",
+      "Disorientasi",
+      "Halusinasi temporer"
+    ],
+    "handling": "Intervensi krisis, obat antipsikotik sementara, dukungan emosional."
+  },
+  {
+    "id": "substance-abuse",
+    "name": "Gangguan Penggunaan Zat",
+    "category": "Adiksi",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Pola penggunaan zat yang menyebabkan kerusakan fungsi hidup.",
+    "fullDesc": "Ketergantungan pada alkohol, narkoba, atau zat kimia yang merusak sistem saraf dan fungsi sosial.",
+    "types": [
+      {
+        "name": "Alkohol",
+        "desc": "Ketergantungan minuman keras."
+      },
+      {
+        "name": "Opioid",
+        "desc": "Ketergantungan obat pereda nyeri/narkoba jenis opiat."
+      }
+    ],
+    "symptoms": [
+      "Toleransi (perlu dosis naik)",
+      "Gejala putus zat (sakau)",
+      "Keinginan kuat menggunakan"
+    ],
+    "handling": "Detoksifikasi, rehabilitasi, terapi 12-langkah (AA/NA)."
+  },
+  {
+    "id": "gambling-disorder",
+    "name": "Gangguan Perjudian",
+    "category": "Adiksi",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Kecanduan berjudi yang terus berulang meski membawa konsekuensi negatif finansial.",
+    "fullDesc": "Secara neurologis serupa dengan kecanduan zat karena memicu sistem dopamin di otak.",
+    "types": [
+      {
+        "name": "Pathological Gambling",
+        "desc": "Penjudi yang kehilangan kendali total."
+      }
+    ],
+    "symptoms": [
+      "Berbohong soal judi",
+      "Menghabiskan tabungan",
+      "Iritabilitas saat berhenti"
+    ],
+    "handling": "CBT untuk kontrol impuls, konseling keuangan."
+  },
+  {
+    "id": "internet-gaming",
+    "name": "Gangguan Gaming (Internet)",
+    "category": "Adiksi",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Prioritas berlebih pada game online hingga mengabaikan kehidupan nyata.",
+    "fullDesc": "Gangguan yang baru diakui secara klinis karena dampak isolasi sosial dan penurunan performa sekolah/kerja.",
+    "types": [
+      {
+        "name": "Online-gaming addiction",
+        "desc": "Kecanduan game kompetitif."
+      }
+    ],
+    "symptoms": [
+      "Bermain >10 jam sehari",
+      "Abstain dari makan/tidur",
+      "Amarah saat dilarang main"
+    ],
+    "handling": "Digital detox, CBT, aktivitas hobi fisik."
+  },
+  {
+    "id": "kleptomania",
+    "name": "Kleptomania",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Dorongan tidak tertahankan untuk mencuri benda-benda yang tidak bernilai.",
+    "fullDesc": "Bukan untuk keuntungan materi, melainkan untuk meredakan kecemasan atau mendapatkan kepuasan sesaat.",
+    "types": [
+      {
+        "name": "Impulsive Theft",
+        "desc": "Pencurian spontan."
+      }
+    ],
+    "symptoms": [
+      "Rasa tegang sebelum mencuri",
+      "Rasa lega setelah mencuri",
+      "Penyesalan setelahnya"
+    ],
+    "handling": "CBT, obat SSRI untuk kontrol impuls."
+  },
+  {
+    "id": "pyromania",
+    "name": "Piromania",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Dorongan sengaja membakar sesuatu demi kesenangan atau pelepasan emosi.",
+    "fullDesc": "Gangguan kontrol impuls yang berbahaya bagi keselamatan diri sendiri dan orang lain.",
+    "types": [
+      {
+        "name": "Fire-setting compulsion",
+        "desc": "Dorongan obsesif bermain api."
+      }
+    ],
+    "symptoms": [
+      "Ketertarikan pada api",
+      "Merencanakan aksi membakar",
+      "Kepuasan melihat kehancuran api"
+    ],
+    "handling": "Terapi perilaku, pengawasan ketat, pengobatan psikotik."
+  },
+  {
+    "id": "trichotillomania",
+    "name": "Trikotilomania",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Dorongan mencabut rambut sendiri (kepala, alis, bulu mata).",
+    "fullDesc": "Sering dilakukan untuk mengatasi stres atau kebosanan yang ekstrem.",
+    "types": [
+      {
+        "name": "Focused",
+        "desc": "Sadar saat mencabut."
+      },
+      {
+        "name": "Automatic",
+        "desc": "Tidak sadar mencabut."
+      }
+    ],
+    "symptoms": [
+      "Kebotakan pada area tertentu",
+      "Sering merasa bersalah"
+    ],
+    "handling": "Habit Reversal Training, menjaga tangan tetap sibuk."
+  },
+  {
+    "id": "excoriation-disorder",
+    "name": "Gangguan Menguliti Kulit",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kebiasaan mengorek atau mengelupas kulit hingga luka.",
+    "fullDesc": "Sering dipicu oleh kecemasan atau keinginan untuk 'memperbaiki' ketidaksempurnaan kulit.",
+    "types": [
+      {
+        "name": "Skin picking",
+        "desc": "Mengorek kulit secara terus-menerus."
+      }
+    ],
+    "symptoms": [
+      "Luka bekas korekan",
+      "Berdarah",
+      "Sembunyi-sembunyi saat melakukannya"
+    ],
+    "handling": "CBT, terapi okupasi, menjaga kuku pendek."
+  },
+  {
+    "id": "hypochondriasis",
+    "name": "Gangguan Kecemasan Penyakit",
+    "category": "Anxiety",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Ketakutan berlebihan memiliki penyakit serius tanpa bukti medis.",
+    "fullDesc": "Penderita terus menerus memeriksa diri (checking) dan menafsirkan sensasi fisik normal sebagai gejala kanker/penyakit fatal.",
+    "types": [
+      {
+        "name": "Illness Anxiety",
+        "desc": "Obsesi pada diagnosa medis."
+      }
+    ],
+    "symptoms": [
+      "Sering ke dokter",
+      "Browsing gejala online terus-menerus",
+      "Takut berlebihan"
+    ],
+    "handling": "CBT, edukasi kesehatan, manajemen stres."
+  },
+  {
+    "id": "conversion-disorder",
+    "name": "Gangguan Konversi",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Gejala neurologis (buta, lumpuh) tanpa penyebab medis fisik.",
+    "fullDesc": "Stres psikologis yang sangat berat diubah (dikonversi) menjadi kelumpuhan fisik oleh otak.",
+    "types": [
+      {
+        "name": "Psychogenic blindness",
+        "desc": "Buta mendadak akibat trauma."
+      }
+    ],
+    "symptoms": [
+      "Kejang tanpa epilepsi",
+      "Kelumpuhan anggota gerak",
+      "Kehilangan sensasi"
+    ],
+    "handling": "Terapi fisik, CBT, pemrosesan trauma."
+  },
+  {
+    "id": "body-dysmorphic",
+    "name": "Body Dysmorphic Disorder (BDD)",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Obsesi berlebih pada 'cacat' fisik yang sebenarnya kecil atau tidak ada.",
+    "fullDesc": "Penderita sering merasa sangat jelek dan menghabiskan waktu berjam-jam di depan cermin atau operasi plastik.",
+    "types": [
+      {
+        "name": "Muscle Dysmorphia",
+        "desc": "Merasa otot kurang besar (bigorexia)."
+      }
+    ],
+    "symptoms": [
+      "Sering bercermin",
+      "Menghindari foto",
+      "Operasi plastik berulang"
+    ],
+    "handling": "CBT khusus BDD, antidepresan (SSRI)."
+  },
+  {
+    "id": "insomnia-disorder",
+    "name": "Gangguan Insomnia",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kesulitan tidur yang menetap secara kronis.",
+    "fullDesc": "Bukan sekadar susah tidur, tapi gangguan pola tidur yang merusak kualitas hidup siang hari.",
+    "types": [
+      {
+        "name": "Sleep onset",
+        "desc": "Susah mulai tidur."
+      },
+      {
+        "name": "Sleep maintenance",
+        "desc": "Sering terbangun."
+      }
+    ],
+    "symptoms": [
+      "Kelelahan siang hari",
+      "Sulit fokus",
+      "Cemas saat jam tidur"
+    ],
+    "handling": "Sleep hygiene, CBT-I (CBT for Insomnia), melatonim."
+  },
+  {
+    "id": "narcolepsy",
+    "name": "Narkolepsi",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Gangguan otak yang menyebabkan tidur mendadak di siang hari.",
+    "fullDesc": "Penderita bisa tertidur saat berjalan atau makan tanpa peringatan.",
+    "types": [
+      {
+        "name": "Cataplexy",
+        "desc": "Lumpuh mendadak saat emosi tertawa/marah."
+      }
+    ],
+    "symptoms": [
+      "Sleep attack",
+      "Halusinasi saat mau tidur",
+      "Kelumpuhan tidur"
+    ],
+    "handling": "Stimulan, edukasi jadwal tidur, nap tidur teratur."
+  },
+  {
+    "id": "nightmare-disorder",
+    "name": "Gangguan Mimpi Buruk",
+    "category": "Lainnya",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Mimpi buruk berulang yang sangat menakutkan dan mengganggu tidur.",
+    "fullDesc": "Sering terkait dengan trauma atau stres, berbeda dengan mimpi biasa yang terlupakan.",
+    "types": [
+      {
+        "name": "Traumatic nightmare",
+        "desc": "Mimpi ulang kejadian trauma."
+      }
+    ],
+    "symptoms": [
+      "Terbangun dengan keringat dingin",
+      "Ingatan jelas tentang mimpi",
+      "Takut tidur"
+    ],
+    "handling": "Imagery Rehearsal Therapy (IRT), manajemen stres."
+  },
+  {
+    "id": "enuresis",
+    "name": "Enuresis",
+    "category": "Lainnya",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Mengompol berulang pada usia di mana seharusnya sudah mampu mengontrol kandung kemih.",
+    "fullDesc": "Dapat disebabkan oleh faktor perkembangan, psikologis, atau medis.",
+    "types": [
+      {
+        "name": "Nocturnal",
+        "desc": "Ngompol saat tidur."
+      }
+    ],
+    "symptoms": [
+      "Beser di celana",
+      "Rasa malu pada anak"
+    ],
+    "handling": "Latihan kandung kemih, alarm ngompol, dukungan positif."
+  },
+  {
+    "id": "encopresis",
+    "name": "Enkopresis",
+    "category": "Lainnya",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Buang air besar di tempat yang tidak semestinya (pada anak).",
+    "fullDesc": "Seringkali bersifat psikologis akibat menahan BAB karena trauma toilet training.",
+    "types": [
+      {
+        "name": "Retentive",
+        "desc": "Menahan BAB sampai bocor."
+      }
+    ],
+    "symptoms": [
+      "Noda feses di celana",
+      "Sembelit kronis"
+    ],
+    "handling": "Modifikasi diet, manajemen perilaku, psikoterapi."
+  },
+  {
+    "id": "factitious-disorder",
+    "name": "Gangguan Faktisius",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Pura-pura sakit untuk mendapatkan perhatian medis (seolah-olah jadi pasien).",
+    "fullDesc": "Dulu dikenal sebagai sindrom Munchausen. Mereka tidak mencari uang, tapi mencari perhatian peran sebagai orang sakit.",
+    "types": [
+      {
+        "name": "Munchausen syndrome",
+        "desc": "Sengaja membuat diri sakit parah."
+      }
+    ],
+    "symptoms": [
+      "Memanipulasi hasil lab",
+      "Riwayat medis penuh kebohongan",
+      "Sering operasi"
+    ],
+    "handling": "Psikoterapi, kolaborasi tim medis untuk menghentikan pola."
+  },
+  {
+    "id": "delirium",
+    "name": "Delirium",
+    "category": "Lainnya",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Gangguan kesadaran dan perhatian yang muncul secara tiba-tiba.",
+    "fullDesc": "Sering dipicu oleh kondisi medis (infeksi, keracunan obat). Berbeda dengan demensia yang kronis, delirium bisa sembuh jika penyebab medisnya diatasi.",
+    "types": [
+      {
+        "name": "Hyperactive",
+        "desc": "Agitasi, gelisah, halusinasi."
+      },
+      {
+        "name": "Hypoactive",
+        "desc": "Lesu, diam, menarik diri."
+      }
+    ],
+    "symptoms": [
+      "Bingung mendadak",
+      "Disorientasi waktu/tempat",
+      "Fluktuasi kesadaran"
+    ],
+    "handling": "Mengobati penyebab medis (infeksi/racun), lingkungan tenang, observasi ketat."
+  },
+  {
+    "id": "alzheimer-dementia",
+    "name": "Demensia Alzheimer",
+    "category": "Lainnya",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Penyakit degeneratif otak yang menyebabkan penurunan memori dan fungsi kognitif.",
+    "fullDesc": "Bentuk demensia paling umum yang bersifat progresif dan tidak bisa disembuhkan saat ini.",
+    "types": [
+      {
+        "name": "Early-onset",
+        "desc": "Muncul sebelum usia 65 tahun."
+      },
+      {
+        "name": "Late-onset",
+        "desc": "Muncul setelah usia 65 tahun."
+      }
+    ],
+    "symptoms": [
+      "Lupa ingatan jangka pendek",
+      "Sulit berbahasa",
+      "Perubahan kepribadian"
+    ],
+    "handling": "Obat penghambat kolinesterase, terapi dukungan, keamanan lingkungan."
+  },
+  {
+    "id": "vascular-dementia",
+    "name": "Demensia Vaskular",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Penurunan kognitif akibat gangguan aliran darah ke otak (misal: pasca stroke).",
+    "fullDesc": "Gejala bisa muncul mendadak setelah stroke atau bertahap akibat penyempitan pembuluh darah kecil.",
+    "types": [
+      {
+        "name": "Multi-infarct",
+        "desc": "Banyak area otak kecil rusak akibat stroke kecil."
+      }
+    ],
+    "symptoms": [
+      "Sulit merencanakan",
+      "Lambat berpikir",
+      "Gangguan motorik"
+    ],
+    "handling": "Kontrol tekanan darah, kolesterol, dan manajemen risiko stroke."
+  },
+  {
+    "id": "parkinson-dementia",
+    "name": "Demensia Parkinson",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Penurunan fungsi kognitif yang muncul pada tahap lanjut penyakit Parkinson.",
+    "fullDesc": "Selain tremor dan kekakuan, penderita mulai mengalami penurunan daya ingat dan persepsi visual.",
+    "types": [
+      {
+        "name": "Parkinson-plus",
+        "desc": "Demensia dengan gejala motorik berat."
+      }
+    ],
+    "symptoms": [
+      "Tremor",
+      "Lambat bergerak",
+      "Halusinasi visual",
+      "Apati"
+    ],
+    "handling": "Manajemen dopamin, terapi wicara, terapi okupasi."
+  },
+  {
+    "id": "huntington-disease",
+    "name": "Penyakit Huntington",
+    "category": "Lainnya",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Kelainan genetik yang menyebabkan kerusakan saraf progresif.",
+    "fullDesc": "Menyebabkan gerakan tubuh tak terkendali (korea), gangguan emosi, dan penurunan kognitif.",
+    "types": [
+      {
+        "name": "Juvenile",
+        "desc": "Muncul pada usia anak/remaja (lebih agresif)."
+      }
+    ],
+    "symptoms": [
+      "Gerakan menyentak",
+      "Perubahan emosi drastis",
+      "Demensia"
+    ],
+    "handling": "Terapi suportif, obat untuk gerakan (korea), konseling genetik."
+  },
+  {
+    "id": "lewy-body-dementia",
+    "name": "Demensia Lewy Body",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Demensia yang ditandai dengan halusinasi visual yang sangat jelas.",
+    "fullDesc": "Sering kali disalahpahami sebagai Alzheimer, namun gejalanya sangat berfluktuasi dari hari ke hari.",
+    "types": [
+      {
+        "name": "Cognitive Fluctuating",
+        "desc": "Kesadaran naik turun secara drastis."
+      }
+    ],
+    "symptoms": [
+      "Halusinasi visual detail",
+      "Kaku otot",
+      "Masalah tidur (REM sleep behavior)"
+    ],
+    "handling": "Antipsikotik dosis sangat rendah, terapi stimulasi kognitif."
+  },
+  {
+    "id": "frontotemporal-dementia",
+    "name": "Demensia Frontotemporal",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Kerusakan lobus frontal/temporal otak yang memengaruhi kepribadian dan bahasa.",
+    "fullDesc": "Penderita sering kali kehilangan filter sosial (jadi tidak sopan/impulsif) sebelum memori mereka hilang.",
+    "types": [
+      {
+        "name": "Behavioral variant",
+        "desc": "Perubahan kepribadian mendominasi."
+      }
+    ],
+    "symptoms": [
+      "Perilaku tidak pantas",
+      "Kehilangan empati",
+      "Sulit berbicara"
+    ],
+    "handling": "Terapi perilaku, dukungan sosial, manajemen gejala impulsivitas."
+  },
+  {
+    "id": "substance-induced-dementia",
+    "name": "Demensia Induksi Zat",
+    "category": "Lainnya",
+    "severity": "Sedang - Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Penurunan kognitif permanen akibat penggunaan alkohol atau zat jangka panjang.",
+    "fullDesc": "Contohnya adalah Sindrom Wernicke-Korsakoff akibat kekurangan vitamin B1 pada pecandu alkohol.",
+    "types": [
+      {
+        "name": "Wernicke-Korsakoff",
+        "desc": "Defisiensi Vitamin B1 parah."
+      }
+    ],
+    "symptoms": [
+      "Konfabulasi (mengarang cerita)",
+      "Lupa ingatan berat",
+      "Ataksia"
+    ],
+    "handling": "Suplemen Vitamin B1, rehabilitasi kognitif, stop penggunaan zat."
+  },
+  {
+    "id": "sleep-terror-disorder",
+    "name": "Gangguan Teror Tidur",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Bangun dari tidur dalam keadaan teriak dan ketakutan hebat.",
+    "fullDesc": "Berbeda dengan mimpi buruk, penderita tidak ingat apa yang terjadi dan sulit dibangunkan.",
+    "types": [
+      {
+        "name": "Pavor nocturnus",
+        "desc": "Teror tidur pada anak."
+      }
+    ],
+    "symptoms": [
+      "Berteriak saat tidur",
+      "Keringat banyak",
+      "Mata terbuka tapi tidak sadar"
+    ],
+    "handling": "Menjaga jadwal tidur teratur, mengurangi stres, memastikan keamanan tempat tidur."
+  },
+  {
+    "id": "sleepwalking",
+    "name": "Somnambulisme (Sleepwalking)",
+    "category": "Lainnya",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Berjalan atau beraktivitas kompleks saat sedang tidur nyenyak.",
+    "fullDesc": "Penderita bisa melakukan hal seperti memasak atau berjalan keluar rumah tanpa ingat apa-apa.",
+    "types": [
+      {
+        "name": "Complex sleep behavior",
+        "desc": "Aktivitas rumit saat tidur."
+      }
+    ],
+    "symptoms": [
+      "Jalan saat tidur",
+      "Bingung saat dibangunkan",
+      "Tidak ingat pagi hari"
+    ],
+    "handling": "Mengunci pintu/jendela, jadwal tidur rutin, hindari kelelahan."
+  },
+  {
+    "id": "circadian-rhythm-disorder",
+    "name": "Gangguan Irama Sirkadian",
+    "category": "Lainnya",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Ketidakmampuan menyinkronkan jam internal tubuh dengan waktu siang/malam.",
+    "fullDesc": "Sering terjadi pada pekerja shift atau akibat jet lag kronis.",
+    "types": [
+      {
+        "name": "Delayed Sleep Phase",
+        "desc": "Tidur jam 3 pagi, bangun jam 11 siang."
+      }
+    ],
+    "symptoms": [
+      "Sulit bangun pagi",
+      "Ngantuk di jam kerja"
+    ],
+    "handling": "Light therapy, suplementasi melatonin, jadwal tidur tetap."
+  },
+  {
+    "id": "hypersomnolence-disorder",
+    "name": "Gangguan Hipersomnolensi",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Rasa kantuk berlebihan sepanjang hari meski sudah tidur cukup.",
+    "fullDesc": "Penderita merasa sulit untuk terjaga dan sering tidur siang yang lama namun tidak merasa segar.",
+    "types": [
+      {
+        "name": "Idiopathic hypersomnia",
+        "desc": "Ngantuk berat tanpa penyebab jelas."
+      }
+    ],
+    "symptoms": [
+      "Sulit bangun pagi",
+      "Tidur siang sangat lama",
+      "Lelah kronis"
+    ],
+    "handling": "Obat stimulan, pola tidur teratur, evaluasi medis tidur (PSG)."
+  },
+  {
+    "id": "restless-legs",
+    "name": "Sindrom Kaki Gelisah (RLS)",
+    "category": "Lainnya",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Dorongan tak tertahankan untuk menggerakkan kaki saat beristirahat.",
+    "fullDesc": "Sering muncul di malam hari, membuat sulit untuk memulai tidur.",
+    "types": [
+      {
+        "name": "Primary RLS",
+        "desc": "Kondisi genetik."
+      }
+    ],
+    "symptoms": [
+      "Sensasi gatal/merayap di kaki",
+      "Membaik jika kaki digerakkan"
+    ],
+    "handling": "Suplemen zat besi (jika rendah), pijat kaki, obat dopaminergik."
+  },
+  {
+    "id": "intermittent-explosive",
+    "name": "Gangguan Ledakan Intermiten",
+    "category": "Personality",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Ledakan amarah agresif yang tidak proporsional dengan pemicunya.",
+    "fullDesc": "Penderita kehilangan kendali secara mendadak, sering kali merusak barang atau memukul orang.",
+    "types": [
+      {
+        "name": "Episodic Rage",
+        "desc": "Ledakan emosi singkat tapi intens."
+      }
+    ],
+    "symptoms": [
+      "Teriakan",
+      "Lempar barang",
+      "Penyesalan setelah ledakan"
+    ],
+    "handling": "CBT untuk manajemen amarah, SSRI, mood stabilizer."
+  },
+  {
+    "id": "premenstrual-syndrome",
+    "name": "PMS (Sindrom Pramenstruasi)",
+    "category": "Mood",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Kelompok gejala fisik dan emosional sebelum siklus haid.",
+    "fullDesc": "Lebih ringan dari PMDD, namun tetap mempengaruhi kenyamanan hidup.",
+    "types": [
+      {
+        "name": "Mild PMS",
+        "desc": "Gejala ringan tidak sampai mengganggu fungsi."
+      }
+    ],
+    "symptoms": [
+      "Kembung",
+      "Perubahan mood ringan",
+      "Nyeri payudara"
+    ],
+    "handling": "Diet sehat, olahraga, manajemen stres."
+  },
+  {
+    "id": "caffeine-intoxication",
+    "name": "Intoksikasi Kafein",
+    "category": "Adiksi",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Gejala fisik/mental akibat konsumsi kafein berlebih.",
+    "fullDesc": "Biasanya tidak berbahaya, namun jika berlebih bisa memicu kecemasan hebat.",
+    "types": [
+      {
+        "name": "Caffeine jitter",
+        "desc": "Gemetar dan cemas."
+      }
+    ],
+    "symptoms": [
+      "Jantung berdebar",
+      "Gemetar",
+      "Insomnia"
+    ],
+    "handling": "Kurangi asupan kafein, hidrasi."
+  },
+  {
+    "id": "nicotine-withdrawal",
+    "name": "Gejala Putus Nikotin",
+    "category": "Adiksi",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Gejala fisik dan mental saat berhenti merokok/vaping.",
+    "fullDesc": "Sering membuat seseorang sulit berhenti merokok karena gejala yang tidak nyaman.",
+    "types": [
+      {
+        "name": "Nicotine craving",
+        "desc": "Hasrat merokok kuat."
+      }
+    ],
+    "symptoms": [
+      "Iritabilitas",
+      "Sulit fokus",
+      "Meningkatnya nafsu makan"
+    ],
+    "handling": "Nicotine Replacement Therapy (patch/gum), konseling."
+  },
+  {
+    "id": "cannabis-use-disorder",
+    "name": "Gangguan Penggunaan Ganja",
+    "category": "Adiksi",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Ketergantungan pada penggunaan ganja yang mengganggu fungsi hidup.",
+    "fullDesc": "Bisa menyebabkan masalah motivasi, memori, dan fungsi eksekutif jangka panjang.",
+    "types": [
+      {
+        "name": "Chronic user",
+        "desc": "Pengguna harian."
+      }
+    ],
+    "symptoms": [
+      "Toleransi",
+      "Putus zat (sulit tidur/gelisah)",
+      "Avolisi (kurang niat)"
+    ],
+    "handling": "Terapi perilaku, dukungan kelompok, edukasi."
+  },
+  {
+    "id": "stimulant-use-disorder",
+    "name": "Gangguan Penggunaan Stimulan",
+    "category": "Adiksi",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Ketergantungan pada stimulan seperti kokain atau amfetamin.",
+    "fullDesc": "Dapat menyebabkan kerusakan jantung, psikosis, dan perilaku agresif.",
+    "types": [
+      {
+        "name": "Cocaine dependence",
+        "desc": "Ketergantungan kokain."
+      }
+    ],
+    "symptoms": [
+      "Energi ekstrem diikuti kelelahan",
+      "Paranoia",
+      "Risiko jantung"
+    ],
+    "handling": "Rehabilitasi intensif, detoksifikasi medis, terapi perilaku."
+  },
+  {
+    "id": "alcohol-withdrawal",
+    "name": "Sindrom Putus Alkohol",
+    "category": "Adiksi",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Gejala fisik berat saat pecandu alkohol berhenti tiba-tiba.",
+    "fullDesc": "Bisa berakibat fatal (delirium tremens) jika tidak di bawah pengawasan medis.",
+    "types": [
+      {
+        "name": "Delirium Tremens",
+        "desc": "Kondisi darurat medis (halusinasi/kejang)."
+      }
+    ],
+    "symptoms": [
+      "Kejang",
+      "Gemetar hebat",
+      "Kebingungan",
+      "Keringat dingin"
+    ],
+    "handling": "Detoksifikasi medis (rawat inap), benzodiazepine, dukungan cairan."
+  },
+  {
+    "id": "oppositional-defiant",
+    "name": "Gangguan Pembangkang (ODD)",
+    "category": "Neurodevelopmental",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Pola perilaku marah, membangkang, dan dendam terhadap otoritas.",
+    "fullDesc": "Anak atau remaja dengan ODD secara konsisten menantang aturan, sering membantah, dan sengaja mengganggu orang lain.",
+    "types": [
+      {
+        "name": "Childhood onset",
+        "desc": "Gejala muncul sebelum usia 8 tahun."
+      }
+    ],
+    "symptoms": [
+      "Sering membantah",
+      "Sengaja mengganggu",
+      "Mudah tersinggung",
+      "Pendendam"
+    ],
+    "handling": "Parent Management Training (PMT), terapi keluarga, dan dukungan perilaku di sekolah."
+  },
+  {
+    "id": "conduct-disorder",
+    "name": "Gangguan Perilaku (Conduct Disorder)",
+    "category": "Neurodevelopmental",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Pola perilaku melanggar hak orang lain dan aturan sosial yang berat.",
+    "fullDesc": "Bentuk yang lebih parah dari ODD, melibatkan agresi pada manusia/hewan, perusakan properti, atau pencurian.",
+    "types": [
+      {
+        "name": "Childhood-onset type",
+        "desc": "Gejala sebelum usia 10 tahun."
+      }
+    ],
+    "symptoms": [
+      "Kejam pada hewan/manusia",
+      "Perusakan properti",
+      "Melarikan diri dari rumah",
+      "Pencurian"
+    ],
+    "handling": "Terapi perilaku multisistemik, pengawasan ketat, dukungan sosial."
+  },
+  {
+    "id": "pica-adult",
+    "name": "Pica pada Dewasa",
+    "category": "Eating",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Konsumsi benda non-nutrisi yang berlangsung di masa dewasa.",
+    "fullDesc": "Sering terkait dengan defisiensi zat besi atau seng, namun bisa juga karena gangguan obsesif.",
+    "types": [
+      {
+        "name": "Amylophagia",
+        "desc": "Makan pati (tepung/beras mentah)."
+      }
+    ],
+    "symptoms": [
+      "Makan es batu/kapur/kertas secara konsisten"
+    ],
+    "handling": "Tes darah (cek anemia/mineral), konseling nutrisi."
+  },
+  {
+    "id": "tic-disorder",
+    "name": "Gangguan Tic Persisten",
+    "category": "Neurodevelopmental",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Gerakan motorik atau suara yang berulang selama >1 tahun.",
+    "fullDesc": "Berbeda dengan Tourette, biasanya hanya satu jenis (motorik saja atau vokal saja).",
+    "types": [
+      {
+        "name": "Motor tic",
+        "desc": "Hanya gerakan."
+      }
+    ],
+    "symptoms": [
+      "Kedipan mata",
+      "Sentakan bahu",
+      "Suara berdehem"
+    ],
+    "handling": "Habit Reversal Training (HRT), manajemen stres."
+  },
+  {
+    "id": "separation-anxiety-child",
+    "name": "Kecemasan Perpisahan (Anak)",
+    "category": "Anxiety",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kecemasan berlebih saat terpisah dari figur utama (orang tua).",
+    "fullDesc": "Wajar pada balita, namun dianggap gangguan jika muncul berlebihan pada usia sekolah dan mengganggu fungsi.",
+    "types": [
+      {
+        "name": "School refusal",
+        "desc": "Menolak sekolah karena takut berpisah."
+      }
+    ],
+    "symptoms": [
+      "Mimpi buruk tentang kehilangan ortu",
+      "Keluhan fisik (sakit perut) saat akan sekolah"
+    ],
+    "handling": "Terapi keluarga, paparan bertahap (gradual exposure)."
+  },
+  {
+    "id": "social-communication",
+    "name": "Gangguan Komunikasi Sosial",
+    "category": "Neurodevelopmental",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Kesulitan menggunakan komunikasi verbal/non-verbal secara sosial.",
+    "fullDesc": "Anak mengerti bahasa, tapi tidak bisa mengikuti aturan percakapan (seperti menunggu giliran bicara).",
+    "types": [
+      {
+        "name": "Pragmatic deficit",
+        "desc": "Sulit memahami konteks sosial dalam bahasa."
+      }
+    ],
+    "symptoms": [
+      "Sulit cerita berurutan",
+      "Tidak paham sarkasme"
+    ],
+    "handling": "Terapi wicara, social skills training."
+  },
+  {
+    "id": "language-disorder",
+    "name": "Gangguan Bahasa",
+    "category": "Neurodevelopmental",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kesulitan dalam perolehan dan penggunaan bahasa (kosakata/tata bahasa).",
+    "fullDesc": "Kapasitas bahasa anak jauh di bawah tingkat usia yang seharusnya.",
+    "types": [
+      {
+        "name": "Expressive",
+        "desc": "Sulit mengungkapkan kata-kata."
+      }
+    ],
+    "symptoms": [
+      "Kosakata terbatas",
+      "Kalimat pendek",
+      "Sulit merangkai kata"
+    ],
+    "handling": "Intervensi dini terapi wicara, dukungan pendidikan."
+  },
+  {
+    "id": "speech-sound",
+    "name": "Gangguan Bunyi Ucapan",
+    "category": "Neurodevelopmental",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Kegagalan artikulasi suara yang sesuai dengan usia.",
+    "fullDesc": "Sering disebut 'cedal' atau sulit mengucapkan huruf tertentu (R, S, dll).",
+    "types": [
+      {
+        "name": "Articulation",
+        "desc": "Sulit membentuk suara."
+      }
+    ],
+    "symptoms": [
+      "Salah ucap kata",
+      "Sulit dipahami orang lain"
+    ],
+    "handling": "Terapi artikulasi oleh terapis wicara."
+  },
+  {
+    "id": "childhood-onset-fluency",
+    "name": "Gagap (Stuttering)",
+    "category": "Neurodevelopmental",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Gangguan kelancaran dan pola waktu berbicara.",
+    "fullDesc": "Mengalami repetisi suara, suku kata, atau pemanjangan suara (blokade).",
+    "types": [
+      {
+        "name": "Developmental",
+        "desc": "Muncul saat belajar bicara."
+      }
+    ],
+    "symptoms": [
+      "Mengulang kata",
+      "Blokade suara",
+      "Cemas saat bicara"
+    ],
+    "handling": "Terapi bicara (fluency shaping), manajemen kecemasan bicara."
+  },
+  {
+    "id": "developmental-coordination",
+    "name": "Gangguan Koordinasi Perkembangan",
+    "category": "Neurodevelopmental",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kecanggungan fisik yang signifikan dalam aktivitas motorik.",
+    "fullDesc": "Anak sulit menulis, mengikat tali sepatu, atau menangkap bola.",
+    "types": [
+      {
+        "name": "Dyspraxia",
+        "desc": "Kesulitan merencanakan gerakan."
+      }
+    ],
+    "symptoms": [
+      "Sering jatuh",
+      "Tulisan tangan buruk",
+      "Lambat koordinasi"
+    ],
+    "handling": "Terapi okupasi, latihan motorik halus."
+  },
+  {
+    "id": "stereotypic-movement",
+    "name": "Gangguan Gerakan Stereotipik",
+    "category": "Neurodevelopmental",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Perilaku motorik berulang, tampak tidak bertujuan (misal: menggoyang tubuh).",
+    "fullDesc": "Dapat bersifat merusak jika dilakukan terlalu keras.",
+    "types": [
+      {
+        "name": "Body rocking",
+        "desc": "Menggoyang tubuh."
+      }
+    ],
+    "symptoms": [
+      "Menggoyang tubuh",
+      "Membenturkan kepala",
+      "Melambai tangan"
+    ],
+    "handling": "Terapi perilaku, lingkungan aman (helm/bantal)."
+  },
+  {
+    "id": "adjustment-depressive",
+    "name": "Gangguan Penyesuaian (Depresi)",
+    "category": "Mood",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Gejala depresi pasca peristiwa hidup yang menekan.",
+    "fullDesc": "Respons emosional yang berlebihan terhadap stresor (perceraian/PHK).",
+    "types": [
+      {
+        "name": "With depressed mood",
+        "desc": "Didominasi kesedihan."
+      }
+    ],
+    "symptoms": [
+      "Menangis",
+      "Putus asa",
+      "Kurang semangat"
+    ],
+    "handling": "Konseling, dukungan emosional."
+  },
+  {
+    "id": "adjustment-mixed",
+    "name": "Gangguan Penyesuaian (Campuran)",
+    "category": "Mood",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Campuran gejala cemas dan depresi pasca perubahan hidup.",
+    "fullDesc": "Sering dialami saat masa transisi yang sulit (pindah negara/sekolah).",
+    "types": [
+      {
+        "name": "With mixed anxiety and depressed",
+        "desc": "Cemas dan sedih."
+      }
+    ],
+    "symptoms": [
+      "Gelisah",
+      "Sedih",
+      "Gangguan tidur"
+    ],
+    "handling": "Psikoterapi (CBT), manajemen stres."
+  },
+  {
+    "id": "unspecified-depressive",
+    "name": "Gangguan Depresi yang Tidak Ditentukan",
+    "category": "Mood",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Gejala depresi yang tidak memenuhi kriteria lengkap MDD.",
+    "fullDesc": "Digunakan jika gejala mengganggu namun tidak mencukupi jumlah/durasi MDD.",
+    "types": [
+      {
+        "name": "Subthreshold",
+        "desc": "Gejala sedikit di bawah batas klinis."
+      }
+    ],
+    "symptoms": [
+      "Mood rendah",
+      "Kurang minat"
+    ],
+    "handling": "Pemantauan klinis, konseling."
+  },
+  {
+    "id": "unspecified-anxiety",
+    "name": "Gangguan Kecemasan yang Tidak Ditentukan",
+    "category": "Anxiety",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Gejala cemas yang mengganggu namun tidak cocok kriteria GAD/fobia.",
+    "fullDesc": "Kategori untuk gejala yang menimbulkan distres signifikan tapi tidak spesifik.",
+    "types": [
+      {
+        "name": "Atypical anxiety",
+        "desc": "Cemas dengan gejala unik."
+      }
+    ],
+    "symptoms": [
+      "Gelisah",
+      "Ketegangan",
+      "Kecemasan"
+    ],
+    "handling": "CBT, dukungan psikologis."
+  },
+  {
+    "id": "brief-depressive",
+    "name": "Episode Depresi Singkat Berulang",
+    "category": "Mood",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Episode depresi yang singkat (kurang dari 2 minggu) tapi sering muncul.",
+    "fullDesc": "Meskipun singkat, intensitasnya cukup tinggi untuk mengganggu hidup.",
+    "types": [
+      {
+        "name": "Recurrent",
+        "desc": "Sering muncul kembali."
+      }
+    ],
+    "symptoms": [
+      "Sedih intens",
+      "Fatigue",
+      "Sulit fokus"
+    ],
+    "handling": "Psikoterapi, edukasi pola hidup."
+  },
+  {
+    "id": "schizotypal-pd",
+    "name": "Gangguan Kepribadian Skizotipal",
+    "category": "Personality",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Pola ketidaknyamanan ekstrem dalam hubungan dekat dan distorsi kognitif.",
+    "fullDesc": "Penderita memiliki perilaku/berpikir yang eksentrik (seperti yakin punya kemampuan supernatural).",
+    "types": [
+      {
+        "name": "Magical thinking",
+        "desc": "Kepercayaan hal-hal magis."
+      }
+    ],
+    "symptoms": [
+      "Pikiran aneh",
+      "Berpakaian eksentrik",
+      "Kecemasan sosial"
+    ],
+    "handling": "Terapi sosial, antipsikotik dosis rendah (jika perlu)."
+  },
+  {
+    "id": "histrionic-pd",
+    "name": "Gangguan Kepribadian Histrionik",
+    "category": "Personality",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Pola emosionalitas berlebihan dan mencari perhatian.",
+    "fullDesc": "Penderita sangat tidak nyaman jika tidak menjadi pusat perhatian.",
+    "types": [
+      {
+        "name": "Dramatic",
+        "desc": "Reaksi emosi yang meledak-ledak."
+      }
+    ],
+    "symptoms": [
+      "Sangat dramatis",
+      "Pakaian provokatif",
+      "Cepat terpengaruh orang"
+    ],
+    "handling": "Psikoterapi (fokus pada pengenalan emosi diri), CBT."
+  },
+  {
+    "id": "paranoid-pd",
+    "name": "Gangguan Kepribadian Paranoid",
+    "category": "Personality",
+    "severity": "Sedang - Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Pola ketidakpercayaan luas terhadap orang lain.",
+    "fullDesc": "Penderita selalu curiga orang lain ingin menyakitinya tanpa bukti cukup.",
+    "types": [
+      {
+        "name": "Suspicious",
+        "desc": "Curiga berlebihan."
+      }
+    ],
+    "symptoms": [
+      "Curiga dikhianati",
+      "Sulit percaya",
+      "Pendendam"
+    ],
+    "handling": "Psikoterapi (membangun kepercayaan), manajemen stres."
+  },
+  {
+    "id": "obsessive-compulsive-pd",
+    "name": "Gangguan Kepribadian Obsesif-Kompulsif (OCPD)",
+    "category": "Personality",
+    "severity": "Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Obsesi dengan keteraturan, perfeksionisme, dan kontrol.",
+    "fullDesc": "Beda dengan OCD (yang merupakan gangguan kecemasan), OCPD lebih ke sifat kepribadian yang kaku.",
+    "types": [
+      {
+        "name": "Perfectionist",
+        "desc": "Kaku dalam aturan."
+      }
+    ],
+    "symptoms": [
+      "Kaku aturan",
+      "Perfeksionis",
+      "Sulit delegasi kerja"
+    ],
+    "handling": "CBT, terapi perilaku kognitif."
+  },
+  {
+    "id": "parent-child-relational-problem",
+    "name": "Masalah Hubungan Orang Tua-Anak",
+    "category": "Relational",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Fokus pada pola interaksi negatif yang menyebabkan distres.",
+    "fullDesc": "Bukan gangguan mental individu, tapi dinamika yang merusak kesehatan mental anggota keluarga.",
+    "types": [
+      {
+        "name": "Conflictual",
+        "desc": "Sering pertengkaran."
+      }
+    ],
+    "symptoms": [
+      "Komunikasi buruk",
+      "Ketegangan kronis"
+    ],
+    "handling": "Terapi keluarga, mediasi, konseling komunikasi."
+  },
+  {
+    "id": "partner-relational-problem",
+    "name": "Masalah Hubungan Pasangan",
+    "category": "Relational",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Konflik atau ketidakpuasan dalam hubungan romantis.",
+    "fullDesc": "Pemicu umum munculnya kecemasan atau depresi pada pasangan.",
+    "types": [
+      {
+        "name": "Discord",
+        "desc": "Ketidakharmonisan."
+      }
+    ],
+    "symptoms": [
+      "Komunikasi agresif/pasif",
+      "Hilang keintiman"
+    ],
+    "handling": "Terapi pasangan (Couples Therapy), EFT."
+  },
+  {
+    "id": "sibling-relational-problem",
+    "name": "Masalah Hubungan Saudara",
+    "category": "Relational",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Dinamika rivalitas atau konflik antar saudara yang destruktif.",
+    "fullDesc": "Dapat berlanjut hingga dewasa dan memengaruhi fungsi sosial.",
+    "types": [
+      {
+        "name": "Sibling rivalry",
+        "desc": "Persaingan tidak sehat."
+      }
+    ],
+    "symptoms": [
+      "Kompetisi berlebih",
+      "Kurang dukungan"
+    ],
+    "handling": "Konseling keluarga."
+  },
+  {
+    "id": "occupational-problem",
+    "name": "Masalah Pekerjaan",
+    "category": "Psychosocial",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Stres akibat lingkungan kerja, pengangguran, atau perubahan karier.",
+    "fullDesc": "Sering menjadi pemicu (trigger) utama gangguan mood.",
+    "types": [
+      {
+        "name": "Burnout",
+        "desc": "Kelelahan kerja kronis."
+      }
+    ],
+    "symptoms": [
+      "Lelah fisik/mental",
+      "Sinisme",
+      "Kurang efikasi diri"
+    ],
+    "handling": "Manajemen waktu, konseling karier, work-life balance."
+  },
+  {
+    "id": "academic-problem",
+    "name": "Masalah Akademik",
+    "category": "Psychosocial",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Kesulitan dalam mencapai prestasi sekolah/kuliah sesuai potensi.",
+    "fullDesc": "Seringkali karena faktor motivasi atau lingkungan, bukan kemampuan kognitif.",
+    "types": [
+      {
+        "name": "Underachievement",
+        "desc": "Prestasi di bawah kemampuan."
+      }
+    ],
+    "symptoms": [
+      "Kurang motivasi",
+      "Prokrastinasi"
+    ],
+    "handling": "Konseling akademik, bimbingan belajar."
+  },
+  {
+    "id": "malingering",
+    "name": "Malingering",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Pura-pura sakit untuk keuntungan eksternal (uang/asuransi/bebas tugas).",
+    "fullDesc": "Bukan gangguan mental, tapi perilaku menipu yang sering dihadapi profesional kesehatan mental.",
+    "types": [
+      {
+        "name": "Compensation-seeking",
+        "desc": "Cari ganti rugi materi."
+      }
+    ],
+    "symptoms": [
+      "Gejala inkonsisten",
+      "Menolak pemeriksaan detail"
+    ],
+    "handling": "Evaluasi psikiatri forensik, konfrontasi terapeutik."
+  },
+  {
+    "id": "bereavement",
+    "name": "Duka Cita (Bereavement)",
+    "category": "Psychosocial",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Proses alami kehilangan orang yang dicintai.",
+    "fullDesc": "Bukan gangguan mental selama dalam batas normal, namun bisa berkembang jadi Depresi Mayor jika berkepanjangan.",
+    "types": [
+      {
+        "name": "Complicated grief",
+        "desc": "Duka yang tidak kunjung selesai."
+      }
+    ],
+    "symptoms": [
+      "Sedih mendalam",
+      "Rindu",
+      "Sulit menerima"
+    ],
+    "handling": "Support group, konseling duka, penerimaan (acceptance)."
+  },
+  {
+    "id": "phase-of-life-problem",
+    "name": "Masalah Fase Kehidupan",
+    "category": "Psychosocial",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Kesulitan beradaptasi dengan transisi hidup (pensiun, nikah, punya anak).",
+    "fullDesc": "Krisisi identitas yang umum dialami di usia 30 (quarter life) atau 50 (midlife).",
+    "types": [
+      {
+        "name": "Midlife crisis",
+        "desc": "Pencarian arti hidup usia paruh baya."
+      }
+    ],
+    "symptoms": [
+      "Bingung arah hidup",
+      "Cemas akan penuaan"
+    ],
+    "handling": "Terapi eksistensial, konseling fase hidup."
+  },
+  {
+    "id": "religious-spiritual-problem",
+    "name": "Masalah Religius/Spiritual",
+    "category": "Psychosocial",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Konflik batin terkait keyakinan atau krisis spiritual.",
+    "fullDesc": "Sering terjadi saat seseorang kehilangan iman atau mengalami trauma religius.",
+    "types": [
+      {
+        "name": "Spiritual crisis",
+        "desc": "Hilang makna hidup."
+      }
+    ],
+    "symptoms": [
+      "Rasa bersalah",
+      "Bingung akan Tuhan/tujuan"
+    ],
+    "handling": "Konseling pastoral, pendampingan spiritual."
+  },
+  {
+    "id": "acculturation-problem",
+    "name": "Masalah Akulturasi",
+    "category": "Psychosocial",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Stres beradaptasi dengan budaya baru (misal: imigran).",
+    "fullDesc": "Gegar budaya (culture shock) yang mengganggu kesehatan mental.",
+    "types": [
+      {
+        "name": "Immigration stress",
+        "desc": "Adaptasi budaya asing."
+      }
+    ],
+    "symptoms": [
+      "Kesepian",
+      "Bingung aturan baru",
+      "Rasa asing"
+    ],
+    "handling": "Dukungan komunitas, belajar bahasa, terapi adaptasi."
+  },
+  {
+    "id": "child-neglect",
+    "name": "Penelantaran Anak (Kondisi)",
+    "category": "Psychosocial",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Kegagalan pengasuh menyediakan kebutuhan dasar fisik/emosi.",
+    "fullDesc": "Sangat merusak perkembangan otak dan emosi anak (trauma).",
+    "types": [
+      {
+        "name": "Emotional neglect",
+        "desc": "Kurang kasih sayang."
+      }
+    ],
+    "symptoms": [
+      "Perkembangan lambat",
+      "Kecemasan",
+      "Sangat pasif"
+    ],
+    "handling": "Intervensi perlindungan anak, terapi trauma."
+  },
+  {
+    "id": "physical-abuse-child",
+    "name": "Kekerasan Fisik pada Anak",
+    "category": "Psychosocial",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Tindakan fisik yang sengaja menyakiti anak.",
+    "fullDesc": "Memerlukan intervensi segera dan perlindungan hukum.",
+    "types": [
+      {
+        "name": "Non-accidental injury",
+        "desc": "Luka sengaja."
+      }
+    ],
+    "symptoms": [
+      "Ketakutan berlebih",
+      "Luka fisik",
+      "Sikap defensif"
+    ],
+    "handling": "Lapor otoritas, terapi trauma intensif (TF-CBT)."
+  },
+  {
+    "id": "sexual-abuse-child",
+    "name": "Kekerasan Seksual pada Anak",
+    "category": "Psychosocial",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Eksploitasi seksual pada anak oleh orang dewasa atau anak lebih tua.",
+    "fullDesc": "Trauma paling berat yang berisiko menyebabkan PTSD kronis.",
+    "types": [
+      {
+        "name": "Incest",
+        "desc": "Kekerasan dalam keluarga."
+      }
+    ],
+    "symptoms": [
+      "Perilaku seksual tidak pantas",
+      "Regresi",
+      "Ketakutan pada orang"
+    ],
+    "handling": "Trauma-Focused Therapy, perlindungan hukum, support sistem."
+  },
+  {
+    "id": "elder-abuse",
+    "name": "Kekerasan pada Lansia",
+    "category": "Psychosocial",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Perlakuan buruk pada lansia (fisik, finansial, atau pengabaian).",
+    "fullDesc": "Sering dilakukan oleh orang terdekat/perawat.",
+    "types": [
+      {
+        "name": "Financial abuse",
+        "desc": "Pencurian harta lansia."
+      }
+    ],
+    "symptoms": [
+      "Ketakutan pada perawat",
+      "Kondisi fisik menurun",
+      "Kehilangan aset"
+    ],
+    "handling": "Intervensi sosial, perlindungan hukum, penempatan aman."
+  },
+  {
+    "id": "pseudodementia",
+    "name": "Pseudodemensia",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Gangguan kognitif yang menyerupai demensia namun disebabkan oleh depresi berat.",
+    "fullDesc": "Penderita sering menjawab 'saya tidak tahu' saat dites kognitif, berbeda dengan demensia asli yang mencoba menjawab tapi salah.",
+    "types": [
+      {
+        "name": "Depressive pseudodementia",
+        "desc": "Gejala kognitif akibat depresi."
+      }
+    ],
+    "symptoms": [
+      "Lupa ingatan",
+      "Sulit konsentrasi",
+      "Mood sangat rendah"
+    ],
+    "handling": "Antidepresan, psikoterapi (kognitif akan pulih seiring membaiknya depresi)."
+  },
+  {
+    "id": "capgras-syndrome",
+    "name": "Sindrom Capgras",
+    "category": "Psikotik",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Keyakinan delusional bahwa orang terdekat telah digantikan oleh 'penipu' (impostor).",
+    "fullDesc": "Sering muncul pada skizofrenia atau demensia. Penderita tetap mengenali wajah, tapi merasa 'jiwa' orang tersebut palsu.",
+    "types": [
+      {
+        "name": "Delusional misidentification",
+        "desc": "Salah identifikasi orang."
+      }
+    ],
+    "symptoms": [
+      "Curiga keluarga adalah orang asing",
+      "Kecemasan saat melihat orang terdekat"
+    ],
+    "handling": "Antipsikotik, terapi realitas, penanganan kondisi dasar."
+  },
+  {
+    "id": "fregoli-syndrome",
+    "name": "Sindrom Fregoli",
+    "category": "Psikotik",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Keyakinan delusional bahwa orang yang berbeda-beda sebenarnya adalah orang yang sama yang sedang menyamar.",
+    "fullDesc": "Penderita merasa diikuti oleh satu orang yang terus berganti wajah.",
+    "types": [
+      {
+        "name": "Delusional misidentification",
+        "desc": "Salah identifikasi orang."
+      }
+    ],
+    "symptoms": [
+      "Paranoia",
+      "Merasa dibuntuti",
+      "Kebingungan identitas orang"
+    ],
+    "handling": "Antipsikotik, terapi suportif."
+  },
+  {
+    "id": "othello-syndrome",
+    "name": "Sindrom Othello",
+    "category": "Psikotik",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Kecemburuan patologis/delusional terhadap pasangan tanpa dasar.",
+    "fullDesc": "Penderita yakin 100% pasangannya selingkuh dan sering melakukan pengawasan agresif.",
+    "types": [
+      {
+        "name": "Pathological jealousy",
+        "desc": "Cemburu delusi."
+      }
+    ],
+    "symptoms": [
+      "Mengintai pasangan",
+      "Tuduhan tanpa bukti",
+      "Agresivitas"
+    ],
+    "handling": "Antipsikotik, terapi pasangan (sangat berisiko kekerasan)."
+  },
+  {
+    "id": "cotard-syndrome",
+    "name": "Sindrom Cotard",
+    "category": "Psikotik",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Delusi nihilistik di mana penderita merasa dirinya sudah mati atau organ tubuhnya busuk.",
+    "fullDesc": "Sangat jarang dan sering dikaitkan dengan depresi berat atau skizofrenia.",
+    "types": [
+      {
+        "name": "Walking corpse syndrome",
+        "desc": "Merasa dirinya mayat hidup."
+      }
+    ],
+    "symptoms": [
+      "Merasa sudah tidak punya organ",
+      "Rasa tidak ada",
+      "Keinginan bunuh diri"
+    ],
+    "handling": "ECT (Electroconvulsive Therapy), antipsikotik, antidepresan."
+  },
+  {
+    "id": "erotomania",
+    "name": "Erotomania (De Clérambault)",
+    "category": "Psikotik",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Keyakinan delusional bahwa seseorang (biasanya orang terkenal) jatuh cinta padanya.",
+    "fullDesc": "Penderita terus mengejar targetnya meski ditolak berkali-kali.",
+    "types": [
+      {
+        "name": "Delusional love",
+        "desc": "Cinta delusi."
+      }
+    ],
+    "symptoms": [
+      "Stalking",
+      "Interpretasi tanda/isyarat palsu",
+      "Obsesi"
+    ],
+    "handling": "Antipsikotik, pembatasan hukum (restraining order)."
+  },
+  {
+    "id": "foreign-accent",
+    "name": "Sindrom Aksen Asing",
+    "category": "Lainnya",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Perubahan pola bicara setelah trauma otak yang membuat penderita terdengar seperti orang asing.",
+    "fullDesc": "Biasanya akibat stroke atau cedera otak, seringkali ada komponen psikogenik.",
+    "types": [
+      {
+        "name": "Psychogenic accent",
+        "desc": "Aksen asing karena stres."
+      }
+    ],
+    "symptoms": [
+      "Aksen berubah mendadak",
+      "Gaya bicara berbeda"
+    ],
+    "handling": "Terapi bicara, konseling psikologis (jika psikogenik)."
+  },
+  {
+    "id": "alexithymia",
+    "name": "Aleksitimia",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Ketidakmampuan untuk mengenali atau mengekspresikan emosi diri sendiri.",
+    "fullDesc": "Bukan gangguan mental formal, tapi sifat (trait) yang sering menyertai autisme atau trauma.",
+    "types": [
+      {
+        "name": "Affective blindness",
+        "desc": "Buta emosi."
+      }
+    ],
+    "symptoms": [
+      "Sulit sebut perasaan",
+      "Kurang imajinasi",
+      "Logis berlebih"
+    ],
+    "handling": "Terapi emosi, pelatihan kesadaran diri."
+  },
+  {
+    "id": "derealization",
+    "name": "Derealisasi",
+    "category": "Anxiety",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Perasaan dunia sekitar tampak tidak nyata atau seperti mimpi/film.",
+    "fullDesc": "Sering muncul saat serangan panik atau kelelahan mental ekstrem.",
+    "types": [
+      {
+        "name": "Dissociative experience",
+        "desc": "Pengalaman disosiasi."
+      }
+    ],
+    "symptoms": [
+      "Dunia tampak kabur",
+      "Distorsi visual",
+      "Perasaan terpisah"
+    ],
+    "handling": "Grounding techniques, terapi cemas, manajemen stres."
+  },
+  {
+    "id": "depersonalization",
+    "name": "Depersonalisasi",
+    "category": "Anxiety",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Perasaan terpisah dari tubuh sendiri (seperti menonton diri sendiri).",
+    "fullDesc": "Mekanisme pertahanan otak saat menghadapi trauma atau stres luar biasa.",
+    "types": [
+      {
+        "name": "Out-of-body",
+        "desc": "Keluar dari tubuh."
+      }
+    ],
+    "symptoms": [
+      "Merasa robot",
+      "Diri tampak asing",
+      "Mati rasa emosi"
+    ],
+    "handling": "Grounding, CBT, penanganan trauma."
+  },
+  {
+    "id": "somatization-disorder",
+    "name": "Gangguan Somatisasi",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Keluhan fisik berulang tanpa penjelasan medis yang jelas.",
+    "fullDesc": "Penderita sangat terganggu oleh rasa sakit, mual, atau lelah yang nyata secara fisik tapi medis bersih.",
+    "types": [
+      {
+        "name": "Somatic symptom",
+        "desc": "Gejala tubuh."
+      }
+    ],
+    "symptoms": [
+      "Nyeri kronis",
+      "Masalah pencernaan",
+      "Pusing"
+    ],
+    "handling": "Psikoterapi, edukasi hubungan pikiran-tubuh."
+  },
+  {
+    "id": "body-integrity",
+    "name": "Body Integrity Dysphoria",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Keinginan kuat untuk menjadi difabel (misal: diamputasi) agar tubuh terasa 'benar'.",
+    "fullDesc": "Sangat kontroversial dan langka, penderita sering mencoba melukai diri agar diamputasi.",
+    "types": [
+      {
+        "name": "Apotemnophilia",
+        "desc": "Ketertarikan pada amputasi."
+      }
+    ],
+    "symptoms": [
+      "Obsesi amputasi",
+      "Membenci anggota tubuh sendiri"
+    ],
+    "handling": "Terapi suportif, konseling, keamanan lingkungan."
+  },
+  {
+    "id": "diogenes-syndrome",
+    "name": "Sindrom Diogenes",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Pengabaian diri ekstrem, hidup dalam lingkungan kotor, dan penimbunan barang.",
+    "fullDesc": "Sering terjadi pada lansia, ditandai dengan penolakan bantuan sosial.",
+    "types": [
+      {
+        "name": "Squalor living",
+        "desc": "Hidup dalam kemelaratan."
+      }
+    ],
+    "symptoms": [
+      "Menimbun sampah",
+      "Tidak mandi",
+      "Menolak bantuan medis"
+    ],
+    "handling": "Intervensi sosial, pembersihan lingkungan, dukungan keluarga."
+  },
+  {
+    "id": "pathological-laughter",
+    "name": "Tawa Patologis",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Tertawa tanpa sebab, sering karena kerusakan saraf (bukan lucu).",
+    "fullDesc": "Penderita merasa terganggu karena tidak bisa mengontrol tawa yang tidak pada tempatnya.",
+    "types": [
+      {
+        "name": "Pseudobulbar affect",
+        "desc": "Tawa/nangis tak terkendali."
+      }
+    ],
+    "symptoms": [
+      "Tertawa tiba-tiba",
+      "Tidak bisa berhenti"
+    ],
+    "handling": "Antidepresan dosis rendah, manajemen saraf."
+  },
+  {
+    "id": "explosive-disorder-child",
+    "name": "Ledakan Emosi pada Anak",
+    "category": "Neurodevelopmental",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Tantrum hebat yang tidak sesuai usia.",
+    "fullDesc": "Bukan sekadar manja, tapi gangguan regulasi emosi yang butuh bantuan profesional.",
+    "types": [
+      {
+        "name": "Severe mood dysregulation",
+        "desc": "Regulasi mood buruk."
+      }
+    ],
+    "symptoms": [
+      "Tantrum berkepanjangan",
+      "Lempar barang",
+      "Agresi"
+    ],
+    "handling": "Terapi perilaku, parent training, diet stimulasi."
+  },
+  {
+    "id": "disinhibited-social",
+    "name": "Gangguan Kelekatan Disinhibisi",
+    "category": "Neurodevelopmental",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Anak terlalu ramah/akrab dengan orang asing (tidak punya rasa takut).",
+    "fullDesc": "Risiko tinggi dimanipulasi atau diculik karena tidak punya 'stranger danger'.",
+    "types": [
+      {
+        "name": "Indiscriminate",
+        "desc": "Ramah ke semua orang."
+      }
+    ],
+    "symptoms": [
+      "Memeluk orang asing",
+      "Mudah pergi dengan siapa saja"
+    ],
+    "handling": "Terapi pengasuhan, pengawasan ketat."
+  },
+  {
+    "id": "cyclothymic-disorder",
+    "name": "Gangguan Siklotimik",
+    "category": "Mood",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Bentuk ringan dan kronis dari gangguan Bipolar.",
+    "fullDesc": "Mengalami fluktuasi suasana hati (hipomania dan depresi ringan) yang berlangsung setidaknya 2 tahun.",
+    "types": [
+      {
+        "name": "Chronic mood swings",
+        "desc": "Ayunan mood berkelanjutan."
+      }
+    ],
+    "symptoms": [
+      "Energi naik turun",
+      "Mood tidak stabil",
+      "Distres ringan-sedang"
+    ],
+    "handling": "Mood stabilizer, terapi kognitif (CBT)."
+  },
+  {
+    "id": "trichinosis-delusional",
+    "name": "Delusi Parasitosis",
+    "category": "Psikotik",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Keyakinan delusional bahwa tubuh terinfeksi parasit/serangga.",
+    "fullDesc": "Penderita sering membawa 'bukti' (kulit/kain) ke dokter untuk menunjukkan parasit yang sebenarnya tidak ada.",
+    "types": [
+      {
+        "name": "Ekbom syndrome",
+        "desc": "Delusi infestasi kulit."
+      }
+    ],
+    "symptoms": [
+      "Merasa gatal hebat",
+      "Luka akibat menggaruk",
+      "Delusi infeksi"
+    ],
+    "handling": "Antipsikotik, pendekatan suportif (hindari konfrontasi langsung)."
+  },
+  {
+    "id": "intermittent-explosive-adult",
+    "name": "Gangguan Ledakan Intermiten (Dewasa)",
+    "category": "Personality",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Ledakan amarah mendadak yang tidak proporsional.",
+    "fullDesc": "Sering dipicu hal sepele, menyebabkan kerusakan properti atau fisik pada orang lain.",
+    "types": [
+      {
+        "name": "Episodic Rage",
+        "desc": "Amarah meledak-ledak."
+      }
+    ],
+    "symptoms": [
+      "Teriakan",
+      "Lempar barang",
+      "Rasa lega setelah marah"
+    ],
+    "handling": "CBT untuk kontrol impuls, SSRI, mood stabilizer."
+  },
+  {
+    "id": "sleep-onset-insomnia",
+    "name": "Insomnia Awal Tidur",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Kesulitan memulai tidur pada awal malam.",
+    "fullDesc": "Penderita menghabiskan waktu berjam-jam di tempat tidur sebelum akhirnya bisa terlelap.",
+    "types": [
+      {
+        "name": "Primary insomnia",
+        "desc": "Tanpa kondisi medis penyerta."
+      }
+    ],
+    "symptoms": [
+      "Mata terbuka terus",
+      "Cemas saat jam tidur"
+    ],
+    "handling": "CBT-I (CBT for Insomnia), sleep hygiene."
+  },
+  {
+    "id": "primary-hypersomnia",
+    "name": "Hipersomnia Primer",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Rasa kantuk berlebih tanpa penyebab medis yang jelas.",
+    "fullDesc": "Sering tidur 10-12 jam tapi tetap merasa lelah.",
+    "types": [
+      {
+        "name": "Idiopathic",
+        "desc": "Penyebab tidak diketahui."
+      }
+    ],
+    "symptoms": [
+      "Sulit bangun",
+      "Kelelahan siang hari"
+    ],
+    "handling": "Modafinil (stimulan), pola tidur teratur."
+  },
+  {
+    "id": "gender-dysphoria",
+    "name": "Disforia Gender",
+    "category": "Lainnya",
+    "severity": "Sedang - Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Distres klinis akibat ketidaksesuaian antara identitas gender dengan seks biologis.",
+    "fullDesc": "Fokus bukan pada identitasnya, melainkan pada penderitaan psikologis (distres) yang dirasakan.",
+    "types": [
+      {
+        "name": "Adolescent onset",
+        "desc": "Muncul di masa remaja."
+      }
+    ],
+    "symptoms": [
+      "Cemas tubuh",
+      "Ingin transisi",
+      "Distres identitas"
+    ],
+    "handling": "Psikoterapi suportif, konseling, langkah transisi (sesuai standar medis)."
+  },
+  {
+    "id": "non-suicidal-self-injury",
+    "name": "NSSI (Self-Harm)",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Melukai diri sendiri tanpa niat bunuh diri.",
+    "fullDesc": "Dilakukan untuk meredakan emosi negatif atau rasa sakit psikis.",
+    "types": [
+      {
+        "name": "Cutting",
+        "desc": "Menyayat kulit."
+      }
+    ],
+    "symptoms": [
+      "Bekas luka",
+      "Sembunyi-sembunyi",
+      "Rasa lega setelah menyakiti"
+    ],
+    "handling": "DBT (Dialectical Behavior Therapy), manajemen emosi."
+  },
+  {
+    "id": "caffeine-withdrawal",
+    "name": "Putus Kafein",
+    "category": "Adiksi",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Gejala fisik saat berhenti minum kopi.",
+    "fullDesc": "Sakit kepala hebat dan iritabilitas adalah gejala klasik.",
+    "types": [
+      {
+        "name": "Caffeine headache",
+        "desc": "Sakit kepala putus zat."
+      }
+    ],
+    "symptoms": [
+      "Pusing",
+      "Lelah",
+      "Sulit fokus"
+    ],
+    "handling": "Hidrasi, penurunan dosis bertahap."
+  },
+  {
+    "id": "cannabis-intoxication",
+    "name": "Intoksikasi Ganja",
+    "category": "Adiksi",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Efek jangka pendek penggunaan ganja.",
+    "fullDesc": "Dapat menyebabkan gangguan koordinasi dan persepsi waktu.",
+    "types": [
+      {
+        "name": "Acute intoxication",
+        "desc": "Efek langsung."
+      }
+    ],
+    "symptoms": [
+      "Mata merah",
+      "Mulut kering",
+      "Paranoia",
+      "Euforia"
+    ],
+    "handling": "Observasi, lingkungan tenang, hidrasi."
+  },
+  {
+    "id": "unspecified-disorder",
+    "name": "Gangguan Mental Tidak Spesifik",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kategori untuk gejala yang menimbulkan distres namun tidak memenuhi kriteria diagnosa formal.",
+    "fullDesc": "Digunakan sebagai diagnosis sementara sebelum kondisi lebih jelas.",
+    "types": [
+      {
+        "name": "NOS (Not Otherwise Specified)",
+        "desc": "Sisa kategori klinis."
+      }
+    ],
+    "symptoms": [
+      "Distres",
+      "Gangguan fungsi sosial"
+    ],
+    "handling": "Pemantauan klinis, terapi suportif."
+  }
+]

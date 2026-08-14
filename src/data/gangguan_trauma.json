@@ -1,0 +1,93 @@
+[
+  {
+    "id": "ptsd",
+    "name": "PTSD (Post-Traumatic Stress Disorder)",
+    "category": "Trauma",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Gangguan akibat mengalami atau menyaksikan peristiwa traumatis.",
+    "fullDesc": "Pengalaman traumatis seperti bencana, perang, atau kekerasan membuat otak terus dalam mode bahaya.",
+    "types": [
+      {
+        "name": "Acute PTSD",
+        "desc": "Gejala kurang dari 3 bulan."
+      },
+      {
+        "name": "Delayed Expression PTSD",
+        "desc": "Gejala baru muncul 6 bulan pasca trauma."
+      }
+    ],
+    "symptoms": [
+      "Flashback kilas balik",
+      "Mimpi buruk berulang",
+      "Kewaspadaan berlebih (Hyperarousal)"
+    ],
+    "handling": "Terapi EMDR, Trauma-Focused CBT, dan obat-obatan."
+  },
+  {
+    "id": "c-ptsd",
+    "name": "Complex PTSD (C-PTSD)",
+    "category": "Trauma",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "PTSD akibat trauma berulang jangka panjang (misal: abuse masa kecil).",
+    "fullDesc": "Mempengaruhi regulasi emosi, persepsi diri, dan kemampuan mempertahankan hubungan.",
+    "types": [
+      {
+        "name": "Developmental Trauma",
+        "desc": "Trauma pengabaian atau penyiksaan sejak kecil."
+      }
+    ],
+    "symptoms": [
+      "Deregulasi emosi berat",
+      "Rasa bersalah/berdosa kronis",
+      "Krisis identitas"
+    ],
+    "handling": "Terapi EMDR jangka panjang, Somatic Experiencing, dan DBT."
+  },
+  {
+    "id": "acute-stress-disorder",
+    "name": "Gangguan Stres Akut (ASD)",
+    "category": "Trauma",
+    "severity": "Sedang - Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Reaksi trauma intens yang terjadi dalam 1 bulan pertama pasca kejadian.",
+    "fullDesc": "Mirip PTSD tetapi sifatnya jangka pendek. Jika bertahan lebih dari 1 bulan, diagnosis berubah menjadi PTSD.",
+    "types": [
+      {
+        "name": "ASD Disosiatif",
+        "desc": "Didominasi perasaan linglung dan amnesia trauma."
+      }
+    ],
+    "symptoms": [
+      "Mati rasa secara emosional",
+      "Menghindari pemicu trauma",
+      "Gelisah hebat"
+    ],
+    "handling": "Crisis Intervention, dukungan psikologis awal (PFA), dan konseling."
+  },
+  {
+    "id": "adjustment-disorder",
+    "name": "Gangguan Penyesuaian (Adjustment Disorder)",
+    "category": "Trauma",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Reaksi emosional tidak proporsional terhadap perubahan hidup besar.",
+    "fullDesc": "Kesulitan beradaptasi dengan stresor baru seperti perceraian, PHK, atau pindah rumah.",
+    "types": [
+      {
+        "name": "Dengan Depresi",
+        "desc": "Didominasi rasa sedih."
+      },
+      {
+        "name": "Dengan Kecemasan",
+        "desc": "Didominasi rasa panik."
+      }
+    ],
+    "symptoms": [
+      "Sedih/cemas berlebih pasca perubahan hidup",
+      "Penurunan fungsi kerja/belajar"
+    ],
+    "handling": "Konseling singkat, CBT, dan teknik manajemen stres."
+  }
+]

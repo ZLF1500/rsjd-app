@@ -1,0 +1,209 @@
+[
+  {
+    "id": "occupational-problem",
+    "name": "Masalah Pekerjaan",
+    "category": "Psychosocial",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Stres akibat lingkungan kerja, pengangguran, atau perubahan karier.",
+    "fullDesc": "Sering menjadi pemicu (trigger) utama gangguan mood.",
+    "types": [
+      {
+        "name": "Burnout",
+        "desc": "Kelelahan kerja kronis."
+      }
+    ],
+    "symptoms": [
+      "Lelah fisik/mental",
+      "Sinisme",
+      "Kurang efikasi diri"
+    ],
+    "handling": "Manajemen waktu, konseling karier, work-life balance."
+  },
+  {
+    "id": "academic-problem",
+    "name": "Masalah Akademik",
+    "category": "Psychosocial",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Kesulitan dalam mencapai prestasi sekolah/kuliah sesuai potensi.",
+    "fullDesc": "Seringkali karena faktor motivasi atau lingkungan, bukan kemampuan kognitif.",
+    "types": [
+      {
+        "name": "Underachievement",
+        "desc": "Prestasi di bawah kemampuan."
+      }
+    ],
+    "symptoms": [
+      "Kurang motivasi",
+      "Prokrastinasi"
+    ],
+    "handling": "Konseling akademik, bimbingan belajar."
+  },
+  {
+    "id": "bereavement",
+    "name": "Duka Cita (Bereavement)",
+    "category": "Psychosocial",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Proses alami kehilangan orang yang dicintai.",
+    "fullDesc": "Bukan gangguan mental selama dalam batas normal, namun bisa berkembang jadi Depresi Mayor jika berkepanjangan.",
+    "types": [
+      {
+        "name": "Complicated grief",
+        "desc": "Duka yang tidak kunjung selesai."
+      }
+    ],
+    "symptoms": [
+      "Sedih mendalam",
+      "Rindu",
+      "Sulit menerima"
+    ],
+    "handling": "Support group, konseling duka, penerimaan (acceptance)."
+  },
+  {
+    "id": "phase-of-life-problem",
+    "name": "Masalah Fase Kehidupan",
+    "category": "Psychosocial",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Kesulitan beradaptasi dengan transisi hidup (pensiun, nikah, punya anak).",
+    "fullDesc": "Krisisi identitas yang umum dialami di usia 30 (quarter life) atau 50 (midlife).",
+    "types": [
+      {
+        "name": "Midlife crisis",
+        "desc": "Pencarian arti hidup usia paruh baya."
+      }
+    ],
+    "symptoms": [
+      "Bingung arah hidup",
+      "Cemas akan penuaan"
+    ],
+    "handling": "Terapi eksistensial, konseling fase hidup."
+  },
+  {
+    "id": "religious-spiritual-problem",
+    "name": "Masalah Religius/Spiritual",
+    "category": "Psychosocial",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Konflik batin terkait keyakinan atau krisis spiritual.",
+    "fullDesc": "Sering terjadi saat seseorang kehilangan iman atau mengalami trauma religius.",
+    "types": [
+      {
+        "name": "Spiritual crisis",
+        "desc": "Hilang makna hidup."
+      }
+    ],
+    "symptoms": [
+      "Rasa bersalah",
+      "Bingung akan Tuhan/tujuan"
+    ],
+    "handling": "Konseling pastoral, pendampingan spiritual."
+  },
+  {
+    "id": "acculturation-problem",
+    "name": "Masalah Akulturasi",
+    "category": "Psychosocial",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Stres beradaptasi dengan budaya baru (misal: imigran).",
+    "fullDesc": "Gegar budaya (culture shock) yang mengganggu kesehatan mental.",
+    "types": [
+      {
+        "name": "Immigration stress",
+        "desc": "Adaptasi budaya asing."
+      }
+    ],
+    "symptoms": [
+      "Kesepian",
+      "Bingung aturan baru",
+      "Rasa asing"
+    ],
+    "handling": "Dukungan komunitas, belajar bahasa, terapi adaptasi."
+  },
+  {
+    "id": "child-neglect",
+    "name": "Penelantaran Anak (Kondisi)",
+    "category": "Psychosocial",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Kegagalan pengasuh menyediakan kebutuhan dasar fisik/emosi.",
+    "fullDesc": "Sangat merusak perkembangan otak dan emosi anak (trauma).",
+    "types": [
+      {
+        "name": "Emotional neglect",
+        "desc": "Kurang kasih sayang."
+      }
+    ],
+    "symptoms": [
+      "Perkembangan lambat",
+      "Kecemasan",
+      "Sangat pasif"
+    ],
+    "handling": "Intervensi perlindungan anak, terapi trauma."
+  },
+  {
+    "id": "physical-abuse-child",
+    "name": "Kekerasan Fisik pada Anak",
+    "category": "Psychosocial",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Tindakan fisik yang sengaja menyakiti anak.",
+    "fullDesc": "Memerlukan intervensi segera dan perlindungan hukum.",
+    "types": [
+      {
+        "name": "Non-accidental injury",
+        "desc": "Luka sengaja."
+      }
+    ],
+    "symptoms": [
+      "Ketakutan berlebih",
+      "Luka fisik",
+      "Sikap defensif"
+    ],
+    "handling": "Lapor otoritas, terapi trauma intensif (TF-CBT)."
+  },
+  {
+    "id": "sexual-abuse-child",
+    "name": "Kekerasan Seksual pada Anak",
+    "category": "Psychosocial",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Eksploitasi seksual pada anak oleh orang dewasa atau anak lebih tua.",
+    "fullDesc": "Trauma paling berat yang berisiko menyebabkan PTSD kronis.",
+    "types": [
+      {
+        "name": "Incest",
+        "desc": "Kekerasan dalam keluarga."
+      }
+    ],
+    "symptoms": [
+      "Perilaku seksual tidak pantas",
+      "Regresi",
+      "Ketakutan pada orang"
+    ],
+    "handling": "Trauma-Focused Therapy, perlindungan hukum, support sistem."
+  },
+  {
+    "id": "elder-abuse",
+    "name": "Kekerasan pada Lansia",
+    "category": "Psychosocial",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Perlakuan buruk pada lansia (fisik, finansial, atau pengabaian).",
+    "fullDesc": "Sering dilakukan oleh orang terdekat/perawat.",
+    "types": [
+      {
+        "name": "Financial abuse",
+        "desc": "Pencurian harta lansia."
+      }
+    ],
+    "symptoms": [
+      "Ketakutan pada perawat",
+      "Kondisi fisik menurun",
+      "Kehilangan aset"
+    ],
+    "handling": "Intervensi sosial, perlindungan hukum, penempatan aman."
+  }
+]

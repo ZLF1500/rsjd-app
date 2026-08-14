@@ -1,0 +1,265 @@
+[
+  {
+    "id": "gad",
+    "name": "Gangguan Kecemasan Umum (GAD)",
+    "category": "Anxiety",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Kecemasan dan kekhawatiran berlebihan terhadap berbagai aspek kehidupan sehari-hari.",
+    "fullDesc": "Gangguan kecemasan kronis yang sulit dikendalikan, di mana penderitanya terus-menerus merasa cemas tanpa alasan yang jelas terkait pekerjaan, kesehatan, finansial, atau masa depan selama minimal 6 bulan berturut-turut.",
+    "types": [
+      {
+        "name": "GAD Somatik Dominan",
+        "desc": "Bentuk kecemasan umum yang manifestasinya sangat kuat dirasakan secara fisik seperti nyeri otot, kelelahan, dan gangguan pencernaan."
+      }
+    ],
+    "symptoms": [
+      "Ketegangan otot yang persisten di berbagai bagian tubuh",
+      "Pikiran berputar-putar tanpa henti (overthinking) yang sulit dihentikan",
+      "Perasaan gelisah, mudah marah, dan kesulitan besar dalam berkonsentrasi",
+      "Gangguan tidur kronis seperti kesulitan memulai atau mempertahankan tidur"
+    ],
+    "handling": "Penerapan Cognitive Behavioral Therapy (CBT), latihan teknik relaksasi otot progresif dan mindfulness, serta konsultasi psikiatri untuk peresepan obat golongan SSRI atau anksiolitik jika diperlukan."
+  },
+  {
+    "id": "panic-disorder",
+    "name": "Gangguan Panik (Panic Disorder)",
+    "category": "Anxiety",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Serangan rasa takut hebat yang datang mendadak tanpa pemicu yang jelas.",
+    "fullDesc": "Kondisi psikologis yang ditandai dengan gelombang ketakutan fisik yang sangat intens dan memuncak dalam hitungan menit, sering kali membuat penderitanya merasa seolah-olah sedang mengalami serangan jantung atau sakaratul maut.",
+    "types": [
+      {
+        "name": "Panic Disorder with Agoraphobia",
+        "desc": "Gangguan panik yang disertai ketakutan hebat untuk berada di ruang terbuka atau tempat umum karena takut mengalami serangan tanpa pertolongan."
+      }
+    ],
+    "symptoms": [
+      "Jantung berdebar sangat keras dan cepat (palpitasi akut)",
+      "Sesak napas, rasa tercekik, dan hiperventilasi",
+      "Nyeri atau rasa tertekan di dada yang mirip gejala medis darurat",
+      "Ketakutan luar biasa akan kehilangan kendali, menjadi gila, atau menghadapi kematian"
+    ],
+    "handling": "Terapi pemaparan (Exposure Therapy), pelatihan teknik pernapasan diafragma mendalam, serta penanganan medis psikoterapi dan obat pengendali kecemasan."
+  },
+  {
+    "id": "agoraphobia",
+    "name": "Agoraphobia",
+    "category": "Anxiety",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Ketakutan ekstrem berada di tempat terbuka atau situasi yang sulit melarikan diri.",
+    "fullDesc": "Fobia kompleks di mana penderitanya merasa sangat tidak aman jika harus keluar dari zona nyaman mereka, yang pada kasus parah menyebabkan mereka terkurung di dalam rumah selama berbulan-bulan.",
+    "types": [
+      {
+        "name": "Homebound Agoraphobia",
+        "desc": "Kondisi terparah di mana penderita sama sekali tidak berani melangkahkan kaki keluar rumah tanpa didampingi orang kepercayaan."
+      }
+    ],
+    "symptoms": [
+      "Menghindari pusat perbelanjaan, transportasi umum, antrean, atau kerumunan orang",
+      "Ketergantungan mutlak pada figur pendamping setiap kali harus bepergian keluar",
+      "Serangan panik instan saat membayangkan diri berada di tempat umum yang terbuka"
+    ],
+    "handling": "Desensitisasi sistematis, teknik pemaparan bertahap (gradual exposure) keluar rumah, serta terapi perilaku kognitif (CBT) mendalam."
+  },
+  {
+    "id": "social-phobia",
+    "name": "Gangguan Kecemasan Sosial (SAD)",
+    "category": "Anxiety",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Ketakutan mendalam akan dinilai negatif, dihakimi, atau dipermalukan di depan umum.",
+    "fullDesc": "Lebih dari sekadar sifat pemalu biasa, gangguan ini melibatkan kecemasan fisik dan psikis yang melumpuhkan saat individu harus berinteraksi sosial, berbicara di depan umum, atau sekadar makan di restoran.",
+    "types": [
+      {
+        "name": "Performance-Only SAD",
+        "desc": "Kecemasan sosial yang spesifik muncul hanya saat seseorang harus melakukan presentasi atau tampil di atas panggung."
+      },
+      {
+        "name": "Generalized SAD",
+        "desc": "Kecemasan sosial menyeluruh yang terjadi di hampir setiap jenis interaksi sosial sehari-hari."
+      }
+    ],
+    "symptoms": [
+      "Wajah memerah (blushing), tangan gemetar hebat, dan suara terbata-bata saat diajak bicara",
+      "Secara aktif menghindari pesta, rapat kantor, atau pertemuan publik",
+      "Melakukan analisis berlebihan (post-event rumination) secara terus-menerus setelah interaksi sosial selesai"
+    ],
+    "handling": "Terapi pemaparan sosial terstruktur, CBT kelompok untuk membangun kepercayaan diri interaktif, serta penggunaan obat golongan beta-blocker untuk meredakan gejala fisik."
+  },
+  {
+    "id": "specific-phobia",
+    "name": "Fobia Spesifik",
+    "category": "Anxiety",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Ketakutan ekstrem dan irasional terhadap objek, hewan, atau situasi tertentu.",
+    "fullDesc": "Respons ketakutan yang tidak masuk akal dan tidak proporsional terhadap ancaman sebenarnya, yang langsung memicu kepanikan luar biasa setiap kali penderita berhadapan dengan pemicunya.",
+    "types": [
+      {
+        "name": "Acrophobia",
+        "desc": "Fobia akut terhadap ketinggian."
+      },
+      {
+        "name": "Claustrophobia",
+        "desc": "Fobia terhadap ruang tertutup, sempit, atau sesak."
+      },
+      {
+        "name": "Arachnophobia",
+        "desc": "Ketakutan irasional terhadap laba-laba atau serangga tertentu."
+      }
+    ],
+    "symptoms": [
+      "Reaksi panik instan, menjerit, atau lari ketakutan saat melihat objek pemicu",
+      "Upaya penghindaran ekstrem dalam kehidupan sehari-hari agar tidak bersentuhan dengan objek fobia"
+    ],
+    "handling": "Metode desensitisasi sistematis, terapi perilaku, serta pemanfaatan teknologi Virtual Reality Exposure Therapy (VRET)."
+  },
+  {
+    "id": "separation-anxiety",
+    "name": "Kecemasan Perpisahan (Separation Anxiety)",
+    "category": "Anxiety",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Ketakutan berlebihan saat harus terpisah dari figur lekat (orang tua atau pasangan).",
+    "fullDesc": "Meskipun sering dianggap masalah anak-anak, kondisi ini juga dapat dialami oleh orang dewasa, ditandai dengan kecemasan tidak wajar bahwa sesuatu yang buruk akan menimpa orang terdekat mereka saat sedang berjauhan.",
+    "types": [
+      {
+        "name": "Adult Separation Anxiety",
+        "desc": "Kecemasan parah saat harus berjauhan dari pasangan hidup atau anak dalam kurun waktu tertentu."
+      }
+    ],
+    "symptoms": [
+      "Sering mengalami mimpi buruk yang bertema kehilangan atau perpisahan dengan figur lekat",
+      "Muncul keluhan fisik mendadak (sakit kepala/perut) saat akan berpisah",
+      "Kekhawatiran konstan bahwa orang terdekat akan mengalami kecelakaan atau musibah"
+    ],
+    "handling": "Terapi keluarga, konseling psikologis individual, serta latihan kemandirian emosional secara bertahap."
+  },
+  {
+    "id": "selective-mutism",
+    "name": "Mutisme Selektif",
+    "category": "Anxiety",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Ketidakmampuan berbicara dalam situasi sosial tertentu padahal mampu bicara di rumah.",
+    "fullDesc": "Gangguan kecemasan berbasis sosial yang umumnya terdeteksi pada masa kanak-kanak, di mana anak mendadak membisu total saat berada di lingkungan sekolah atau di depan orang asing.",
+    "types": [
+      {
+        "name": "School-Only Mutism",
+        "desc": "Anak dapat berbicara dengan sangat lancar di lingkungan rumah bersama keluarga inti, namun menjadi bisu total saat berada di sekolah."
+      }
+    ],
+    "symptoms": [
+      "Mampu berkomunikasi secara normal di rumah, tetapi membisu total di hadapan publik atau guru",
+      "Postur tubuh kaku, menolak melakukan kontak mata, dan menarik diri saat merasa cemas"
+    ],
+    "handling": "Terapi perilaku berbasis stimulasi bertahap (Stimulus Fading), teknik shaping, serta pendekatan psikoterapi ramah anak."
+  },
+  {
+    "id": "hypochondriasis",
+    "name": "Gangguan Kecemasan Penyakit (Illness Anxiety)",
+    "category": "Anxiety",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Ketakutan berlebihan menderita penyakit serius tanpa adanya bukti medis yang valid.",
+    "fullDesc": "Kondisi di mana penderitanya terobsesi dengan kesehatan tubuh mereka sendiri, salah mengartikan sensasi fisik normal (seperti kedutan otot atau pusing ringan) sebagai indikasi penyakit mematikan seperti kanker atau tumor.",
+    "types": [
+      {
+        "name": "Health Anxiety Obsession",
+        "desc": "Keasyikan mental yang destruktif terhadap pencarian diagnosis penyakit berat."
+      }
+    ],
+    "symptoms": [
+      "Sering mendatangi dokter secara berulang untuk meminta pemeriksaan medis meski hasilnya selalu normal",
+      "Terus-menerus mencari tahu dan membaca gejala penyakit di internet (cyberchondria)",
+      "Pemeriksaan tubuh berlebihan (body checking) secara kompulsif"
+    ],
+    "handling": "Cognitive Behavioral Therapy (CBT) untuk mengalihkan fokus pikiran, edukasi kesehatan medis yang rasional, serta manajemen stres."
+  },
+  {
+    "id": "separation-anxiety-child",
+    "name": "Kecemasan Perpisahan pada Anak",
+    "category": "Anxiety",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kecemasan ekstrem pada anak saat harus berpisah dari orang tua atau pengasuh utama.",
+    "fullDesc": "Kecemasan yang melampaui fase perkembangan normal anak, memicu penolakan keras untuk bersekolah atau tidur di kamar sendiri karena ketakutan berlebihan akan ditinggalkan.",
+    "types": [
+      {
+        "name": "School Refusal Syndrome",
+        "desc": "Penolakan total anak untuk pergi ke sekolah akibat kecemasan berpisah yang intens."
+      }
+    ],
+    "symptoms": [
+      "Mimpi buruk berulang mengenai skenario terpisah dari orang tua",
+      "Keluhan fisik nyata seperti mual, muntah, atau sakit perut setiap kali menjelang waktu berangkat sekolah"
+    ],
+    "handling": "Terapi keluarga terpadu, pendekatan dukungan positif, serta teknik paparan bertahap (gradual exposure) ke lingkungan sekolah."
+  },
+  {
+    "id": "unspecified-anxiety",
+    "name": "Gangguan Kecemasan yang Tidak Ditentukan",
+    "category": "Anxiety",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Gejala kecemasan signifikan yang mengganggu namun tidak memenuhi kriteria diagnosis spesifik.",
+    "fullDesc": "Kategori klinis penunjang bagi individu yang mengalami penderitaan mental dan distres akibat kecemasan, tetapi pola gejalanya tidak persis cocok dengan kategori GAD, fobia, atau gangguan panik standar.",
+    "types": [
+      {
+        "name": "Atypical Anxiety Presentation",
+        "desc": "Manifestasi kecemasan dengan gabungan gejala unik yang tidak lazim."
+      }
+    ],
+    "symptoms": [
+      "Perasaan gelisah menyeluruh yang mengganggu produktivitas harian",
+      "Ketegangan mental dan fisik yang datang silih berganti",
+      "Kecemasan reaktif terhadap situasi stres ringan"
+    ],
+    "handling": "Sesi konseling psikologis suportif, penerapan CBT, serta latihan manajemen stres harian."
+  },
+  {
+    "id": "derealization",
+    "name": "Derealisasi",
+    "category": "Anxiety",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Perasaan di mana dunia di sekitar penderita tampak tidak nyata, asing, atau seperti dalam film.",
+    "fullDesc": "Fenomena disosiatif di mana lingkungan fisik terasa kabur, artifisial, atau seperti mimpi, yang umumnya dipicu oleh lonjakan kecemasan yang ekstrem, serangan panik berat, atau kelelahan mental akut.",
+    "types": [
+      {
+        "name": "Dissociative World Disconnection",
+        "desc": "Gangguan persepsi di mana realitas eksternal terasa terdistorsi."
+      }
+    ],
+    "symptoms": [
+      "Dunia luar tampak datar, dua dimensi, tidak berwarna, atau seperti tiruan",
+      "Distorsi visual ringan dan kesulitan memproses lingkungan sekitar dengan jernih",
+      "Perasaan terisolasi seolah ada dinding tak kasat mata antara diri dan dunia luar"
+    ],
+    "handling": "Teknik pembumian (grounding techniques) untuk mengembalikan kesadaran ke panca indra, psikoterapi kecemasan, dan istirahat mental."
+  },
+  {
+    "id": "depersonalization",
+    "name": "Depersonalisasi",
+    "category": "Anxiety",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Perasaan terasing atau terpisah dari tubuh dan pikiran sendiri.",
+    "fullDesc": "Mekanisme pertahanan psikologis darurat di mana otak memisahkan kesadaran seseorang dari fisik mereka, menciptakan sensasi seolah-olah sedang menonton diri sendiri bertindak dari luar tubuh.",
+    "types": [
+      {
+        "name": "Out-of-Body Experience Syndrome",
+        "desc": "Sensasi kesadaran melayang atau keluar dari raga sendiri saat stres melanda."
+      }
+    ],
+    "symptoms": [
+      "Merasa diri sendiri seperti robot atau pengamat pasif atas tindakan sendiri",
+      "Anggota tubuh terasa asing atau mati rasa secara emosional",
+      "Kehilangan koneksi personal terhadap emosi dan identitas diri"
+    ],
+    "handling": "Latihan grounding sensorik, CBT untuk mengatasi trauma/stres pemicu, serta penanganan klinis komprehensif."
+  }
+]

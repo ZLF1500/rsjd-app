@@ -1,0 +1,69 @@
+[
+  {
+    "id": "dissociative-identity",
+    "name": "Gangguan Identitas Disosiatif (DID)",
+    "category": "Disosiatif",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Kehadiran dua atau lebih identitas atau status kepribadian yang berbeda dalam satu tubuh.",
+    "fullDesc": "Sebelumnya dikenal sebagai gangguan kepribadian ganda, kondisi psikologis kompleks ini umumnya terbentuk sebagai mekanisme pertahanan diri ekstrem akibat trauma masa kanak-kanak yang parah dan berulang.",
+    "types": [
+      {
+        "name": "Possession-Form DID",
+        "desc": "Bentuk manifestasi di mana pergantian identitas tampak seperti kondisi 'kerasukan' atau dikendalikan oleh entitas eksternal yang tidak dikenal."
+      }
+    ],
+    "symptoms": [
+      "Amnesia disosiatif berupa hilangnya memori terkait waktu, peristiwa penting, dan informasi personal",
+      "Mendengar suara-suara alter kepribadian lain di dalam kepala",
+      "Perubahan drastis pada nada suara, gaya bahasa, kebiasaan, hingga tulisan tangan saat kepribadian lain mengambil alih"
+    ],
+    "handling": "Psikoterapi trauma jangka panjang yang intensif dengan psikiater spesialis, bertujuan untuk integrasi kepribadian, stabilisasi emosi, dan pemrosesan memori traumatis masa lalu."
+  },
+  {
+    "id": "dissociative-amnesia",
+    "name": "Amnesia Disosiatif",
+    "category": "Disosiatif",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Ketidakmampuan mengingat informasi personal penting yang biasanya diakibatkan oleh trauma.",
+    "fullDesc": "Bukan disebabkan oleh kerusakan fisik atau benturan pada kepala, melainkan proses pertahanan otak (blocking memori) untuk melindungi diri dari pengalaman atau peristiwa traumatik yang terlalu berat untuk diterima kesadaran.",
+    "types": [
+      {
+        "name": "Localized Amnesia",
+        "desc": "Kehilangan ingatan total terhadap kejadian spesifik atau rentang waktu tertentu yang sangat traumatis."
+      },
+      {
+        "name": "Generalized Amnesia",
+        "desc": "Bentuk amnesia langka di mana penderita kehilangan ingatan menyeluruh mengenai seluruh identitas dan riwayat hidupnya."
+      }
+    ],
+    "symptoms": [
+      "Kebingungan mendalam, linglung, dan rasa disorientasi arah",
+      "Kehilangan total ingatan mengenai informasi pribadi, masa lalu, atau orang terdekat",
+      "Perasaan hampa secara identitas dan kesulitan mengenali diri sendiri di cermin"
+    ],
+    "handling": "Psikoterapi suportif, pemanfaatan hipnoterapi klinis terarah untuk membantu memanggil kembali memori yang terblokir secara aman, serta penanganan stres psikologis."
+  },
+  {
+    "id": "depersonalization-derealization",
+    "name": "Depersonalisasi / Derealisasi",
+    "category": "Disosiatif",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Sensasi kronis merasa terlepas dari diri sendiri atau merasa bahwa dunia di sekitar tidak nyata.",
+    "fullDesc": "Gangguan di mana penderitanya merasa seolah-olah sedang menonton kehidupan mereka sendiri dari luar tubuh (depersonalisasi) atau merasa dunia luar tampak datar, kabur, dan artifisial seperti dalam film (derealisasi).",
+    "types": [
+      {
+        "name": "Chronic Dissociative State",
+        "desc": "Kondisi di mana gejala disosiasi ringan hingga sedang muncul secara terus-menerus dalam kurun waktu yang lama."
+      }
+    ],
+    "symptoms": [
+      "Merasa diri sendiri bagaikan robot, tidak bernyawa, atau pengamat pasif atas tindakan sendiri",
+      "Lingkungan sekitar tampak berkabut, tidak nyata, dua dimensi, atau terdistorsi secara visual",
+      "Mati rasa secara emosional dan hilangnya koneksi personal terhadap lingkungan fisik"
+    ],
+    "handling": "Penerapan teknik pembumian (grounding techniques) secara rutin untuk mengaktifkan panca indra, manajemen kecemasan tingkat lanjut, serta Cognitive Behavioral Therapy (CBT)."
+  }
+]

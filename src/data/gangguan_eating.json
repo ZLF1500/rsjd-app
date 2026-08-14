@@ -1,0 +1,168 @@
+[
+  {
+    "id": "anorexia-nervosa",
+    "name": "Anorexia Nervosa",
+    "category": "Eating",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Ketakutan berlebih terhadap penambahan berat badan melalui pembatasan asupan kalori ekstrem.",
+    "fullDesc": "Gangguan makan serius yang berpotensi mengancam jiwa, ditandai dengan distorsi citra tubuh yang parah, penurunan berat badan drastis, serta penolakan untuk mempertahankan berat badan normal sesuai usia dan tinggi badan.",
+    "types": [
+      {
+        "name": "Restricting Type",
+        "desc": "Penurunan berat badan dicapai melalui puasa ketat, diet berlebihan, atau olahraga kompulsif yang melelahkan."
+      },
+      {
+        "name": "Binge-Eating / Purging Type",
+        "desc": "Episode makan berlebih yang disusul oleh tindakan kompensasi seperti muntah buatan atau penggunaan pencahar."
+      }
+    ],
+    "symptoms": [
+      "Tubuh sangat kurus namun tetap merasa gemuk akibat distorsi persepsi",
+      "Obsesi ekstrem terhadap kandungan kalori, gram makanan, dan angka timbangan",
+      "Ketakutan yang melumpuhkan terhadap proses penambahan berat badan",
+      "Penarikan diri dari interaksi sosial terutama yang melibatkan makanan"
+    ],
+    "handling": "Program rawat inap medis (re-feeding syndrome management), terapi keluarga terpadu (Maudsley approach), serta konseling nutrisi klinis profesional."
+  },
+  {
+    "id": "bulimia-nervosa",
+    "name": "Bulimia Nervosa",
+    "category": "Eating",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Episode makan berlebih secara kompulsif yang diikuti perilaku kompensasi pembersihan.",
+    "fullDesc": "Gangguan makan di mana penderita mengalami siklus hilang kendali saat makan dalam jumlah besar (binge), lalu merasa sangat bersalah dan melakukan tindakan pembersihan untuk mencegah penambahan berat badan.",
+    "types": [
+      {
+        "name": "Purging Type",
+        "desc": "Pengeluaran kembali makanan secara sengaja melalui muntah buatan atau penyalahgunaan obat pencahar/diuretik."
+      },
+      {
+        "name": "Non-Purging Type",
+        "desc": "Upaya kompensasi menggunakan puasa ekstrem atau olahraga berlebihan tanpa melakukan purging."
+      }
+    ],
+    "symptoms": [
+      "Mengonsumsi makanan dalam jumlah sangat besar secara cepat dalam waktu singkat",
+      "Tindakan kompensasi langsung setelah makan (muntah atau olahraga berlebihan)",
+      "Harga diri yang terlalu bergantung pada bentuk tubuh dan berat badan",
+      "Fluktuasi berat badan yang drastis disertai masalah pencernaan dan gigi"
+    ],
+    "handling": "Cognitive Behavioral Therapy for Eating Disorders (CBT-E), pemantauan antidepresan pendukung, serta konseling psikodinamik."
+  },
+  {
+    "id": "binge-eating-disorder",
+    "name": "Binge Eating Disorder (BED)",
+    "category": "Eating",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Episode makan dalam jumlah besar secara berulang tanpa adanya perilaku kompensasi.",
+    "fullDesc": "Gangguan makan umum di mana penderita mengalami dorongan kuat untuk makan berlebihan hingga merasa sangat tidak nyaman, namun tidak melakukan tindakan memuntahkan atau membersihkan makanan.",
+    "types": [
+      {
+        "name": "Chronic BED",
+        "desc": "Episode makan berlebih yang terjadi secara rutin minimal sekali seminggu selama berbulan-bulan."
+      }
+    ],
+    "symptoms": [
+      "Makan dengan sangat cepat hingga perut terasa sesak dan nyeri",
+      "Makan dalam jumlah banyak meskipun sedang tidak merasa lapar secara fisik",
+      "Makan secara sembunyi-sembunyi atau sendirian karena rasa malu yang mendalam",
+      "Perasaan jijik, depresi, dan rasa bersalah yang besar setelah episode makan selesai"
+    ],
+    "handling": "Cognitive Behavioral Therapy (CBT), terapi kelompok suportif, serta manajemen diet dan pola hidup sehat terstruktur."
+  },
+  {
+    "id": "pica",
+    "name": "Pica",
+    "category": "Eating",
+    "severity": "Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Dorongan kompulsif untuk memakan benda-benda bukan makanan yang tidak memiliki nilai gizi.",
+    "fullDesc": "Kelainan perilaku makan di mana seseorang secara konsisten mengonsumsi substansi non-nutrisi seperti tanah, debu, kertas, atau kapur, yang sering kali berkaitan dengan kekurangan mineral atau gangguan perkembangan.",
+    "types": [
+      {
+        "name": "Geophagy",
+        "desc": "Kebiasaan spesifik mengonsumsi tanah, lumpur, atau pasir secara berulang."
+      }
+    ],
+    "symptoms": [
+      "Konsumsi benda non-nutrisi secara persisten selama minimal satu bulan",
+      "Risiko tinggi keracunan zat kimia, infeksi parasit, dan gangguan saluran pencernaan",
+      "Sering kali ditemukan bersamaan dengan anemia defisiensi besi"
+    ],
+    "handling": "Pemeriksaan medis menyeluruh (tes darah lengkap untuk mendeteksi anemia/defisiensi mineral), suplementasi gizi, dan terapi modifikasi perilaku."
+  },
+  {
+    "id": "rumination-disorder",
+    "name": "Gangguan Ruminasi",
+    "category": "Eating",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kebiasaan memuntahkan kembali makanan yang sudah ditelan untuk dikunyah ulang lalu ditelan atau dibuang.",
+    "fullDesc": "Gangguan pencernaan dan perilaku di mana makanan dikembalikan ke mulut secara berulang tanpa disertai rasa mual, muntah refleks medis, atau rasa jijik yang lazim.",
+    "types": [
+      {
+        "name": "Regurgitation Pattern",
+        "desc": "Proses naiknya kembali makanan dari lambung secara pasif ke rongga mulut."
+      },
+      {
+        "name": "Voluntary Rumination",
+        "desc": "Kebiasaan mengunyah ulang makanan yang dilakukan secara sadar sesaat setelah makan."
+      }
+    ],
+    "symptoms": [
+      "Mengunyah makanan berkali-kali setelah dimuntahkan kembali dari lambung",
+      "Penurunan berat badan yang tidak diinginkan dan malnutrisi ringan",
+      "Bau mulut dan iritasi saluran pencernaan bagian atas akibat asam lambung"
+    ],
+    "handling": "Terapi perilaku habit-reversal, teknik latihan pernapasan diafragma saat makan, dan bimbingan psikologis."
+  },
+  {
+    "id": "avoidant-restrictive-food",
+    "name": "ARFID (Avoidant/Restrictive Food Intake Disorder)",
+    "category": "Eating",
+    "severity": "Sedang - Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Gangguan makan karena sensitivitas tekstur/bau tanpa adanya ketakutan terhadap bentuk tubuh.",
+    "fullDesc": "Penolakan atau penghindaran makanan yang parah berdasarkan karakteristik sensorik makanan (warna, tekstur, bau) atau ketakutan akan tersedak, yang memicu defisiensi nutrisi signifikan.",
+    "types": [
+      {
+        "name": "Sensory Sensitivity ARFID",
+        "desc": "Penolakan makanan ekstrem akibat kepekaan indra penciuman, rasa, atau tekstur yang terlalu tinggi."
+      },
+      {
+        "name": "Fear-Based ARFID",
+        "desc": "Menghindari makanan tertentu karena trauma atau ketakutan tersedak dan muntah."
+      }
+    ],
+    "symptoms": [
+      "Hanya mau mengonsumsi jenis makanan dengan tekstur atau warna tertentu saja",
+      "Ketakutan irasional akan tersedak, muntah, atau mengalami reaksi alergi",
+      "Ketergantungan pada suplemen gizi cair akibat minimnya variasi makanan padat",
+      "Gangguan pertumbuhan pada anak atau defisiensi gizi berat pada dewasa"
+    ],
+    "handling": "Terapi nutrisi klinis terpadu, CBT khusus gangguan makan, dan terapi integrasi sensorik."
+  },
+  {
+    "id": "pica-adult",
+    "name": "Pica pada Usia Dewasa",
+    "category": "Eating",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Konsumsi zat non-nutrisi yang terus berlanjut atau bermula pada masa dewasa.",
+    "fullDesc": "Gangguan Pica yang terjadi pada individu dewasa, sering kali dipicu oleh defisiensi zat besi atau seng (zinc) yang parah, kehamilan, atau kondisi komorbiditas neuropsikiatrik.",
+    "types": [
+      {
+        "name": "Amylophagia",
+        "desc": "Dorongan kompulsif untuk mengonsumsi pati mentah, tepung, atau beras mentah."
+      }
+    ],
+    "symptoms": [
+      "Mengonsumsi es batu, kapur, kertas, atau tepung secara konsisten dan kompulsif",
+      "Keluhan fisik sekunder akibat gangguan penyerapan nutrisi usus"
+    ],
+    "handling": "Evaluasi laboratorium darah menyeluruh (pemeriksaan feritin dan mineral), koreksi nutrisi, serta konseling psikologis."
+  }
+]

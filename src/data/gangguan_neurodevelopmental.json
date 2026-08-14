@@ -1,0 +1,385 @@
+[
+  {
+    "id": "reactive-attachment",
+    "name": "Gangguan Kelekatan Reaktif",
+    "category": "Neurodevelopmental",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Anak yang sangat terganggu secara emosional dan gagal membentuk ikatan dengan pengasuh.",
+    "fullDesc": "Akibat pola asuh yang sangat buruk atau penelantaran masa kecil.",
+    "types": [
+      {
+        "name": "Inhibited",
+        "desc": "Terlalu menarik diri."
+      },
+      {
+        "name": "Inhibited RAD",
+        "desc": "Anak menarik diri dan menolak kasih sayang."
+      }
+    ],
+    "symptoms": [
+      "Tidak mencari kenyamanan",
+      "Emosi datar",
+      "Tidak responsif",
+      "Menolak pelukan/kenyamanan saat sedih",
+      "Emosi tidak terduga pada pengasuh"
+    ],
+    "handling": "Terapi kelekatan, lingkungan pengasuhan stabil."
+  },
+  {
+    "id": "adhd",
+    "name": "ADHD (Attention-Deficit/Hyperactivity Disorder)",
+    "category": "Neurodevelopmental",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Pola inatensi, hiperaktivitas, dan impulsivitas yang menetap.",
+    "fullDesc": "Sering terdiagnosis saat anak-anak, tapi gejalanya bisa berlanjut hingga dewasa.",
+    "types": [
+      {
+        "name": "Inattentive Type",
+        "desc": "Sulit fokus (dulu disebut ADD)."
+      },
+      {
+        "name": "Hyperactive-Impulsive",
+        "desc": "Energi berlebih, sulit diam."
+      }
+    ],
+    "symptoms": [
+      "Sering lupa/kehilangan barang",
+      "Tidak bisa diam",
+      "Sulit mendengarkan instruksi",
+      "Impulsif"
+    ],
+    "handling": "Obat stimulan/non-stimulan, Behavioral coaching, lingkungan terstruktur."
+  },
+  {
+    "id": "autism-spectrum",
+    "name": "Autism Spectrum Disorder (ASD)",
+    "category": "Neurodevelopmental",
+    "severity": "Variatif",
+    "severityVariant": "amber",
+    "shortDesc": "Gangguan perkembangan saraf dengan tantangan interaksi sosial dan perilaku repetitif.",
+    "fullDesc": "Spektrum yang sangat luas, dari kebutuhan dukungan rendah hingga sangat tinggi.",
+    "types": [
+      {
+        "name": "High-functioning Autism",
+        "desc": "Mampu fungsi harian mandiri dengan tantangan sosial."
+      },
+      {
+        "name": "Requiring Substantial Support",
+        "desc": "Butuh dukungan intensif untuk komunikasi."
+      }
+    ],
+    "symptoms": [
+      "Kontak mata terbatas",
+      "Sensitivitas sensorik (suara/cahaya)",
+      "Minat sangat spesifik/repetitif"
+    ],
+    "handling": "Terapi Wicara, Occupational Therapy, Social Skills Training."
+  },
+  {
+    "id": "intellectual-disability",
+    "name": "Disabilitas Intelektual",
+    "category": "Neurodevelopmental",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Defisit dalam fungsi intelektual dan adaptif.",
+    "fullDesc": "Mempengaruhi penalaran, pemecahan masalah, perencanaan, dan belajar dari pengalaman.",
+    "types": [
+      {
+        "name": "Mild",
+        "desc": "Masih bisa belajar keterampilan praktis."
+      },
+      {
+        "name": "Severe/Profound",
+        "desc": "Butuh dukungan penuh seumur hidup."
+      }
+    ],
+    "symptoms": [
+      "Lambat bicara/belajar",
+      "Kesulitan mengelola uang/waktu",
+      "Iq rendah"
+    ],
+    "handling": "Pendidikan khusus, dukungan okupasi, dan kemandirian."
+  },
+  {
+    "id": "specific-learning",
+    "name": "Gangguan Belajar Spesifik",
+    "category": "Neurodevelopmental",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Kesulitan belajar keterampilan akademik tertentu (baca, tulis, hitung).",
+    "fullDesc": "Bukan karena kurang intelegensi, tapi cara otak memproses informasi yang berbeda.",
+    "types": [
+      {
+        "name": "Disleksia",
+        "desc": "Kesulitan membaca/mengeja."
+      },
+      {
+        "name": "Diskalkulia",
+        "desc": "Kesulitan menghitung."
+      }
+    ],
+    "symptoms": [
+      "Huruf terbalik",
+      "Lambat membaca",
+      "Sulit memahami angka"
+    ],
+    "handling": "Terapi remedial (bimbingan belajar khusus), teknologi bantu (speech-to-text)."
+  },
+  {
+    "id": "tourette-syndrome",
+    "name": "Sindrom Tourette",
+    "category": "Neurodevelopmental",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Adanya tic motorik dan vokal yang berulang dan tidak disengaja.",
+    "fullDesc": "Sering muncul di masa kanak-kanak dan biasanya berkurang intensitasnya di masa dewasa.",
+    "types": [
+      {
+        "name": "Motor Tic",
+        "desc": "Gerakan berulang (kedip, bahu)."
+      },
+      {
+        "name": "Vocal Tic",
+        "desc": "Suara/kata tidak disengaja."
+      }
+    ],
+    "symptoms": [
+      "Kedipan mata",
+      "Sentakan kepala",
+      "Suara-suara di tenggorokan"
+    ],
+    "handling": "Habit Reversal Training, obat-obatan antipsikotik (jika parah)."
+  },
+  {
+    "id": "oppositional-defiant",
+    "name": "Gangguan Pembangkang (ODD)",
+    "category": "Neurodevelopmental",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Pola perilaku marah, membangkang, dan dendam terhadap otoritas.",
+    "fullDesc": "Anak atau remaja dengan ODD secara konsisten menantang aturan, sering membantah, dan sengaja mengganggu orang lain.",
+    "types": [
+      {
+        "name": "Childhood onset",
+        "desc": "Gejala muncul sebelum usia 8 tahun."
+      }
+    ],
+    "symptoms": [
+      "Sering membantah",
+      "Sengaja mengganggu",
+      "Mudah tersinggung",
+      "Pendendam"
+    ],
+    "handling": "Parent Management Training (PMT), terapi keluarga, dan dukungan perilaku di sekolah."
+  },
+  {
+    "id": "conduct-disorder",
+    "name": "Gangguan Perilaku (Conduct Disorder)",
+    "category": "Neurodevelopmental",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Pola perilaku melanggar hak orang lain dan aturan sosial yang berat.",
+    "fullDesc": "Bentuk yang lebih parah dari ODD, melibatkan agresi pada manusia/hewan, perusakan properti, atau pencurian.",
+    "types": [
+      {
+        "name": "Childhood-onset type",
+        "desc": "Gejala sebelum usia 10 tahun."
+      }
+    ],
+    "symptoms": [
+      "Kejam pada hewan/manusia",
+      "Perusakan properti",
+      "Melarikan diri dari rumah",
+      "Pencurian"
+    ],
+    "handling": "Terapi perilaku multisistemik, pengawasan ketat, dukungan sosial."
+  },
+  {
+    "id": "tic-disorder",
+    "name": "Gangguan Tic Persisten",
+    "category": "Neurodevelopmental",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Gerakan motorik atau suara yang berulang selama >1 tahun.",
+    "fullDesc": "Berbeda dengan Tourette, biasanya hanya satu jenis (motorik saja atau vokal saja).",
+    "types": [
+      {
+        "name": "Motor tic",
+        "desc": "Hanya gerakan."
+      }
+    ],
+    "symptoms": [
+      "Kedipan mata",
+      "Sentakan bahu",
+      "Suara berdehem"
+    ],
+    "handling": "Habit Reversal Training (HRT), manajemen stres."
+  },
+  {
+    "id": "social-communication",
+    "name": "Gangguan Komunikasi Sosial",
+    "category": "Neurodevelopmental",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Kesulitan menggunakan komunikasi verbal/non-verbal secara sosial.",
+    "fullDesc": "Anak mengerti bahasa, tapi tidak bisa mengikuti aturan percakapan (seperti menunggu giliran bicara).",
+    "types": [
+      {
+        "name": "Pragmatic deficit",
+        "desc": "Sulit memahami konteks sosial dalam bahasa."
+      }
+    ],
+    "symptoms": [
+      "Sulit cerita berurutan",
+      "Tidak paham sarkasme"
+    ],
+    "handling": "Terapi wicara, social skills training."
+  },
+  {
+    "id": "language-disorder",
+    "name": "Gangguan Bahasa",
+    "category": "Neurodevelopmental",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kesulitan dalam perolehan dan penggunaan bahasa (kosakata/tata bahasa).",
+    "fullDesc": "Kapasitas bahasa anak jauh di bawah tingkat usia yang seharusnya.",
+    "types": [
+      {
+        "name": "Expressive",
+        "desc": "Sulit mengungkapkan kata-kata."
+      }
+    ],
+    "symptoms": [
+      "Kosakata terbatas",
+      "Kalimat pendek",
+      "Sulit merangkai kata"
+    ],
+    "handling": "Intervensi dini terapi wicara, dukungan pendidikan."
+  },
+  {
+    "id": "speech-sound",
+    "name": "Gangguan Bunyi Ucapan",
+    "category": "Neurodevelopmental",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Kegagalan artikulasi suara yang sesuai dengan usia.",
+    "fullDesc": "Sering disebut 'cedal' atau sulit mengucapkan huruf tertentu (R, S, dll).",
+    "types": [
+      {
+        "name": "Articulation",
+        "desc": "Sulit membentuk suara."
+      }
+    ],
+    "symptoms": [
+      "Salah ucap kata",
+      "Sulit dipahami orang lain"
+    ],
+    "handling": "Terapi artikulasi oleh terapis wicara."
+  },
+  {
+    "id": "childhood-onset-fluency",
+    "name": "Gagap (Stuttering)",
+    "category": "Neurodevelopmental",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Gangguan kelancaran dan pola waktu berbicara.",
+    "fullDesc": "Mengalami repetisi suara, suku kata, atau pemanjangan suara (blokade).",
+    "types": [
+      {
+        "name": "Developmental",
+        "desc": "Muncul saat belajar bicara."
+      }
+    ],
+    "symptoms": [
+      "Mengulang kata",
+      "Blokade suara",
+      "Cemas saat bicara"
+    ],
+    "handling": "Terapi bicara (fluency shaping), manajemen kecemasan bicara."
+  },
+  {
+    "id": "developmental-coordination",
+    "name": "Gangguan Koordinasi Perkembangan",
+    "category": "Neurodevelopmental",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kecanggungan fisik yang signifikan dalam aktivitas motorik.",
+    "fullDesc": "Anak sulit menulis, mengikat tali sepatu, atau menangkap bola.",
+    "types": [
+      {
+        "name": "Dyspraxia",
+        "desc": "Kesulitan merencanakan gerakan."
+      }
+    ],
+    "symptoms": [
+      "Sering jatuh",
+      "Tulisan tangan buruk",
+      "Lambat koordinasi"
+    ],
+    "handling": "Terapi okupasi, latihan motorik halus."
+  },
+  {
+    "id": "stereotypic-movement",
+    "name": "Gangguan Gerakan Stereotipik",
+    "category": "Neurodevelopmental",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Perilaku motorik berulang, tampak tidak bertujuan (misal: menggoyang tubuh).",
+    "fullDesc": "Dapat bersifat merusak jika dilakukan terlalu keras.",
+    "types": [
+      {
+        "name": "Body rocking",
+        "desc": "Menggoyang tubuh."
+      }
+    ],
+    "symptoms": [
+      "Menggoyang tubuh",
+      "Membenturkan kepala",
+      "Melambai tangan"
+    ],
+    "handling": "Terapi perilaku, lingkungan aman (helm/bantal)."
+  },
+  {
+    "id": "explosive-disorder-child",
+    "name": "Ledakan Emosi pada Anak",
+    "category": "Neurodevelopmental",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Tantrum hebat yang tidak sesuai usia.",
+    "fullDesc": "Bukan sekadar manja, tapi gangguan regulasi emosi yang butuh bantuan profesional.",
+    "types": [
+      {
+        "name": "Severe mood dysregulation",
+        "desc": "Regulasi mood buruk."
+      }
+    ],
+    "symptoms": [
+      "Tantrum berkepanjangan",
+      "Lempar barang",
+      "Agresi"
+    ],
+    "handling": "Terapi perilaku, parent training, diet stimulasi."
+  },
+  {
+    "id": "disinhibited-social",
+    "name": "Gangguan Kelekatan Disinhibisi",
+    "category": "Neurodevelopmental",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Anak terlalu ramah/akrab dengan orang asing (tidak punya rasa takut).",
+    "fullDesc": "Risiko tinggi dimanipulasi atau diculik karena tidak punya 'stranger danger'.",
+    "types": [
+      {
+        "name": "Indiscriminate",
+        "desc": "Ramah ke semua orang."
+      }
+    ],
+    "symptoms": [
+      "Memeluk orang asing",
+      "Mudah pergi dengan siapa saja"
+    ],
+    "handling": "Terapi pengasuhan, pengawasan ketat."
+  }
+]

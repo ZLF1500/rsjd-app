@@ -1,0 +1,323 @@
+[
+  {
+    "id": "mdd",
+    "name": "Gangguan Depresi Mayor (MDD)",
+    "category": "Mood",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Rasa sedih yang mendalam dan kehilangan minat secara terus-menerus.",
+    "fullDesc": "Major Depressive Disorder (MDD) adalah gangguan suasana hati serius yang mempengaruhi perasaan, cara berpikir, dan perilaku seseorang secara mendalam, serta dapat mengganggu aktivitas harian secara signifikan jika tidak ditangani dengan tepat.",
+    "types": [
+      {
+        "name": "Depresi Unipolar Klasik",
+        "desc": "Episode depresi berat berulang yang muncul tanpa adanya riwayat fase mania atau hipomania sama sekali."
+      },
+      {
+        "name": "Depresi Atipikal",
+        "desc": "Varian depresi di mana suasana hati dapat membaik untuk sementara waktu saat individu merespons kejadian atau berita yang positif."
+      }
+    ],
+    "symptoms": [
+      "Perasaan sedih, hampa, atau putus asa yang berkepanjangan sepanjang hari",
+      "Anhedonia atau kehilangan minat dan nikmat pada hampir semua aktivitas hobi",
+      "Perubahan pola tidur yang drastis (insomnia parah atau tidur berlebihan) serta perubahan berat badan",
+      "Munculnya pemikiran berulang mengenai kematian atau ideasi bunuh diri"
+    ],
+    "handling": "Psikoterapi perilaku kognitif (CBT), peresepan obat antidepresan (golongan SSRI/SNRI) oleh psikiater, serta penguatan sistem dukungan sosial."
+  },
+  {
+    "id": "dysthymia",
+    "name": "Distimia (Persistent Depressive Disorder)",
+    "category": "Mood",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Bentuk depresi kronis berkepanjangan yang berlangsung minimal selama 2 tahun.",
+    "fullDesc": "Meskipun intensitas gejalanya tidak separah depresi mayor, sifatnya yang menahun membuat penderitanya terjebak dalam suasana suram jangka panjang dan merasa kesulitan untuk merasakan kebahagiaan.",
+    "types": [
+      {
+        "name": "Early-Onset Dysthymia",
+        "desc": "Gejala depresi kronis yang mulai muncul dan berkembang sebelum usia 21 tahun."
+      },
+      {
+        "name": "Late-Onset Dysthymia",
+        "desc": "Kondisi distimia yang pertama kali muncul pada usia dewasa di atas 21 tahun."
+      }
+    ],
+    "symptoms": [
+      "Kurangnya energi dan kelelahan kronis yang konstan dalam menjalani hari",
+      "Harga diri yang rendah dan rasa tidak berharga yang persisten",
+      "Perasaan kehilangan harapan terhadap masa depan",
+      "Gelisah berlebih, pesimisme, dan kesulitan mengambil keputusan"
+    ],
+    "handling": "Psikoterapi psikodinamik, CBT untuk mengubah pola pikir negatif, serta modifikasi gaya hidup sehat secara konsisten."
+  },
+  {
+    "id": "pmdd",
+    "name": "Premenstrual Dysphoric Disorder (PMDD)",
+    "category": "Mood",
+    "severity": "Sedang - Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Bentuk PMS yang jauh lebih berat dengan gangguan emosional signifikan sebelum siklus haid.",
+    "fullDesc": "PMDD adalah kondisi medis hormonal yang memicu fluktuasi suasana hati ekstrem, kemarahan hebat, dan depresi parah menjelang menstruasi, yang terbukti merusak hubungan sosial dan produktivitas kerja.",
+    "types": [
+      {
+        "name": "PMDD Dominan Emosional",
+        "desc": "Kondisi di mana gejala perubahan mood, ledakan emosi, dan iritabilitas sangat mendominasi."
+      },
+      {
+        "name": "PMDD Campuran Fisik-Emosional",
+        "desc": "Kombinasi antara gangguan emosi parah dan keluhan nyeri fisik ekstrem serta kram perut."
+      }
+    ],
+    "symptoms": [
+      "Perubahan suasana hati yang sangat drastis dan datang tiba-tiba (mood swings)",
+      "Iritabilitas tinggi dan ledakan kemarahan yang sulit dikendalikan",
+      "Kecemasan intens, ketegangan saraf, dan rasa kewalahan",
+      "Nyeri payudara yang parah, pembengkakan tubuh, dan nyeri sendi"
+    ],
+    "handling": "Terapi pengaturan hormon, penggunaan antidepresan SSRI dosis rendah pada fase tertentu siklus, serta manajemen diet dan olahraga."
+  },
+  {
+    "id": "bipolar-1",
+    "name": "Gangguan Bipolar Tipe I",
+    "category": "Mood",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Perubahan mood ekstrem dengan minimal satu episode mania penuh yang berat.",
+    "fullDesc": "Gangguan kejiwaan berat di mana penderitanya mengalami episode mania ekstrem yang membuat mereka kehilangan kontak dengan realitas, sering kali memerlukan intervensi medis darurat atau rawat inap.",
+    "types": [
+      {
+        "name": "Mania dengan Fitur Psikotik",
+        "desc": "Episode mania yang disertai dengan gejala halusinasi atau delusi megah."
+      },
+      {
+        "name": "Episode Campuran (Mixed Episode)",
+        "desc": "Kondisi di mana gejala mania dan depresi terjadi secara bersamaan dalam waktu dekat."
+      }
+    ],
+    "symptoms": [
+      "Berbicara sangat cepat, melompat-lompat topik, dan sulit dihentikan",
+      "Merasa sangat berenergi dan tidak butuh tidur selama berhari-hari",
+      "Perilaku sangat impulsif, gegabah, dan mengambil risiko finansial/sosial yang berbahaya",
+      "Ayunan ekstrem menuju fase depresi berat di waktu berbeda"
+    ],
+    "handling": "Pemberian obat penstabil suasana hati (Mood Stabilizer seperti Lithium), antipsikotik, dan psikoterapi jangka panjang."
+  },
+  {
+    "id": "bipolar-2",
+    "name": "Gangguan Bipolar Tipe II",
+    "category": "Mood",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Pola episode hipomania (mania lebih ringan) yang diselingi episode depresi mayor.",
+    "fullDesc": "Penderita Bipolar II tidak pernah mengalami episode mania penuh atau psikosis, namun episode depresi mayor yang mereka alami biasanya jauh lebih sering, mendalam, dan melumpuhkan.",
+    "types": [
+      {
+        "name": "Rapid Cycling Bipolar II",
+        "desc": "Kondisi di mana penderita mengalami empat kali atau lebih episode perubahan mood dalam kurun waktu satu tahun."
+      }
+    ],
+    "symptoms": [
+      "Hipomania (peningkatan energi, kreativitas, dan rasa percaya diri tanpa kehilangan orientasi realitas)",
+      "Episode depresi mayor yang berkepanjangan dan melelahkan",
+      "Rasa mudah tersinggung yang intens dan fluktuasi produktivitas drastis"
+    ],
+    "handling": "Penggunaan mood stabilizer jangka panjang, edukasi manajemen pemicu stres, serta kedisiplinan menjaga pola tidur."
+  },
+  {
+    "id": "cyclothymia",
+    "name": "Siklotimia",
+    "category": "Mood",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Fluktuasi mood ringan antara hipomania dan depresi ringan yang berlangsung selama 2 tahun.",
+    "fullDesc": "Bentuk gangguan bipolar yang lebih ringan namun kronis, di mana penderitanya mengalami naik-turun emosi secara konstan yang mengganggu stabilitas hidup sehari-hari.",
+    "types": [
+      {
+        "name": "Adolescent Cyclothymia",
+        "desc": "Pola siklotimia yang mulai bermanifestasi sejak masa remaja dengan perubahan suasana hati yang cepat."
+      }
+    ],
+    "symptoms": [
+      "Tingkat energi harian yang tidak stabil dan mudah berubah",
+      "Perasaan sangat bersemangat di satu waktu lalu mendadak menjadi murung tanpa sebab jelas"
+    ],
+    "handling": "Sesi konseling psikoterapi, edukasi manajemen gaya hidup, serta pemantauan suasana hati rutin."
+  },
+  {
+    "id": "postpartum-depression",
+    "name": "Depresi Pasca Melahirkan (Postpartum)",
+    "category": "Mood",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Depresi berat yang dialami seorang ibu setelah melahirkan buah hati.",
+    "fullDesc": "Jauh melampaui gejala 'baby blues' biasa, kondisi klinis ini merusak kesehatan mental ibu, mengganggu fungsi fisik, serta memengaruhi kemampuan membangun ikatan batin (bonding) dengan bayi.",
+    "types": [
+      {
+        "name": "Postpartum Depression Klasik",
+        "desc": "Episode depresi emosional mendalam yang muncul dalam beberapa minggu hingga bulan setelah persalinan."
+      },
+      {
+        "name": "Postpartum Psychosis",
+        "desc": "Bentuk darurat medis langka yang disertai halusinasi, delusi, dan risiko bahaya fisik bagi ibu/bayi."
+      }
+    ],
+    "symptoms": [
+      "Kesulitan emosional untuk membangun ikatan (bonding) dengan bayi yang baru lahir",
+      "Ketakutan irasional merasa diri sebagai ibu yang buruk atau gagal",
+      "Sering menangis tanpa alasan jelas dan perasaan kewalahan",
+      "Kelelahan fisik ekstrem yang disertai kecemasan berlebih"
+    ],
+    "handling": "Terapi konseling psikologis, peresepan antidepresan yang aman untuk ibu menyusui, serta dukungan penuh dari keluarga."
+  },
+  {
+    "id": "seasonal-affective",
+    "name": "Gangguan Afektif Musiman (SAD)",
+    "category": "Mood",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Depresi klinis yang dipicu oleh perubahan musim (biasanya saat musim dingin atau hujan).",
+    "fullDesc": "Gangguan suasana hati yang erat kaitannya dengan penurunan paparan sinar matahari, yang secara biologis mengganggu keseimbangan zat serotonin dan melatonin di dalam otak.",
+    "types": [
+      {
+        "name": "Winter-Pattern SAD",
+        "desc": "Episode depresi yang muncul secara konsisten setiap kali memasuki musim hujan atau musim dingin."
+      },
+      {
+        "name": "Summer-Pattern SAD",
+        "desc": "Bentuk depresi musiman yang jarang terjadi dan muncul saat musim panas ekstrem."
+      }
+    ],
+    "symptoms": [
+      "Keinginan kuat mengonsumsi makanan tinggi karbohidrat dan gula",
+      "Hipersomnia (rasa mengantuk berlebihan dan tidur terus-menerus)",
+      "Kecenderungan menarik diri dari pergaulan sosial pada musim tertentu"
+    ],
+    "handling": "Terapi paparan cahaya khusus (Light Therapy), psikoterapi CBT, serta pemenuhan suplemen Vitamin D."
+  },
+  {
+    "id": "premenstrual-syndrome",
+    "name": "PMS (Sindrom Pramenstruasi)",
+    "category": "Mood",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Kelompok gejala fisik dan emosional ringan menjelang siklus menstruasi.",
+    "fullDesc": "Kondisi umum yang dialami wanita sebelum haid, tingkat keparahannya lebih ringan dibandingkan PMDD dan tidak sampai melumpuhkan fungsi sosial atau pekerjaan.",
+    "types": [
+      {
+        "name": "Mild PMS Presentation",
+        "desc": "Gejala fisik dan emosional ringan yang dapat dikelola dengan penyesuaian gaya hidup."
+      }
+    ],
+    "symptoms": [
+      "Perut terasa kembung dan tidak nyaman",
+      "Perubahan suasana hati yang ringan dan sensitif",
+      "Nyeri atau rasa peka pada payudara"
+    ],
+    "handling": "Penerapan pola makan sehat gizi seimbang, olahraga teratur, dan teknik manajemen stres."
+  },
+  {
+    "id": "adjustment-depressive",
+    "name": "Gangguan Penyesuaian dengan Mood Depresi",
+    "category": "Mood",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Gejala depresi reaktif yang muncul pasca menghadapi peristiwa hidup yang menekan.",
+    "fullDesc": "Respons emosional yang berlebihan dan tidak sebanding terhadap stresor kehidupan tertentu yang mendadak, seperti perceraian, kebangkrutan, atau pemutusan hubungan kerja (PHK).",
+    "types": [
+      {
+        "name": "Adjustment Disorder with Depressed Mood",
+        "desc": "Kondisi penyesuaian diri yang didominasi oleh rasa sedih mendalam."
+      }
+    ],
+    "symptoms": [
+      "Sering menangis dan merasa kehilangan arah",
+      "Perasaan putus asa menghadapi situasi hidup saat ini",
+      "Penurunan semangat kerja dan motivasi harian"
+    ],
+    "handling": "Sesi konseling psikologis suportif dan panduan pemecahan masalah (coping strategy)."
+  },
+  {
+    "id": "adjustment-mixed",
+    "name": "Gangguan Penyesuaian dengan Campuran Cemas dan Depresi",
+    "category": "Mood",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kombinasi gejala cemas dan depresi yang muncul sebagai reaksi atas transisi hidup yang berat.",
+    "fullDesc": "Sering kali dialami oleh individu yang harus menghadapi masa transisi besar yang penuh ketidakpastian, seperti pindah negara, mutasi kerja, atau perubahan lingkungan sosial drastis.",
+    "types": [
+      {
+        "name": "Mixed Anxiety and Depressed Adjustment",
+        "desc": "Reaksi stres transisional yang memunculkan kecemasan sekaligus kesedihan."
+      }
+    ],
+    "symptoms": [
+      "Perasaan gelisah, tegang, dan khawatir berlebihan",
+      "Suasana hati sedih dan lesu secara bersamaan",
+      "Gangguan tidur dan penurunan kualitas istirahat"
+    ],
+    "handling": "Psikoterapi berbasis CBT dan pelatihan teknik manajemen stres adaptif."
+  },
+  {
+    "id": "unspecified-depressive",
+    "name": "Gangguan Depresi yang Tidak Ditentukan",
+    "category": "Mood",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Gejala depresi yang mengganggu namun belum memenuhi kriteria lengkap diagnosis MDD.",
+    "fullDesc": "Kategori klinis penunjang bagi pasien yang menunjukkan manifestasi klinis gangguan depresi, tetapi jumlah atau durasi gejalanya sedikit berada di bawah ambang batas diagnosis Depresi Mayor.",
+    "types": [
+      {
+        "name": "Subthreshold Depression",
+        "desc": "Kondisi gejala depresi ringan-sedang yang berada di bawah standar kriteria formal."
+      }
+    ],
+    "symptoms": [
+      "Suasana hati rendah yang dirasakan secara subjektif",
+      "Penurunan minat pada beberapa aktivitas rutin"
+    ],
+    "handling": "Pemantauan klinis berkala oleh profesional dan sesi konseling psikologis."
+  },
+  {
+    "id": "brief-depressive",
+    "name": "Episode Depresi Singkat Berulang",
+    "category": "Mood",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Episode depresi dengan durasi singkat (kurang dari 2 minggu) namun sering kambuh.",
+    "fullDesc": "Meskipun masing-masing episode berlangsung dalam kurun waktu yang relatif singkat, intensitas kesedihan dan dampaknya cukup tinggi untuk mengganggu ritme kehidupan penderitanya.",
+    "types": [
+      {
+        "name": "Recurrent Brief Depression",
+        "desc": "Serangan depresi singkat yang datang kembali secara berulang dalam pola waktu tertentu."
+      }
+    ],
+    "symptoms": [
+      "Rasa sedih yang intens meskipun berlangsung singkat",
+      "Kelelahan fisik mendadak (fatigue)",
+      "Kesulitan fokus berpikir saat episode menyerang"
+    ],
+    "handling": "Psikoterapi suportif dan edukasi pengelolaan pola hidup sehat."
+  },
+  {
+    "id": "cyclothymic-disorder",
+    "name": "Gangguan Siklotimik",
+    "category": "Mood",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Bentuk ringan namun kronis dari spektrum gangguan Bipolar.",
+    "fullDesc": "Penderita mengalami siklus perubahan suasana hati yang konstan, berayun antara fase hipomania ringan dan depresi ringan yang berlangsung stabil setidaknya selama dua tahun berturut-turut.",
+    "types": [
+      {
+        "name": "Chronic Mood Swings Pattern",
+        "desc": "Pola ayunan emosi berkelanjutan yang membentuk karakteristik kepribadian."
+      }
+    ],
+    "symptoms": [
+      "Tingkat energi harian yang naik turun secara fluktuatif",
+      "Suasana hati yang tidak stabil dan mudah berubah arah",
+      "Distres psikologis tingkat ringan hingga sedang"
+    ],
+    "handling": "Penggunaan mood stabilizer ringan jika diperlukan, serta terapi kognitif (CBT) untuk stabilitas emosi."
+  }
+]

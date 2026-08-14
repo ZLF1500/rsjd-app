@@ -1,0 +1,700 @@
+[
+  {
+    "id": "mdd",
+    "name": "Gangguan Depresi Mayor (MDD)",
+    "category": "Mood",
+    "severity": "Sedang - Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Gangguan suasana hati ditandai dengan rasa sedih yang mendalam dan kehilangan minat secara terus-menerus.",
+    "fullDesc": "Major Depressive Disorder (MDD) mempengaruhi perasaan, cara berpikir, dan perilaku seseorang secara mendalam. Penderita sering merasa tidak berharga, kehilangan motivasi hidup, hingga mengalami gangguan fisik seperti perubahan berat badan kronis dan insomnia.",
+    "types": [
+      {
+        "name": "Depresi Unipolar",
+        "desc": "Episode depresi berat tanpa pernah mengalami masa mania/hipomania."
+      },
+      {
+        "name": "Depresi Atipikal",
+        "desc": "Depresi di mana suasana hati dapat membaik sementara saat merespons kejadian positif."
+      },
+      {
+        "name": "Persistent Depressive Disorder (Dysthymia)",
+        "desc": "Bentuk depresi kronis berkepanjangan yang berlangsung minimal 2 tahun."
+      }
+    ],
+    "symptoms": [
+      "Perasaan sedih, hampa, atau putus asa hampir setiap hari.",
+      "Anhedonia (kehilangan minat penuh pada hobi dan aktivitas harian).",
+      "Perubahan pola tidur (insomnia berat atau hipersomnia).",
+      "Pikiran berulang tentang kematian atau ideasi bunuh diri."
+    ],
+    "handling": "Terapi Perilaku Kognitif (CBT), pemberian Antidepresan (SSRI/SNRI), serta terapi kombinasi psikososial."
+  },
+  {
+    "id": "bipolar",
+    "name": "Gangguan Bipolar",
+    "category": "Mood",
+    "severity": "Sedang - Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Perubahan suasana hati (mood) yang ekstrem antara fase mania (euforia) dan fase depresi.",
+    "fullDesc": "Gangguan bipolar menyebabkan pergeseran drastis dalam energi, tingkat aktivitas, dan konsentrasi. Penderita bisa merasa sangat berenergi tanpa tidur selama beberapa hari (mania), lalu jatuh ke fase depresi berat.",
+    "types": [
+      {
+        "name": "Bipolar I",
+        "desc": "Minimal satu episode mania berat yang berlangsung sedikitnya 7 hari atau membutuhkan rawat inap."
+      },
+      {
+        "name": "Bipolar II",
+        "desc": "Pola episode hipomania (mania lebih ringan) dan episode depresi mayor."
+      },
+      {
+        "name": "Siklotimia",
+        "desc": "Fluktuasi mood hipomania dan depresi ringan yang berlangsung selama minimal 2 tahun."
+      }
+    ],
+    "symptoms": [
+      "Fase Mania: Berbicara sangat cepat, impulsif, merasa sangat berkuasa/hebat, tak butuh tidur.",
+      "Fase Depresi: Kehilangan energi total, rasa bersalah berlebih, penarikan diri ekstrem."
+    ],
+    "handling": "Mood stabilizer (seperti Lithium), antipsikotik atipikal, psikoterapi jangka panjang, dan rutinitas tidur yang ketat."
+  },
+  {
+    "id": "gad",
+    "name": "Gangguan Kecemasan Umum (GAD)",
+    "category": "Anxiety",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Rasa cemas dan khawatir berlebihan menetap terhadap berbagai hal dalam kehidupan sehari-hari.",
+    "fullDesc": "Generalized Anxiety Disorder (GAD) ditandai dengan kecemasan yang sulit dikendalikan terkait pekerjaan, kesehatan, finansial, atau keluarga selama minimal 6 bulan, bahkan ketika tidak ada ancaman nyata.",
+    "types": [
+      {
+        "name": "GAD Ringan",
+        "desc": "Kecemasan fisik ringan tetapi fungsi sosial dan pekerjaan masih dapat berjalan."
+      },
+      {
+        "name": "GAD Berat",
+        "desc": "Kecemasan konstan yang melumpuhkan produktivitas dan sering memicu ketegangan otot hebat."
+      }
+    ],
+    "symptoms": [
+      "Gelisah, merasa tegang, atau 'berada di ujung tanduk'.",
+      "Ketegangan otot kronis dan sulit konsentrasi (pikiran sering kosong).",
+      "Gangguan tidur dan rasa lelah berlebihan meski tidak banyak beraktivitas."
+    ],
+    "handling": "Psikoterapi CBT, latihan relaksasi/mindfulness, obat Anksiolitik atau SSRI di bawah pengawasan dokter."
+  },
+  {
+    "id": "panic",
+    "name": "Gangguan Panik (Panic Disorder)",
+    "category": "Anxiety",
+    "severity": "Sedang - Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Serangan rasa takut hebat yang datang mendadak dan berulang tanpa pemicu yang jelas.",
+    "fullDesc": "Serangan panik melibatkan gelombang ketakutan fisik mendadak yang memuncak dalam beberapa menit. Penderita sering mengira mereka mengalami serangan jantung atau hampir mati.",
+    "types": [
+      {
+        "name": "Panic Disorder tanpa Agorafobia",
+        "desc": "Serangan panik mendadak tanpa ketakutan berada di tempat umum."
+      },
+      {
+        "name": "Panic Disorder dengan Agorafobia",
+        "desc": "Serangan panik disertai ketakutan berada di lokasi yang sulit melarikan diri."
+      }
+    ],
+    "symptoms": [
+      "Jantung berdebar kencang (palpitasi) dan sesak napas.",
+      "Nyeri dada, pusing, gemetar hebat, dan berkeringat dingin.",
+      "Rasa depersonalisasi (merasa terpisah dari tubuh sendiri) dan takut kehilangan kendali."
+    ],
+    "handling": "CBT dengan Exposure Therapy, resep Anti-ansietas/SSRI, serta teknik pernapasan diafragma."
+  },
+  {
+    "id": "social-anxiety",
+    "name": "Gangguan Kecemasan Sosial (SAD)",
+    "category": "Anxiety",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Ketakutan mendalam akan dinilai negatif, dipermalukan, atau ditolak dalam situasi sosial.",
+    "fullDesc": "Social Anxiety Disorder bukan sekadar sifat pemalu. Penderita merasakan kecemasan fisik hebat saat harus berbicara di depan umum, bertemu orang baru, atau bahkan makan di tempat umum.",
+    "types": [
+      {
+        "name": "SAD Tergeneralisasi",
+        "desc": "Kecemasan sosial hampir di semua interaksi sosial sehari-hari."
+      },
+      {
+        "name": "SAD Spesifik Performansi",
+        "desc": "Kecemasan terbatas pada momen seperti presentasi atau tampil di panggung."
+      }
+    ],
+    "symptoms": [
+      "Muka memerah, berkeringat, dan suara gemetar saat bicara dengan orang lain.",
+      "Menghindari situasi sosial secara ekstrem.",
+      "Selalu menganalisis kelemahan diri sendiri setelah berinteraksi sosial."
+    ],
+    "handling": "Terapi pemaparan bertahap (Exposure Therapy), CBT kelompok, dan penggunaan Beta-blocker untuk gejala fisik."
+  },
+  {
+    "id": "ocd",
+    "name": "OCD (Obsessive-Compulsive Disorder)",
+    "category": "Anxiety",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Pikiran obsesif berulang yang memicu tindakan kompulsif repetitif untuk meredakan cemas.",
+    "fullDesc": "Penderita OCD terjebak dalam siklus obsesi (pikiran/dorongan tak diinginkan yang memicu cemas) dan kompulsi (perilaku berulang yang harus dilakukan untuk menghilangkan cemas tersebut).",
+    "types": [
+      {
+        "name": "Contamination (Kontaminasi)",
+        "desc": "Kecemasan kuman/kotoran, memicu cuci tangan atau pembersihan berulang."
+      },
+      {
+        "name": "Checking (Pemeriksaan)",
+        "desc": "Kebutuhan memeriksa kompor, pintu, atau kunci berulang kali."
+      },
+      {
+        "name": "Symmetry & Order",
+        "desc": "Keharusan menyusun benda secara simetris dan rapi secara presisi."
+      },
+      {
+        "name": "Forbidden Thoughts",
+        "desc": "Pikiran tabu/invasif yang tidak diinginkan dan memicu ritual mental."
+      }
+    ],
+    "symptoms": [
+      "Obsesi: Takut terkena kuman, pikiran takut bahaya, atau keharusan simetri.",
+      "Kompulsi: Mencuci tangan berulang hingga luka, menghitung langkah, mengecek ulang."
+    ],
+    "handling": "Terapi Exposure and Response Prevention (ERP), CBT, dan psikofarmaka dosis tinggi (SSRI)."
+  },
+  {
+    "id": "ptsd",
+    "name": "PTSD (Post-Traumatic Stress Disorder)",
+    "category": "Trauma",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Gangguan kesehatan mental yang dipicu oleh pengalaman atau menyaksikan peristiwa traumatis.",
+    "fullDesc": "PTSD dapat berkembang setelah seseorang mengalami trauma hebat seperti bencana alam, kekerasan seksual, peperangan, atau kecelakaan berat. Penderita terus merasa seolah peristiwa itu terjadi kembali.",
+    "types": [
+      {
+        "name": "Acute PTSD",
+        "desc": "Gejala berlangsung kurang dari 3 bulan setelah peristiwa traumatis."
+      },
+      {
+        "name": "Complex PTSD (C-PTSD)",
+        "desc": "Akibat trauma berulang jangka panjang, misalnya kekerasan dalam rumah tangga."
+      }
+    ],
+    "symptoms": [
+      "Flashback (merasakan kembali trauma seolah sedang terjadi lagi).",
+      "Mimpi buruk berulang terkait peristiwa trauma.",
+      "Hiperkewaspadaan (mudah terkejut dan selalu merasa terancam)."
+    ],
+    "handling": "Terapi EMDR (Eye Movement Desensitization and Reprocessing), Trauma-focused CBT, serta pengobatan medis."
+  },
+  {
+    "id": "adjustment-disorder",
+    "name": "Gangguan Penyesuaian (Adjustment Disorder)",
+    "category": "Trauma",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Reaksi emosional/perilaku yang tidak proporsional terhadap perubahan hidup besar.",
+    "fullDesc": "Terjadi ketika seseorang kesulitan beradaptasi dengan stresor kehidupan tertentu seperti perceraian, PHK, pindah kota, atau masalah finansial mendadak. Berlangsung kurang dari 6 bulan setelah stresor hilang.",
+    "types": [
+      {
+        "name": "Dengan Suasana Hati Depresi",
+        "desc": "Didominasi rasa sedih mendalam dan mudah menangis."
+      },
+      {
+        "name": "Dengan Kecemasan",
+        "desc": "Didominasi kekhawatiran berlebih dan rasa tegang."
+      }
+    ],
+    "symptoms": [
+      "Perasaan cemas atau sedih yang melumpuhkan produktivitas pasca kejadian stres.",
+      "Kesulitan tidur dan ketidakmampuan untuk berkonsentrasi.",
+      "Penarikan diri dari interaksi sosial sementara."
+    ],
+    "handling": "Konseling psikologis jangka pendek, CBT, dan teknik manajemen stres."
+  },
+  {
+    "id": "skizofrenia",
+    "name": "Skizofrenia Paranoid",
+    "category": "Psikotik",
+    "severity": "Sangat Tinggi (Kritis)",
+    "severityVariant": "destructive",
+    "shortDesc": "Gangguan psikotik berat yang ditandai dengan kecurigaan berlebih, waham/delusi, dan halusinasi.",
+    "fullDesc": "Skizofrenia adalah gangguan jiwa kronis di mana seseorang mengalami interpretasi realitas yang terganggu. Halusinasi dan delusi membuat penderita sulit membedakan antara khayalan dan kenyataan.",
+    "types": [
+      {
+        "name": "Skizofrenia Paranoid",
+        "desc": "Dominan dengan waham kejar/curiga dan halusinasi pendengaran."
+      },
+      {
+        "name": "Skizofrenia Katatonik",
+        "desc": "Didominasi gangguan gerak seperti kekakuan tubuh ekstrem atau stupor."
+      },
+      {
+        "name": "Skizofrenia Disorganisasi",
+        "desc": "Bicara dan pola pikir yang sangat kacau serta afek tumpul."
+      }
+    ],
+    "symptoms": [
+      "Delusi/Waham (keyakinan tidak rasional, misal merasa diintai agen rahasia).",
+      "Halusinasi (mendengar bisikan atau melihat sesuatu yang tidak ada).",
+      "Gejala Negatif: Penarikan diri total dari lingkungan dan hilangnya emosi."
+    ],
+    "handling": "Antipsikotik seumur hidup (atipikal/tipikal), terapi psikososial, dan pemantauan dari tim psikiatri."
+  },
+  {
+    "id": "schizoaffective",
+    "name": "Gangguan Skizoafektif",
+    "category": "Psikotik",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Kombinasi gejala skizofrenia (halusinasi/delusi) dan gangguan suasana hati (depresi/bipolar).",
+    "fullDesc": "Gangguan skizoafektif ditandai dengan kombinasi gejala psikotik seperti halusinasi atau delusi bersamaan dengan episode mood seperti depresi berat atau mania.",
+    "types": [
+      {
+        "name": "Tipe Bipolar",
+        "desc": "Kombinasi gejala psikotik dengan episode mania atau mania-depresi."
+      },
+      {
+        "name": "Tipe Depresif",
+        "desc": "Kombinasi gejala psikotik hanya dengan episode depresi mayor."
+      }
+    ],
+    "symptoms": [
+      "Mendengar suara-suara aneh bersamaan dengan fase kegembiraan ekstrem atau kesedihan berat.",
+      "Kemampuan berkomunikasi terganggu.",
+      "Gaya hidup tidak teratur dan perawatan diri yang minim."
+    ],
+    "handling": "Kombinasi obat Antipsikotik, Antidepresan/Mood Stabilizer, serta terapi dukungan keluarga."
+  },
+  {
+    "id": "bpd",
+    "name": "Borderline Personality Disorder (BPD)",
+    "category": "Personality",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Ketidakstabilan ekstrem dalam hubungan interpersonal, citra diri, dan kontrol emosi.",
+    "fullDesc": "BPD ditandai dengan pola emosi yang sangat labil, ketakutan mendalam akan penolakan/ditinggalkan, perilaku impulsif, dan hubungan antarmanusia yang sering kali bermasalah.",
+    "types": [
+      {
+        "name": "Discouraged BPD",
+        "desc": "BPD yang cenderung menarik diri dan menyalahkan diri sendiri."
+      },
+      {
+        "name": "Impulsive BPD",
+        "desc": "BPD dengan fokus tinggi pada pencarian sensasi dan perilaku berisiko."
+      }
+    ],
+    "symptoms": [
+      "Ketakutan luar biasa akan penolakan atau ditinggalkan.",
+      "Splitting (melihat seseorang secara ekstrem: sangat sempurna atau sangat jahat).",
+      "Dorongan menyakiti diri sendiri (self-harm) saat krisis emosional."
+    ],
+    "handling": "Dialectical Behavior Therapy (DBT), Mentalization-Based Therapy (MBT), dan obat simptomatik."
+  },
+  {
+    "id": "npd",
+    "name": "Narcissistic Personality Disorder (NPD)",
+    "category": "Personality",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kebutuhan berlebihan akan pujian, kebanggaan diri ekstrem, dan kurangnya empati.",
+    "fullDesc": "Orang dengan NPD memiliki rasa pentingnya diri yang melambung tinggi, haus akan kekaguman, namun di balik itu memiliki harga diri yang sangat rapuh dan rentan terhadap kritik.",
+    "types": [
+      {
+        "name": "Grandiose NPD",
+        "desc": "Tipe narsistik terbuka, percaya diri berlebih, dan dominan."
+      },
+      {
+        "name": "Vulnerable NPD",
+        "desc": "Tipe narsistik tertutup, sangat sensitif terhadap kritik, dan defensif."
+      }
+    ],
+    "symptoms": [
+      "Mempunyai fantasi sukses, kekuasaan, atau kecantikan berlebihan.",
+      "Mengambil keuntungan dari orang lain demi mencapai tujuan pribadi.",
+      "Kesulitan atau enggan mengakui perasaan dan kebutuhan orang lain (kurang empati)."
+    ],
+    "handling": "Psikoterapi psikodinamik jangka panjang dan CBT untuk membangun empati asli."
+  },
+  {
+    "id": "aspd",
+    "name": "Antisocial Personality Disorder (ASPD)",
+    "category": "Personality",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Pola pengabaian dan pelanggaran hak-hak orang lain secara terus-menerus.",
+    "fullDesc": "Penderita ASPD sering disebut memunculkan perilaku psikopat atau sosiopat. Mereka mengabaikan aturan hukum, memanipulasi orang lain, dan tidak memiliki penyesalan atas tindakan buruk mereka.",
+    "types": [
+      {
+        "name": "ASPD dengan Sifat Psikopat",
+        "desc": "Karakter dominan dengan manipulasi dingin dan ketakutan fisik yang minim."
+      },
+      {
+        "name": "ASPD Sosiopat",
+        "desc": "Cenderung lebih impulsif, emosional, dan tidak terorganisir."
+      }
+    ],
+    "symptoms": [
+      "Sering berbohong, menipu, dan memanipulasi demi keuntungan pribadi.",
+      "Sikap impulsif, agresif, dan sering terlibat dalam perkelahian.",
+      "Kurangnya rasa penyesalan (remorse) setelah menyakiti atau merugikan orang lain."
+    ],
+    "handling": "Psikoterapi modifikasi perilaku (sulit ditangani), fokus pada pengurangan risiko kriminalitas."
+  },
+  {
+    "id": "sud",
+    "name": "Adiksi Zat / Narkoba (Substance Use Disorder)",
+    "category": "Adiksi",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Ketergantungan fisik dan psikologis terhadap penggunaan alkohol, nikotin, atau obat terlarang.",
+    "fullDesc": "Substance Use Disorder adalah kondisi di mana seseorang terus menggunakan zat meskipun mengetahui dampak buruk yang ditimbulkannya pada kesehatan, hubungan sosial, dan keuangan.",
+    "types": [
+      {
+        "name": "Adiksi Alkohol",
+        "desc": "Ketergantungan kronis pada minuman beralkohol (alkolisme)."
+      },
+      {
+        "name": "Adiksi Opioid / Stimulan",
+        "desc": "Ketergantungan pada obat pereda nyeri sintetis atau zat adiktif terlarang."
+      }
+    ],
+    "symptoms": [
+      "Toleransi zat (membutuhkan dosis makin tinggi untuk efek sama).",
+      "Gejala sakau (withdrawal) saat mencoba berhenti.",
+      "Kehilangan kendali atas dorongan untuk mengonsumsi zat."
+    ],
+    "handling": "Detoksifikasi medis, rehabilitasi psikososial, kelompok pendukung (AA/NA), dan terapi perilaku."
+  },
+  {
+    "id": "gambling-disorder",
+    "name": "Adiksi Judi / Gambling Disorder",
+    "category": "Adiksi",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Perilaku perjudian berulang yang tak terkontrol hingga merusak kehidupan finansial dan sosial.",
+    "fullDesc": "Gambling Disorder adalah adiksi perilaku yang diakui secara medis. Otak penderita merespons perjudian mirip dengan orang yang ketergantungan narkoba akibat dorongan dopamin mendadak.",
+    "types": [
+      {
+        "name": "Judi Online Repetitif",
+        "desc": "Keterikatan mendalam pada situs taruhan atau slot online secara terus-menerus."
+      },
+      {
+        "name": "Judi Kasino / Fisik",
+        "desc": "Keterikatan pada permainan ketangkasan taruhan uang sungguhan."
+      }
+    ],
+    "symptoms": [
+      "Perlu bertaruh dengan jumlah uang yang semakin besar.",
+      "Gelisah atau mudah tersinggung saat mencoba mengurangi judi.",
+      "Mengejar kekalahan (chasing losses) dengan bertaruh lebih banyak lagi."
+    ],
+    "handling": "CBT adiksi, pendampingan finansial, blokir akses taruhan, dan terapi kelompok."
+  },
+  {
+    "id": "gaming-disorder",
+    "name": "Adiksi Game (Gaming Disorder)",
+    "category": "Adiksi",
+    "severity": "Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Pola perilaku bermain game yang sangat intens hingga mengabaikan prioritas hidup lainnya.",
+    "fullDesc": "Diakui oleh WHO (ICD-11), gangguan ini ditandai dengan ketidakmampuan mengendalikan kebiasaan bermain game, di mana game diprioritaskan di atas minat dan aktivitas sehari-hari.",
+    "types": [
+      {
+        "name": "Online Gaming Disorder",
+        "desc": "Fokus pada game multiplayer online berbasis kompetisi atau komunitas."
+      },
+      {
+        "name": "Offline Gaming Disorder",
+        "desc": "Adiksi pada permainan konsol/PC tunggal tanpa interaksi internet."
+      }
+    ],
+    "symptoms": [
+      "Gangguan kendali atas durasi dan frekuensi bermain game.",
+      "Meningkatnya prioritas diberikan pada game hingga mengabaikan tugas/sekolah.",
+      "Tetap bermain meskipun terjadi konsekuensi negatif (skorsing, putus hubungan)."
+    ],
+    "handling": "Terapi pembatasan layar, CBT, pembentukan hobi baru di dunia nyata, dan konseling keluarga."
+  },
+  {
+    "id": "adhd",
+    "name": "ADHD (Attention-Deficit/Hyperactivity Disorder)",
+    "category": "Neurodevelopmental",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Pola inatensi (sulit fokus), hiperaktivitas, dan perilaku impulsif yang mengganggu fungsi harian.",
+    "fullDesc": "ADHD adalah gangguan perkembangan saraf yang sering dimulai pada masa kanak-kanak dan bisa berlanjut hingga dewasa. Penderita mengalami kesulitan dalam mengatur konsentrasi dan mengontrol impuls.",
+    "types": [
+      {
+        "name": "Inattentive Type",
+        "desc": "Dominan masalah fokus dan tidak bisa memperhatikan detail."
+      },
+      {
+        "name": "Hyperactive-Impulsive Type",
+        "desc": "Dominan tidak bisa diam, gelisah, dan bertindak tanpa berpikir."
+      },
+      {
+        "name": "Combined Type",
+        "desc": "Kombinasi dari masalah fokus dan perilaku hiperaktif."
+      }
+    ],
+    "symptoms": [
+      "Mudah terdistraksi dan sering lupa menyelesaikan tugas harian.",
+      "Kesulitan duduk tenang, sering menggerakkan tangan/kaki secara konstan.",
+      "Sering memotong pembicaraan orang lain secara impulsif."
+    ],
+    "handling": "Obat stimulan (misal: Methylphenidate), terapi okupasi, dan pelatihan manajemen waktu/fokus."
+  },
+  {
+    "id": "asd",
+    "name": "Autism Spectrum Disorder (ASD)",
+    "category": "Neurodevelopmental",
+    "severity": "Bervariasi",
+    "severityVariant": "amber",
+    "shortDesc": "Gangguan perkembangan yang mempengaruhi komunikasi, interaksi sosial, dan pola perilaku.",
+    "fullDesc": "ASD adalah kondisi spektrum dengan rentang variasi yang sangat luas. Penderita mengalami tantangan dalam komunikasi verbal/non-verbal, interaksi sosial, serta memiliki minat terbatas yang berulang.",
+    "types": [
+      {
+        "name": "ASD Level 1 (Dahulu Asperger)",
+        "desc": "Butuh dukungan minimal, komunikasi baik namun canggung sosial."
+      },
+      {
+        "name": "ASD Level 2 & 3",
+        "desc": "Membutuhkan dukungan substansial hingga sangat signifikan untuk aktivitas harian."
+      }
+    ],
+    "symptoms": [
+      "Kesulitan memahami norma sosial, bahasa tubuh, atau kontak mata.",
+      "Perilaku repetitif (stimming) seperti mengayunkan badan.",
+      "Sensitivitas ekstrem terhadap rangsangan sensorik (suara keras, cahaya terang)."
+    ],
+    "handling": "Applied Behavior Analysis (ABA), terapi wicara, terapi okupasi, dan dukungan edukasi khusus."
+  },
+  {
+    "id": "tourette",
+    "name": "Sindrom Tourette (Tic Disorder)",
+    "category": "Neurodevelopmental",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Gerakan atau vokal berulang yang tidak disengaja dan sulit dikendalikan (tic).",
+    "fullDesc": "Sindrom Tourette adalah gangguan sistem saraf yang menyebabkan orang melakukan gerakan atau suara mendadak yang tidak terkontrol (tic motorik dan vokal).",
+    "types": [
+      {
+        "name": "Tic Motorik",
+        "desc": "Gerakan seperti berkedip cepat, menghentakkan bahu, atau mengangguk."
+      },
+      {
+        "name": "Tic Vokal",
+        "desc": "Suara seperti bergumam, berdehem, atau mengucapkan kata mendadak."
+      }
+    ],
+    "symptoms": [
+      "Gerakan mata atau wajah berulang tanpa disengaja.",
+      "Keinginan dorongan internal yang kuat sebelum tic muncul.",
+      "Tic memburuk saat dalam kondisi stres atau sangat lelah."
+    ],
+    "handling": "Comprehensive Behavioral Intervention for Tics (CBIT) dan obat pengatur dopamin jika mengganggu."
+  },
+  {
+    "id": "anorexia",
+    "name": "Anoreksia Nervosa",
+    "category": "Eating",
+    "severity": "Tinggi (Mengancam Jiwa)",
+    "severityVariant": "destructive",
+    "shortDesc": "Pembatasan asupan makanan secara ekstrem karena ketakutan berlebih akan kenaikan berat badan.",
+    "fullDesc": "Anoreksia adalah gangguan makan berbahaya yang ditandai dengan berat badan yang sangat rendah, ketakutan intens terhadap penambahan berat badan, dan persepsi tubuh yang terdistorsi.",
+    "types": [
+      {
+        "name": "Restricting Type",
+        "desc": "Penurunan berat badan murni dari diet ketat, puasa ekstrem, dan olahraga berlebih."
+      },
+      {
+        "name": "Binge-Eating/Purging Type",
+        "desc": "Disertai episode muntah yang disengaja atau penggunaan pencahar."
+      }
+    ],
+    "symptoms": [
+      "Pembatasan makan yang sangat ketat hingga kelaparan.",
+      "Tubuh sangat kurus namun tetap merasa 'gemuk' saat melihat cermin.",
+      "Rambut rontok, kuku rapuh, dan terhentinya siklus menstruasi (amenore)."
+    ],
+    "handling": "Intervensi gizi medis, terapi keluarga (Maudsley approach), CBT, dan perawatan rawat inap jika kritis."
+  },
+  {
+    "id": "bulimia",
+    "name": "Bulimia Nervosa",
+    "category": "Eating",
+    "severity": "Sedang - Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Siklus makan berlebihan (binge eating) diikuti perilaku pembersihan (muntah disengaja).",
+    "fullDesc": "Penderita bulimia kehilangan kendali dan mengonsumsi makanan dalam jumlah besar secara mendadak, lalu mengompensasinya dengan cara yang tidak sehat seperti memuntahkan makanan kembali.",
+    "types": [
+      {
+        "name": "Purging Bulimia",
+        "desc": "Menggunakan cara memuntahkan makanan atau pencahar setelah makan."
+      },
+      {
+        "name": "Non-Purging Bulimia",
+        "desc": "Menggunakan puasa ekstrem atau olahraga berat setelah episode makan banyak."
+      }
+    ],
+    "symptoms": [
+      "Makan sejumlah besar makanan dalam waktu singkat tanpa kendali.",
+      "Pergi ke kamar mandi segera setelah makan untuk memuntahkan makanan.",
+      "Kerusakan email gigi akibat asam lambung dan masalah penceranaan kronis."
+    ],
+    "handling": "CBT khusus gangguan makan (CBT-E), konseling nutrisi, dan obat antidepresan (SSRI)."
+  },
+  {
+    "id": "bed",
+    "name": "Binge Eating Disorder (BED)",
+    "category": "Eating",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Episode makan banyak tanpa kendali secara berulang tanpa tindakan pencucian/muntah.",
+    "fullDesc": "BED adalah gangguan makan di mana penderita sering mengonsumsi makanan porsi sangat besar secara cepat hingga merasa sangat kenyang dan bersalah, tetapi tidak memuntahkannya.",
+    "types": [
+      {
+        "name": "BED Sedang",
+        "desc": "Terjadi 4 sampai 7 episode makan berlebihan dalam seminggu."
+      },
+      {
+        "name": "BED Ekstrem",
+        "desc": "Terjadi lebih dari 14 episode makan berlebihan dalam seminggu."
+      }
+    ],
+    "symptoms": [
+      "Makan sangat cepat dan terus makan meskipun sudah kenyang.",
+      "Makan sendirian karena merasa malu dengan jumlah makanan yang dikonsumsi.",
+      "Rasa jijik pada diri sendiri, depresi, atau penyesalan mendalam setelah makan."
+    ],
+    "handling": "Terapi Interpersonal (IPT), CBT, dan obat lisdexamfetamine untuk mengontrol dorongan makan."
+  },
+  {
+    "id": "dissociative-identity",
+    "name": "DID (Dissociative Identity Disorder)",
+    "category": "Disosiatif",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Kondisi di mana seseorang memiliki dua atau lebih kepribadian terpisah yang bergantian mengambil alih.",
+    "fullDesc": "Dahulu dikenal sebagai kepribadian ganda. DID umumnya terbentuk sebagai mekanisme pertahanan diri terhadap trauma masa kecil yang luar biasa berat.",
+    "types": [
+      {
+        "name": "DID Overt",
+        "desc": "Perubahan antar kepribadian terlihat sangat jelas bagi orang luar."
+      },
+      {
+        "name": "DID Covert",
+        "desc": "Perubahan identitas lebih bersifat internal dengan amnesia masa lalu."
+      }
+    ],
+    "symptoms": [
+      "Keberadaan dua atau lebih identitas/kepribadian yang jelas berbeda.",
+      "Amnesia meluas mengenai ingatan pribadi dan peristiwa sehari-hari.",
+      "Pikiran tentang kehilangan waktu (time loss) secara tiba-tiba."
+    ],
+    "handling": "Psikoterapi integratif jangka panjang untuk menyatukan identitas alter dan menyembuhkan trauma dasar."
+  },
+  {
+    "id": "depersonalization",
+    "name": "Depersonalisasi / Derealisasi",
+    "category": "Disosiatif",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Perasaan terus-menerus terpisah dari tubuh sendiri atau merasa lingkungan sekitar tidak nyata.",
+    "fullDesc": "Penderita merasa seolah-olah mengamati tubuhnya sendiri dari luar (depersonalisasi) atau merasa dunia sekitar tampak seperti dalam mimpi atau kartun (derealisasi).",
+    "types": [
+      {
+        "name": "Episodik",
+        "desc": "Sensasi terpisah muncul sesekali saat dalam tingkat stres tinggi."
+      },
+      {
+        "name": "Persisten",
+        "desc": "Perasaan tidak nyata berlangsung berbulan-bulan tanpa henti."
+      }
+    ],
+    "symptoms": [
+      "Merasa tubuh, tangan, atau kaki berukuran tidak proporsional.",
+      "Mata seperti melihat dunia di balik dinding kaca tebal.",
+      "Kesadaran utuh (penderita tahu sensasi tersebut aneh, berbeda dengan psikosis)."
+    ],
+    "handling": "Grounding techniques, CBT, dan psikoterapi berfokus pada kecemasan dasar."
+  },
+  {
+    "id": "self-harm",
+    "name": "NSSI (Nonsuicidal Self-Injury)",
+    "category": "Lainnya",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Perilaku melukai diri sendiri secara sengaja tanpa niat untuk mengakhiri hidup.",
+    "fullDesc": "Melukai diri sendiri dilakukan sebagai mekanisme pelampiasan yang tidak sehat untuk meredakan rasa sakit emosional yang sangat hebat, stres, atau rasa hampa berlebihan.",
+    "types": [
+      {
+        "name": "Cutting",
+        "desc": "Melukai permukaan kulit menggunakan benda tajam."
+      },
+      {
+        "name": "Burning / Bruising",
+        "desc": "Membakar kulit atau memukul tubuh sendiri hingga memar."
+      }
+    ],
+    "symptoms": [
+      "Memiliki luka, bekas luka, atau memar yang tak terjelaskan secara fisik.",
+      "Selalu mengenakan pakaian tertutup rapat meskipun cuaca panas.",
+      "Kesulitan mengelola emosi negatif yang intens."
+    ],
+    "handling": "Dialectical Behavior Therapy (DBT), terapi pengalihan emosi, dan penanganan luka fisik."
+  },
+  {
+    "id": "somatoform",
+    "name": "Gangguan Gejala Somatik",
+    "category": "Lainnya",
+    "severity": "Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Fokus berlebihan pada gejala fisik yang menyebabkan penderitaan emosional berat.",
+    "fullDesc": "Penderita mengalami gejala fisik nyata (seperti nyeri atau pusing), namun kecemasan dan respons emosional mereka terhadap gejala tersebut sangat tidak proporsional meskipun pemeriksaan medis menunjukkan hasil normal.",
+    "types": [
+      {
+        "name": "Somatization Disorder",
+        "desc": "Banyak keluhan fisik beragam di berbagai organ tubuh."
+      },
+      {
+        "name": "Pain Disorder",
+        "desc": "Fokus utama pada rasa sakit fisik kronis yang dipengaruhi faktor psikologis."
+      }
+    ],
+    "symptoms": [
+      "Sensasi fisik spesifik seperti nyeri, sesak, atau kelelahan.",
+      "Ketakutan terus-menerus bahwa gejala fisik merupakan tanda penyakit mematikan.",
+      "Sering berganti-ganti dokter (doctor shopping) karena merasa tidak puas dengan hasil tes."
+    ],
+    "handling": "CBT untuk mengurangi fokus pada gejala tubuh, manajemen stres, dan hubungan suportif dengan satu dokter utama."
+  },
+  {
+    "id": "insomnia-disorder",
+    "name": "Gangguan Insomnia Kronis",
+    "category": "Lainnya",
+    "severity": "Ringan - Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Kesulitan memulai atau mempertahankan tidur yang berlangsung sedikitnya 3 bulan.",
+    "fullDesc": "Bukan sekadar tidak bisa tidur semalam, Gangguan Insomnia Kronis terjadi saat seseorang memiliki kesempatan tidur yang cukup tetapi terus mengalami kesulitan tidur minimal 3 malam dalam seminggu.",
+    "types": [
+      {
+        "name": "Onset Insomnia",
+        "desc": "Kesulitan utama berada pada fase awal mencoba untuk tertidur."
+      },
+      {
+        "name": "Maintenance Insomnia",
+        "desc": "Sering terbangun di tengah malam dan sulit untuk tidur kembali."
+      }
+    ],
+    "symptoms": [
+      "Butuh waktu lebih dari 30 menit untuk bisa tertidur setiap malam.",
+      "Kelelahan siang hari, iritabilitas, dan gangguan daya ingat.",
+      "Kecemasan yang muncul menjelang jam tidur."
+    ],
+    "handling": "CBT-I (Cognitive Behavioral Therapy for Insomnia), Sleep Hygiene, dan penggunaan obat tidur jangka pendek jika diperlukan."
+  }
+]

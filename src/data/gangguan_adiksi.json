@@ -1,0 +1,226 @@
+[
+  {
+    "id": "substance-abuse",
+    "name": "Gangguan Penggunaan Zat",
+    "category": "Adiksi",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Pola penggunaan zat yang menyebabkan kerusakan fungsi hidup dan sosial.",
+    "fullDesc": "Kondisi klinis kompleks di mana individu kehilangan kendali atas penggunaan zat psikoaktif (alkohol, obat terlarang, atau bahan kimia berbahaya) yang merusak struktur sistem saraf pusat, fungsi kognitif, serta hubungan interpersonal dan produktivitas kerja.",
+    "types": [
+      {
+        "name": "Penyalahgunaan Alkohol Kronis",
+        "desc": "Pola minum berlebihan yang merusak organ hati, memicu ketergantungan psikologis, dan menurunkan kontrol diri."
+      },
+      {
+        "name": "Ketergantungan Opioid",
+        "desc": "Ketergantungan parah pada zat pereda nyeri kuat atau narkotika golongan opiat yang berisiko tinggi menyebabkan overdosis fatal."
+      }
+    ],
+    "symptoms": [
+      "Toleransi biologis (membutuhkan takaran atau dosis zat yang terus meningkat dari waktu ke waktu)",
+      "Gejala putus zat (sakau) yang menyiksa fisik dan mental ketika pemakaian dihentikan",
+      "Keinginan kuat atau dorongan kompulsif (craving) yang tak tertahankan untuk menggunakan zat",
+      "Kehilangan kontrol atas durasi dan jumlah konsumsi zat"
+    ],
+    "handling": "Membutuhkan program detoksifikasi medis terpadu di fasilitas rehabilitasi khusus, dilanjutkan dengan psikoterapi individual, konseling perilaku kognitif (CBT), serta keikutsertaan dalam kelompok dukungan pemulihan jangka panjang."
+  },
+  {
+    "id": "gambling-disorder",
+    "name": "Gangguan Perjudian",
+    "category": "Adiksi",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Kecanduan berjudi yang terus berulang meski membawa konsekuensi negatif finansial dan sosial.",
+    "fullDesc": "Gangguan adiksi non-zat (behavioral addiction) yang secara neurologis memiliki jalur kepuasan dopamin di otak yang sangat mirip dengan kecanduan narkotika, membuat penderitanya terobsesi untuk terus berjudi demi mengejar kemenangan atau menutup kerugian.",
+    "types": [
+      {
+        "name": "Pathological Gambling Kronis",
+        "desc": "Kondisi di mana penjudi kehilangan kendali total atas keuangan, berbohong kepada keluarga, dan mengabaikan tanggung jawab hidup."
+      }
+    ],
+    "symptoms": [
+      "Secara konsisten berbohong kepada orang terdekat mengenai kebiasaan dan kerugian akibat judi",
+      "Menghabiskan tabungan, menjual aset, atau berutang demi membiayai aktivitas judi",
+      "Muncul rasa mudah marah (iritabilitas) atau gelisah yang hebat saat mencoba berhenti",
+      "Terus berjudi dengan taruhan yang semakin besar untuk melarikan diri dari masalah"
+    ],
+    "handling": "Pendekatan Cognitive Behavioral Therapy (CBT) untuk mengubah pola pikir destruktif terhadap uang dan risiko, konseling manajemen keuangan profesional, serta terapi kelompok dukungan mental."
+  },
+  {
+    "id": "internet-gaming",
+    "name": "Gangguan Gaming (Internet)",
+    "category": "Adiksi",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Prioritas berlebihan pada permainan digital hingga mengabaikan kehidupan nyata.",
+    "fullDesc": "Gangguan perilaku di mana waktu dan energi tersita sepenuhnya untuk bermain game online atau offline, menyebabkan isolasi sosial, gangguan pola tidur yang parah, serta penurunan drastis pada performa akademik maupun pekerjaan.",
+    "types": [
+      {
+        "name": "Online Multiplayer Gaming Addiction",
+        "desc": "Kecanduan berat pada game kompetitif berbasis internet yang menuntut keterlibatan waktu secara terus-menerus."
+      }
+    ],
+    "symptoms": [
+      "Menghabiskan waktu lebih dari 10 jam sehari di depan layar perangkat game",
+      "Mengabaikan kebutuhan biologis mendasar seperti makan, mandi, dan tidur demi melanjutkan permainan",
+      "Menunjukkan kemarahan impulsif, agresi, atau kecemasan ekstrem ketika akses internet/game dibatasi",
+      "Menarik diri secara total dari interaksi sosial di dunia nyata"
+    ],
+    "handling": "Penerapan digital detox secara bertahap, terapi perilaku kognitif untuk mengelola kontrol impuls, serta pengalihan fokus melalui hobi fisik, olahraga, dan interaksi sosial tatap muka."
+  },
+  {
+    "id": "caffeine-intoxication",
+    "name": "Intoksikasi Kafein",
+    "category": "Adiksi",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Gejala fisik dan mental akibat konsumsi kafein berlebih dalam waktu singkat.",
+    "fullDesc": "Kondisi keracunan ringan yang terjadi akibat asupan kafein melampaui batas toleransi tubuh (umumnya di atas 400-500 mg sekaligus), yang merangsang sistem saraf simpatik secara berlebihan.",
+    "types": [
+      {
+        "name": "Acute Caffeine Jitter",
+        "desc": "Reaksi fisik akut berupa gemetar, gugup berlebihan, dan lonjakan kecemasan sesaat setelah konsumsi kopi/suplemen energi."
+      }
+    ],
+    "symptoms": [
+      "Jantung berdebar kencang (palpitasi) dan denyut nadi meningkat",
+      "Tubuh terasa gemetar (tremor) terutama pada bagian tangan",
+      "Insomnia parah dan kesulitan menenangkan pikiran",
+      "Rasa gelisah yang datang tiba-tiba disertai keringat dingin"
+    ],
+    "handling": "Menghentikan konsumsi produk berkafein, memperbanyak konsumsi air putih untuk mempercepat proses eliminasi zat, beristirahat di ruangan yang tenang, serta melakukan teknik pernapasan dalam."
+  },
+  {
+    "id": "nicotine-withdrawal",
+    "name": "Gejala Putus Nikotin",
+    "category": "Adiksi",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Reaksi fisik dan mental yang muncul saat seseorang berhenti merokok atau vaping.",
+    "fullDesc": "Sindrom ketidaknyamanan yang terjadi karena otak dan tubuh beradaptasi kembali tanpa kehadiran zat nikotin setelah penggunaan jangka panjang, yang sering kali menjadi hambatan utama bagi perokok yang ingin berhenti.",
+    "types": [
+      {
+        "name": "Nicotine Cravings Syndrome",
+        "desc": "Dorongan psikologis yang kuat untuk kembali mengisap produk tembakau demi meredakan ketegangan."
+      }
+    ],
+    "symptoms": [
+      "Iritabilitas tinggi, mudah tersinggung, dan suasana hati yang buruk",
+      "Penurunan kemampuan berkonsentrasi dan rasa linglung",
+      "Meningkatnya nafsu makan secara drastis yang memicu kenaikan berat badan",
+      "Gangguan pola tidur dan rasa cemas yang persisten"
+    ],
+    "handling": "Terapi pengganti nikotin (Nicotine Replacement Therapy seperti permen karet khusus atau patch nikotin), konseling perilaku untuk mengelola pemicu kebiasaan merokok, serta dukungan motivasi keluarga."
+  },
+  {
+    "id": "cannabis-use-disorder",
+    "name": "Gangguan Penggunaan Ganja",
+    "category": "Adiksi",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Ketergantungan pada penggunaan ganja yang mengganggu fungsi hidup sehari-hari.",
+    "fullDesc": "Pola konsumsi ganja yang bermasalah, ditandai dengan penurunan motivasi hidup, gangguan pada memori jangka pendek, serta penurunan kemampuan fungsi eksekutif otak akibat paparan zat cannabinoid secara kronis.",
+    "types": [
+      {
+        "name": "Chronic Cannabis Dependency",
+        "desc": "Ketergantungan harian yang mengubah struktur dopamin otak dan melemahkan dorongan produktivitas."
+      }
+    ],
+    "symptoms": [
+      "Peningkatan toleransi sehingga membutuhkan takaran yang lebih besar untuk efek serupa",
+      "Gejala putus zat berupa kesulitan tidur (insomnia), mimpi buruk, dan kegelisahan",
+      "Avolisi kronis (kehilangan niat, ambisi, dan energi untuk menjalani aktivitas produktif)",
+      "Penurunan ketajaman memori jangka pendek dan daya tangkap"
+    ],
+    "handling": "Psikoterapi perilaku untuk mengatasi kebiasaan mental, konseling motivasional untuk membangun kembali tujuan hidup, serta pengawasan kesehatan mental secara berkala."
+  },
+  {
+    "id": "stimulant-use-disorder",
+    "name": "Gangguan Penggunaan Stimulan",
+    "category": "Adiksi",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Ketergantungan berat pada zat stimulan seperti kokain, amfetamin, atau metamfetamin.",
+    "fullDesc": "Gangguan penggunaan zat adiktif kuat yang merangsang sistem saraf pusat secara berlebihan, berisiko tinggi memicu kerusakan kardiovaskular permanen, gangguan psikosis parah, serta perilaku agresif yang membahayakan.",
+    "types": [
+      {
+        "name": "Cocaine & Amphetamine Dependence",
+        "desc": "Ketergantungan zat kimia keras yang memicu lonjakan dopamin ekstrem diikuti fase 'crash' yang melelahkan."
+      }
+    ],
+    "symptoms": [
+      "Lonjakan energi dan euforia ekstrem yang mendadak diikuti fase kelelahan mental yang sangat dalam",
+      "Episode paranoia akut, kecurigaan berlebihan, dan halusinasi sensorik",
+      "Risiko tinggi gangguan irama jantung, tekanan darah tinggi, hingga stroke",
+      "Perubahan kepribadian drastis menjadi sangat agresif dan mudah curiga"
+    ],
+    "handling": "Program rehabilitasi medis intensif di fasilitas khusus, detoksifikasi total di bawah pengawasan dokter spesialis psikiatri, dan terapi perilaku komprehensif untuk mencegah kekambuhan."
+  },
+  {
+    "id": "alcohol-withdrawal",
+    "name": "Sindrom Putus Alkohol",
+    "category": "Adiksi",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Reaksi fisik berat dan berbahaya saat pecandu alkohol kronis berhenti secara tiba-tiba.",
+    "fullDesc": "Kondisi darurat medis serius yang terjadi pada sistem saraf pusat ketika tubuh pecandu berat merespons ketiadaan alkohol secara mendadak, yang dapat berakibat fatal jika tidak ditangani secara medis profesional.",
+    "types": [
+      {
+        "name": "Delirium Tremens (DT)",
+        "desc": "Komplikasi darurat medis terparah yang mencakup halusinasi tingkat tinggi, disorientasi, dan kejang."
+      }
+    ],
+    "symptoms": [
+      "Kejang umum dan tremor otot yang hebat di seluruh tubuh",
+      "Kebingungan mental akut, disorientasi waktu, dan halusinasi menakutkan",
+      "Lonjakan demam disertai keringat dingin yang berlebihan",
+      "Detak jantung sangat cepat dan tekanan darah tidak stabil"
+    ],
+    "handling": "Perawatan darurat di unit rawat inap rumah sakit (detoksifikasi medis ketat), pemberian obat golongan benzodiazepin untuk meredakan kejang, serta pemantauan cairan elektrolit secara intensif."
+  },
+  {
+    "id": "caffeine-withdrawal",
+    "name": "Putus Kafein",
+    "category": "Adiksi",
+    "severity": "Ringan",
+    "severityVariant": "outline",
+    "shortDesc": "Reaksi fisik saat tubuh terbiasa dengan asupan kafein tinggi lalu dihentikan mendadak.",
+    "fullDesc": "Sindrom penyesuaian neurokimia ringan yang terjadi ketika pembuluh darah di otak melebar kembali setelah sebelumnya mengalami penyempitan akibat efek kafein rutin.",
+    "types": [
+      {
+        "name": "Caffeine Withdrawal Headache",
+        "desc": "Sakit kepala khas yang muncul akibat penghentian mendadak konsumsi kopi atau minuman berkafein."
+      }
+    ],
+    "symptoms": [
+      "Sakit kepala berdenyut yang cukup mengganggu aktivitas",
+      "Rasa lelah yang amat sangat, lesu, dan mengantuk sepanjang hari",
+      "Penurunan tingkat kewaspadaan dan kesulitan fokus berpikir",
+      "Perubahan suasana hati menjadi lebih sensitif"
+    ],
+    "handling": "Memperbanyak asupan cairan air putih, beristirahat cukup, serta melakukan pengurangan takaran kafein secara bertahap (tapering off) alih-alih langsung berhenti total."
+  },
+  {
+    "id": "cannabis-intoxication",
+    "name": "Intoksikasi Ganja",
+    "category": "Adiksi",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Efek akut jangka pendek dari penggunaan atau paparan zat ganja.",
+    "fullDesc": "Kondisi perubahan psikologis dan persepsi sesaat setelah konsumsi ganja, yang memengaruhi koordinasi motorik, kemampuan menilai situasi, serta distorsi sensasi waktu.",
+    "types": [
+      {
+        "name": "Acute Cannabinoid Intoxication",
+        "desc": "Reaksi langsung pada sistem reseptor otak yang memicu euforia ringan hingga kecemasan akut."
+      }
+    ],
+    "symptoms": [
+      "Mata memerah akibat pelebaran pembuluh darah kapiler",
+      "Rasa haus yang ekstrem (mulut kering atau dry mouth)",
+      "Perasaan cemas berlebih, panik, atau paranoia sesaat",
+      "Distorsi persepsi waktu dan penurunan koordinasi motorik tubuh"
+    ],
+    "handling": "Menempatkan pasien di lingkungan yang tenang, aman, dan minim stimulasi cahaya/suara, memberikan hidrasi yang cukup, serta observasi medis hingga efek zat meluntur."
+  }
+]

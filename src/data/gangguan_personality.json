@@ -1,0 +1,299 @@
+[
+  {
+    "id": "borderline-pd",
+    "name": "Gangguan Kepribadian Ambang (BPD)",
+    "category": "Personality",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Pola ketidakstabilan hubungan, citra diri, dan emosi yang ekstrem.",
+    "fullDesc": "BPD melibatkan ketakutan kronis akan penolakan, impulsivitas, dan perubahan suasana hati yang sangat cepat.",
+    "types": [
+      {
+        "name": "Quiet BPD",
+        "desc": "Gejala ditujukan ke dalam (self-harm, menyalahkan diri sendiri)."
+      },
+      {
+        "name": "Petulant BPD",
+        "desc": "Cenderung manipulatif dan mudah marah pada orang lain."
+      }
+    ],
+    "symptoms": [
+      "Takut ditinggalkan",
+      "Hubungan interpersonal sangat intens tapi labil",
+      "Impulsivitas",
+      "Perasaan hampa",
+      "Self-harm",
+      "Mood berubah tiap jam",
+      "Hubungan 'love-hate'"
+    ],
+    "handling": "Dialectical Behavior Therapy (DBT), terapi kelompok, dan mood stabilizer."
+  },
+  {
+    "id": "narcissistic-pd",
+    "name": "Gangguan Kepribadian Narsistik (NPD)",
+    "category": "Personality",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Pola kebutuhan akan pemujaan dan kurangnya empati terhadap orang lain.",
+    "fullDesc": "Penderita memiliki rasa kepentingan diri yang berlebihan, namun di baliknya sering terdapat harga diri yang sangat rapuh.",
+    "types": [
+      {
+        "name": "Grandiose NPD",
+        "desc": "Tampil sangat dominan dan superior."
+      },
+      {
+        "name": "Vulnerable NPD",
+        "desc": "Tampil sangat sensitif terhadap kritik (fragile)."
+      },
+      {
+        "name": "Vulnerable narcissist",
+        "desc": "Narsistik yang mudah tersinggung."
+      }
+    ],
+    "symptoms": [
+      "Fantasi sukses tak terbatas",
+      "Eksploitasi orang lain",
+      "Kurang empati",
+      "Sombong",
+      "Butuh dipuji",
+      "Iri pada orang lain"
+    ],
+    "handling": "Psikoterapi individu (mengajarkan empati), manajemen regulasi emosi."
+  },
+  {
+    "id": "antisocial-pd",
+    "name": "Gangguan Kepribadian Antisosial (ASPD)",
+    "category": "Personality",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Pola pengabaian dan pelanggaran hak orang lain secara sistematis.",
+    "fullDesc": "Sering disebut psikopati/sosiopati, ditandai dengan kurangnya penyesalan atas tindakan yang merugikan orang lain.",
+    "types": [
+      {
+        "name": "High-functioning",
+        "desc": "Terintegrasi di masyarakat namun tetap manipulatif."
+      },
+      {
+        "name": "Psychopathy",
+        "desc": "Tanpa hati nurani."
+      }
+    ],
+    "symptoms": [
+      "Berbohong patologis",
+      "Agresivitas",
+      "Impulsif",
+      "Kurang rasa bersalah",
+      "Manipulatif",
+      "Tidak ada rasa sesal"
+    ],
+    "handling": "Manajemen perilaku (behavioral management) dan terapi kognitif fokus pada konsekuensi."
+  },
+  {
+    "id": "avoidant-pd",
+    "name": "Gangguan Kepribadian Menghindar (AvPD)",
+    "category": "Personality",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Pola hambatan sosial, perasaan tidak mampu, dan hipersensitif terhadap evaluasi negatif.",
+    "fullDesc": "Berbeda dengan pemalu, mereka sangat ingin berinteraksi tapi takut sekali ditolak atau dipermalukan.",
+    "types": [
+      {
+        "name": "General AvPD",
+        "desc": "Menghindari hampir semua interaksi sosial."
+      },
+      {
+        "name": "Inhibited",
+        "desc": "Sangat menarik diri."
+      }
+    ],
+    "symptoms": [
+      "Menghindari pekerjaan dengan kontak sosial tinggi",
+      "Takut dikritik",
+      "Merasa tidak menarik diri",
+      "Takut ditolak",
+      "Merasa tidak berharga",
+      "Menghindari hubungan baru"
+    ],
+    "handling": "Social Skills Training, CBT, dan Exposure Therapy."
+  },
+  {
+    "id": "dependent-pd",
+    "name": "Gangguan Kepribadian Dependen",
+    "category": "Personality",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Kebutuhan berlebih untuk diurus yang menyebabkan perilaku patuh dan takut berpisah.",
+    "fullDesc": "Sulit mengambil keputusan sehari-hari tanpa nasehat atau jaminan dari orang lain.",
+    "types": [
+      {
+        "name": "Passive-Dependent",
+        "desc": "Sangat pasif dalam hidup sendiri."
+      },
+      {
+        "name": "Submissive",
+        "desc": "Sangat penurut."
+      }
+    ],
+    "symptoms": [
+      "Sulit memulai proyek sendiri",
+      "Butuh dukungan terus-menerus",
+      "Takut sendirian",
+      "Sulit ambil keputusan",
+      "Terlalu mengandalkan orang lain"
+    ],
+    "handling": "Assertiveness training, terapi kemandirian, dan CBT."
+  },
+  {
+    "id": "schizoid-pd",
+    "name": "Gangguan Kepribadian Skizoid",
+    "category": "Personality",
+    "severity": "Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Pola detasemen dari hubungan sosial dan ekspresi emosi yang terbatas.",
+    "fullDesc": "Penderita cenderung tidak peduli pada pujian atau kritik dan lebih suka menyendiri.",
+    "types": [
+      {
+        "name": "Isolated Type",
+        "desc": "Benar-benar menutup diri dari kontak sosial."
+      },
+      {
+        "name": "Solitary",
+        "desc": "Penyendiri sejati."
+      }
+    ],
+    "symptoms": [
+      "Tidak punya teman dekat",
+      "Minat seksual rendah",
+      "Dingin secara emosional",
+      "Flat affect (datar)",
+      "Kurang aktivitas menyenangkan"
+    ],
+    "handling": "Social skills therapy, dukungan lingkungan yang tidak memaksa."
+  },
+  {
+    "id": "intermittent-explosive",
+    "name": "Gangguan Ledakan Intermiten",
+    "category": "Personality",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Ledakan amarah agresif yang tidak proporsional dengan pemicunya.",
+    "fullDesc": "Penderita kehilangan kendali secara mendadak, sering kali merusak barang atau memukul orang.",
+    "types": [
+      {
+        "name": "Episodic Rage",
+        "desc": "Ledakan emosi singkat tapi intens."
+      }
+    ],
+    "symptoms": [
+      "Teriakan",
+      "Lempar barang",
+      "Penyesalan setelah ledakan"
+    ],
+    "handling": "CBT untuk manajemen amarah, SSRI, mood stabilizer."
+  },
+  {
+    "id": "schizotypal-pd",
+    "name": "Gangguan Kepribadian Skizotipal",
+    "category": "Personality",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Pola ketidaknyamanan ekstrem dalam hubungan dekat dan distorsi kognitif.",
+    "fullDesc": "Penderita memiliki perilaku/berpikir yang eksentrik (seperti yakin punya kemampuan supernatural).",
+    "types": [
+      {
+        "name": "Magical thinking",
+        "desc": "Kepercayaan hal-hal magis."
+      }
+    ],
+    "symptoms": [
+      "Pikiran aneh",
+      "Berpakaian eksentrik",
+      "Kecemasan sosial"
+    ],
+    "handling": "Terapi sosial, antipsikotik dosis rendah (jika perlu)."
+  },
+  {
+    "id": "histrionic-pd",
+    "name": "Gangguan Kepribadian Histrionik",
+    "category": "Personality",
+    "severity": "Sedang",
+    "severityVariant": "amber",
+    "shortDesc": "Pola emosionalitas berlebihan dan mencari perhatian.",
+    "fullDesc": "Penderita sangat tidak nyaman jika tidak menjadi pusat perhatian.",
+    "types": [
+      {
+        "name": "Dramatic",
+        "desc": "Reaksi emosi yang meledak-ledak."
+      }
+    ],
+    "symptoms": [
+      "Sangat dramatis",
+      "Pakaian provokatif",
+      "Cepat terpengaruh orang"
+    ],
+    "handling": "Psikoterapi (fokus pada pengenalan emosi diri), CBT."
+  },
+  {
+    "id": "paranoid-pd",
+    "name": "Gangguan Kepribadian Paranoid",
+    "category": "Personality",
+    "severity": "Sedang - Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Pola ketidakpercayaan luas terhadap orang lain.",
+    "fullDesc": "Penderita selalu curiga orang lain ingin menyakitinya tanpa bukti cukup.",
+    "types": [
+      {
+        "name": "Suspicious",
+        "desc": "Curiga berlebihan."
+      }
+    ],
+    "symptoms": [
+      "Curiga dikhianati",
+      "Sulit percaya",
+      "Pendendam"
+    ],
+    "handling": "Psikoterapi (membangun kepercayaan), manajemen stres."
+  },
+  {
+    "id": "obsessive-compulsive-pd",
+    "name": "Gangguan Kepribadian Obsesif-Kompulsif (OCPD)",
+    "category": "Personality",
+    "severity": "Sedang",
+    "severityVariant": "outline",
+    "shortDesc": "Obsesi dengan keteraturan, perfeksionisme, dan kontrol.",
+    "fullDesc": "Beda dengan OCD (yang merupakan gangguan kecemasan), OCPD lebih ke sifat kepribadian yang kaku.",
+    "types": [
+      {
+        "name": "Perfectionist",
+        "desc": "Kaku dalam aturan."
+      }
+    ],
+    "symptoms": [
+      "Kaku aturan",
+      "Perfeksionis",
+      "Sulit delegasi kerja"
+    ],
+    "handling": "CBT, terapi perilaku kognitif."
+  },
+  {
+    "id": "intermittent-explosive-adult",
+    "name": "Gangguan Ledakan Intermiten (Dewasa)",
+    "category": "Personality",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Ledakan amarah mendadak yang tidak proporsional.",
+    "fullDesc": "Sering dipicu hal sepele, menyebabkan kerusakan properti atau fisik pada orang lain.",
+    "types": [
+      {
+        "name": "Episodic Rage",
+        "desc": "Amarah meledak-ledak."
+      }
+    ],
+    "symptoms": [
+      "Teriakan",
+      "Lempar barang",
+      "Rasa lega setelah marah"
+    ],
+    "handling": "CBT untuk kontrol impuls, SSRI, mood stabilizer."
+  }
+]

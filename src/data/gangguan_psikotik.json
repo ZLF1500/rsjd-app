@@ -1,0 +1,224 @@
+[
+  {
+    "id": "schizophrenia",
+    "name": "Skizofrenia",
+    "category": "Psikotik",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Gangguan mental kronis yang menyebabkan interpretasi realitas yang abnormal.",
+    "fullDesc": "Melibatkan kombinasi halusinasi, delusi, dan gangguan berpikir yang sangat berat, mengganggu fungsi harian secara signifikan.",
+    "types": [
+      {
+        "name": "Paranoid",
+        "desc": "Didominasi delusi kejar (dikejar orang)."
+      },
+      {
+        "name": "Disorganized",
+        "desc": "Bicara dan perilaku sangat tidak teratur."
+      }
+    ],
+    "symptoms": [
+      "Halusinasi (mendengar suara)",
+      "Delusi (waham)",
+      "Bicara kacau",
+      "Menarik diri"
+    ],
+    "handling": "Antipsikotik, rehabilitasi psikososial, dukungan keluarga intensif."
+  },
+  {
+    "id": "schizoaffective",
+    "name": "Gangguan Skizoafektif",
+    "category": "Psikotik",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Kombinasi gejala Skizofrenia dan gangguan Mood (Bipolar/Depresi).",
+    "fullDesc": "Penderita mengalami gejala psikotik sekaligus fluktuasi suasana hati yang ekstrem dalam satu periode.",
+    "types": [
+      {
+        "name": "Bipolar Type",
+        "desc": "Disertai episode mania."
+      },
+      {
+        "name": "Depressive Type",
+        "desc": "Disertai episode depresi mayor."
+      }
+    ],
+    "symptoms": [
+      "Halusinasi",
+      "Mania atau Depresi berat",
+      "Gangguan fungsi kognitif"
+    ],
+    "handling": "Kombinasi Antipsikotik dan Mood Stabilizer."
+  },
+  {
+    "id": "delusional-disorder",
+    "name": "Gangguan Waham",
+    "category": "Psikotik",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Memiliki keyakinan palsu yang sangat kuat namun tidak disertai halusinasi berat.",
+    "fullDesc": "Penderita tetap bisa berfungsi sosial selama wahamnya tidak disinggung, namun keyakinannya sangat sulit diubah.",
+    "types": [
+      {
+        "name": "Erotomanik",
+        "desc": "Yakin ada orang terkenal mencintainya."
+      },
+      {
+        "name": "Persecutory",
+        "desc": "Yakin ada yang mau mencelakai."
+      }
+    ],
+    "symptoms": [
+      "Keyakinan tidak rasional",
+      "Kecurigaan berlebih",
+      "Tidak ada halusinasi visual jelas"
+    ],
+    "handling": "Psikoterapi, antipsikotik dosis rendah."
+  },
+  {
+    "id": "brief-psychotic",
+    "name": "Gangguan Psikotik Singkat",
+    "category": "Psikotik",
+    "severity": "Sedang - Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Episode psikotik yang berlangsung kurang dari 1 bulan akibat stres berat.",
+    "fullDesc": "Biasanya dipicu oleh trauma mendadak, dan penderita bisa kembali ke fungsi normal dengan cepat.",
+    "types": [
+      {
+        "name": "Postpartum Psychotic",
+        "desc": "Psikotik singkat pasca melahirkan."
+      }
+    ],
+    "symptoms": [
+      "Bingung mendadak",
+      "Disorientasi",
+      "Halusinasi temporer"
+    ],
+    "handling": "Intervensi krisis, obat antipsikotik sementara, dukungan emosional."
+  },
+  {
+    "id": "capgras-syndrome",
+    "name": "Sindrom Capgras",
+    "category": "Psikotik",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Keyakinan delusional bahwa orang terdekat telah digantikan oleh 'penipu' (impostor).",
+    "fullDesc": "Sering muncul pada skizofrenia atau demensia. Penderita tetap mengenali wajah, tapi merasa 'jiwa' orang tersebut palsu.",
+    "types": [
+      {
+        "name": "Delusional misidentification",
+        "desc": "Salah identifikasi orang."
+      }
+    ],
+    "symptoms": [
+      "Curiga keluarga adalah orang asing",
+      "Kecemasan saat melihat orang terdekat"
+    ],
+    "handling": "Antipsikotik, terapi realitas, penanganan kondisi dasar."
+  },
+  {
+    "id": "fregoli-syndrome",
+    "name": "Sindrom Fregoli",
+    "category": "Psikotik",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Keyakinan delusional bahwa orang yang berbeda-beda sebenarnya adalah orang yang sama yang sedang menyamar.",
+    "fullDesc": "Penderita merasa diikuti oleh satu orang yang terus berganti wajah.",
+    "types": [
+      {
+        "name": "Delusional misidentification",
+        "desc": "Salah identifikasi orang."
+      }
+    ],
+    "symptoms": [
+      "Paranoia",
+      "Merasa dibuntuti",
+      "Kebingungan identitas orang"
+    ],
+    "handling": "Antipsikotik, terapi suportif."
+  },
+  {
+    "id": "othello-syndrome",
+    "name": "Sindrom Othello",
+    "category": "Psikotik",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Kecemburuan patologis/delusional terhadap pasangan tanpa dasar.",
+    "fullDesc": "Penderita yakin 100% pasangannya selingkuh dan sering melakukan pengawasan agresif.",
+    "types": [
+      {
+        "name": "Pathological jealousy",
+        "desc": "Cemburu delusi."
+      }
+    ],
+    "symptoms": [
+      "Mengintai pasangan",
+      "Tuduhan tanpa bukti",
+      "Agresivitas"
+    ],
+    "handling": "Antipsikotik, terapi pasangan (sangat berisiko kekerasan)."
+  },
+  {
+    "id": "cotard-syndrome",
+    "name": "Sindrom Cotard",
+    "category": "Psikotik",
+    "severity": "Sangat Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Delusi nihilistik di mana penderita merasa dirinya sudah mati atau organ tubuhnya busuk.",
+    "fullDesc": "Sangat jarang dan sering dikaitkan dengan depresi berat atau skizofrenia.",
+    "types": [
+      {
+        "name": "Walking corpse syndrome",
+        "desc": "Merasa dirinya mayat hidup."
+      }
+    ],
+    "symptoms": [
+      "Merasa sudah tidak punya organ",
+      "Rasa tidak ada",
+      "Keinginan bunuh diri"
+    ],
+    "handling": "ECT (Electroconvulsive Therapy), antipsikotik, antidepresan."
+  },
+  {
+    "id": "erotomania",
+    "name": "Erotomania (De Clérambault)",
+    "category": "Psikotik",
+    "severity": "Tinggi",
+    "severityVariant": "amber",
+    "shortDesc": "Keyakinan delusional bahwa seseorang (biasanya orang terkenal) jatuh cinta padanya.",
+    "fullDesc": "Penderita terus mengejar targetnya meski ditolak berkali-kali.",
+    "types": [
+      {
+        "name": "Delusional love",
+        "desc": "Cinta delusi."
+      }
+    ],
+    "symptoms": [
+      "Stalking",
+      "Interpretasi tanda/isyarat palsu",
+      "Obsesi"
+    ],
+    "handling": "Antipsikotik, pembatasan hukum (restraining order)."
+  },
+  {
+    "id": "trichinosis-delusional",
+    "name": "Delusi Parasitosis",
+    "category": "Psikotik",
+    "severity": "Tinggi",
+    "severityVariant": "destructive",
+    "shortDesc": "Keyakinan delusional bahwa tubuh terinfeksi parasit/serangga.",
+    "fullDesc": "Penderita sering membawa 'bukti' (kulit/kain) ke dokter untuk menunjukkan parasit yang sebenarnya tidak ada.",
+    "types": [
+      {
+        "name": "Ekbom syndrome",
+        "desc": "Delusi infestasi kulit."
+      }
+    ],
+    "symptoms": [
+      "Merasa gatal hebat",
+      "Luka akibat menggaruk",
+      "Delusi infeksi"
+    ],
+    "handling": "Antipsikotik, pendekatan suportif (hindari konfrontasi langsung)."
+  }
+]
