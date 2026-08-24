@@ -6,7 +6,6 @@ import { Card } from "@/components/ui/card"
 import { 
   Home, 
   ArrowLeft, 
-  Search, 
   Stethoscope, 
   ClipboardCheck, 
   Calendar, 
