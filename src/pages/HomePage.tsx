@@ -12,7 +12,6 @@ import {
   Stethoscope, 
   Clock, 
   CalendarCheck, 
-  PhoneCall, 
   ClipboardCheck, 
   UserCheck, 
   HeartHandshake,
@@ -25,7 +24,8 @@ import {
   ShieldAlert,
   Heart,
   Zap,
-  UserRound
+  UserRound,
+  Receipt
 } from "lucide-react"
 
 export const ALL_MENTAL_DISORDERS = [
@@ -53,7 +53,7 @@ export const ALL_MENTAL_DISORDERS = [
     desc: "Pikiran obsesif yang berulang dan memicu tindakan kompulsif/repetitif untuk meredakan kecemasan.",
     types: "Checking, Contamination, Symmetry/Ordering",
     severity: "Ringan - Sedang",
-    severityBg: "bg-blue-500/10 text-blue-600 dark:text-blue-400 border-blue-500/20",
+    severityBg: "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border-emerald-500/20",
     icon: Brain,
   },
   {
@@ -71,7 +71,7 @@ export const ALL_MENTAL_DISORDERS = [
     desc: "Rasa cemas berlebihan dan kekhawatiran terus-menerus yang sulit dikontrol terhadap berbagai hal harian.",
     types: "Kecemasan Sosial, Phobia Spesifik, Panik",
     severity: "Ringan - Sedang",
-    severityBg: "bg-blue-500/10 text-blue-600 dark:text-blue-400 border-blue-500/20",
+    severityBg: "bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border-emerald-500/20",
     icon: Zap,
   },
   {
@@ -229,7 +229,7 @@ export default function HomePage() {
 
         <div className="container mx-auto max-w-6xl px-4 space-y-20">
 
-          {/* INFORMASI & PROFIL RSJD (DIGABUNG DALAM SATU KATEGORI UTAMA) */}
+          {/* INFORMASI & PROFIL RSJD */}
           <motion.section 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -267,7 +267,6 @@ export default function HomePage() {
                 </CardHeader>
               </Card>
 
-              {/* CARD LINK BARU KE STRUKTUR ORGANISASI */}
               <Card className="hover:shadow-md transition-all duration-300 border-border rounded-2xl p-2 hover:-translate-y-1 bg-card">
                 <CardHeader className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 py-3">
                   <div className="flex items-center gap-4">
@@ -311,10 +310,32 @@ export default function HomePage() {
                   </Button>
                 </CardHeader>
               </Card>
+
+              <Card className="hover:shadow-md transition-all duration-300 border-border rounded-2xl p-2 hover:-translate-y-1 bg-card">
+                <CardHeader className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 py-3">
+                  <div className="flex items-center gap-4">
+                    <div className="p-3 bg-cyan-500/10 rounded-2xl text-cyan-600 dark:text-cyan-400 shrink-0">
+                      <ClipboardCheck className="w-6 h-6" />
+                    </div>
+                    <div>
+                      <CardTitle className="text-base sm:text-lg font-bold">Tarif Layanan RSJD AHM</CardTitle>
+                      <CardDescription className="text-xs sm:text-sm mt-0.5">
+                        Informasi transparan mengenai biaya pelayanan medis, administrasi, dan tindakan di rumah sakit.
+                      </CardDescription>
+                    </div>
+                  </div>
+                  <Button 
+                    className="rounded-full shrink-0 w-full sm:w-auto text-xs px-6 bg-cyan-600 hover:bg-cyan-700 text-white"
+                    onClick={() => navigate("/tarif")}
+                  >
+                    Lihat Tarif <ArrowRight className="w-3.5 h-3.5 ml-1" />
+                  </Button>
+                </CardHeader>
+              </Card>
             </div>
           </motion.section>
 
-          {/* LAYANAN UTAMA RSJD (1 KOLOM MEMANJANG KE BAWAH) */}
+          {/* LAYANAN UTAMA RSJD (GRID 3 KOLOM BERJEJER) */}
           <motion.section 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -322,59 +343,134 @@ export default function HomePage() {
             transition={{ duration: 0.5 }}
             className="space-y-6"
           >
+            {/* Header Section dengan Gaya Baru */}
             <div className="text-center max-w-xl mx-auto">
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-foreground">Layanan Utama RSJD AHM</h2>
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-foreground">
+                Layanan & Informasi Utama
+              </h2>
               <p className="text-xs sm:text-sm text-muted-foreground mt-1">
-                Fasilitas kesehatan jiwa dan rujukan komprehensif di Samarinda
+                Fasilitas kesehatan jiwa, pendaftaran, transparansi tarif, dan rujukan komprehensif di Samarinda
               </p>
             </div>
 
-            <div className="grid grid-cols-1 gap-4">
-              <Card className="hover:shadow-md transition-all duration-300 border-border rounded-2xl p-2 hover:-translate-y-1">
-                <CardHeader className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 py-3">
-                  <div className="flex items-center gap-4">
-                    <div className="p-3 bg-cyan-500/10 rounded-2xl text-cyan-600 dark:text-cyan-400 shrink-0">
-                      <CalendarCheck className="w-6 h-6" />
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+              {/* 1. CARD PENDAFTARAN ONLINE */}
+              <motion.div whileHover={{ y: -8 }} transition={{ duration: 0.3 }}>
+                <Card className="border-border rounded-3xl p-6 bg-card shadow-sm h-full flex flex-col justify-between hover:shadow-lg transition-all">
+                  <div className="space-y-4">
+                    <div className="flex items-center justify-between">
+                      <div className="p-3 bg-cyan-500/10 rounded-2xl text-cyan-600">
+                        <CalendarCheck className="w-6 h-6" />
+                      </div>
+                      <span className="text-xs font-semibold px-2.5 py-1 bg-cyan-500/10 text-cyan-600 rounded-full">Online</span>
                     </div>
                     <div>
-                      <CardTitle className="text-base sm:text-lg font-bold">Pendaftaran & Antrean Online</CardTitle>
-                      <CardDescription className="text-xs sm:text-sm mt-0.5">
-                        Dapatkan kemudahan informasi jadwal praktik dan rujukan kunjungan.
+                      <CardTitle className="text-lg font-bold">Pendaftaran Online</CardTitle>
+                      <CardDescription className="text-xs mt-2 leading-relaxed">
+                        Hubungi kami untuk menjadwalkan janji temu & memeriksa kesehatan Anda dengan mendaftar secara online.
                       </CardDescription>
                     </div>
                   </div>
-                  <Button 
-                    variant="outline" 
-                    className="rounded-full shrink-0 w-full sm:w-auto text-xs px-5"
-                    onClick={() => navigate("/booking")}
-                  >
-                    Info Layanan
-                  </Button>
-                </CardHeader>
-              </Card>
-
-              <Card className="hover:shadow-md transition-all duration-300 border-border rounded-2xl p-2 border-red-200/60 dark:border-red-900/40 bg-red-50/20 dark:bg-red-950/10 hover:-translate-y-1">
-                <CardHeader className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 py-3">
-                  <div className="flex items-center gap-4">
-                    <div className="p-3 bg-red-500/10 rounded-2xl text-red-600 dark:text-red-400 shrink-0">
-                      <Clock className="w-6 h-6" />
+                  <div className="pt-6 border-t border-border mt-6 flex items-center justify-between">
+                    <div className="text-xs">
+                      <p className="text-[10px] text-muted-foreground font-medium">Layanan Telepon:</p>
+                      <p className="font-bold text-foreground">0541-743364</p>
                     </div>
-                    <div>
-                      <CardTitle className="text-base sm:text-lg font-bold text-red-950 dark:text-red-200">
-                        Instalasi Gawat Darurat (IGD) 24/7
-                      </CardTitle>
-                      <CardDescription className="text-xs sm:text-sm mt-0.5">
-                        Penanganan krisis kegawatdaruratan psikiatri siaga sepanjang waktu.
-                      </CardDescription>
-                    </div>
-                  </div>
-                  <a href="tel:0541743364" className="shrink-0 w-full sm:w-auto">
-                    <Button variant="destructive" className="rounded-full w-full sm:w-auto gap-2 text-xs px-5">
-                      <PhoneCall className="w-3.5 h-3.5" /> Hubungi RS
+                    <Button variant="ghost" size="sm" className="rounded-full text-xs text-cyan-600 hover:text-cyan-700 hover:bg-cyan-500/10 gap-1 p-0 px-3" onClick={() => navigate("/booking")}>
+                      Info Layanan <ArrowRight className="w-3.5 h-3.5" />
                     </Button>
-                  </a>
-                </CardHeader>
-              </Card>
+                  </div>
+                </Card>
+              </motion.div>
+
+              {/* 2. CARD TARIF PELAYANAN */}
+              <motion.div whileHover={{ y: -8 }} transition={{ duration: 0.3 }}>
+                <Card className="border-border rounded-3xl p-6 bg-card shadow-sm h-full flex flex-col justify-between hover:shadow-lg transition-all">
+                  <div className="space-y-4">
+                    <div className="flex items-center justify-between">
+                      <div className="p-3 bg-cyan-500/10 rounded-2xl text-cyan-600">
+                        <Receipt className="w-6 h-6" />
+                      </div>
+                      <span className="text-xs font-semibold px-2.5 py-1 bg-cyan-500/10 text-cyan-600 rounded-full">Transparan</span>
+                    </div>
+                    <div>
+                      <CardTitle className="text-lg font-bold">Tarif Pelayanan</CardTitle>
+                      <CardDescription className="text-xs mt-2 leading-relaxed">
+                        Informasi lengkap dan resmi rincian biaya pemeriksaan, rawat jalan, akomodasi, lab, hingga tindakan medis.
+                      </CardDescription>
+                    </div>
+                  </div>
+                  <div className="pt-6 border-t border-border mt-6 flex items-center justify-between">
+                    <span className="text-xs text-muted-foreground font-medium">Resmi & Terupdate</span>
+                    <Button variant="ghost" size="sm" className="rounded-full text-xs text-cyan-600 hover:text-cyan-700 hover:bg-cyan-500/10 gap-1 p-0 px-3" onClick={() => navigate("/tarif")}>
+                      Lihat Tarif <ArrowRight className="w-3.5 h-3.5" />
+                    </Button>
+                  </div>
+                </Card>
+              </motion.div>
+
+              {/* 3. CARD JAM PELAYANAN (DENGAN WARNA BARU & ANIMASI) */}
+              <motion.div whileHover={{ y: -8 }} transition={{ duration: 0.3 }}>
+                <Card className="border-none rounded-3xl p-6 bg-cyan-500 text-white shadow-md h-full flex flex-col justify-between">
+                  <div className="space-y-4">
+                    <div className="flex items-center justify-between">
+                      <CardTitle className="text-xl font-bold text-white">Jam Pelayanan</CardTitle>
+                      <div className="p-2.5 bg-white/15 rounded-2xl text-white">
+                        <Clock className="w-6 h-6" />
+                      </div>
+                    </div>
+
+                    <div className="border-t border-white/20 pt-3 space-y-3 text-xs text-white/95">
+                      <div className="flex justify-between items-center border-b border-white/10 pb-2">
+                        <div>
+                          <p className="font-medium">Senin s/d Kamis</p>
+                          <p className="text-[10px] text-white/80">Sesi 1</p>
+                        </div>
+                        <span className="font-bold text-white">07:30 – 12:00 WITA</span>
+                      </div>
+
+                      <div className="flex justify-between items-center border-b border-white/10 pb-2">
+                        <div>
+                          <p className="font-medium">Senin s/d Kamis</p>
+                          <p className="text-[10px] text-white/80">Sesi 2</p>
+                        </div>
+                        <span className="font-bold text-white">13:00 – 14:30 WITA</span>
+                      </div>
+
+                      <div className="flex justify-between items-center border-b border-white/10 pb-2">
+                        <span className="font-medium">Jum'at</span>
+                        <span className="font-bold text-white">07:30 – 12:00 WITA</span>
+                      </div>
+
+                      <div className="pt-1">
+                        <p className="text-[11px] font-bold tracking-wide uppercase text-white/90 mb-1.5">Jam Pelayanan Rawat Jalan</p>
+                        <div className="space-y-2">
+                          <div className="flex justify-between items-center border-b border-white/10 pb-1.5">
+                            <span className="font-medium">Senin s/d Kamis</span>
+                            <span className="font-bold text-white">07:30 – 16:00 WITA</span>
+                          </div>
+                          <div className="flex justify-between items-center pb-1">
+                            <span className="font-medium">Jumat</span>
+                            <span className="font-bold text-white">07:30 – 14:00 WITA</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="pt-6 border-t border-white/25 mt-4">
+                    <a 
+                      href="tel:0541743364" 
+                      className="text-xs font-bold text-white flex items-center justify-between hover:opacity-90 transition-opacity"
+                    >
+                      <span>Hubungi langsung IGD 24/7</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </a>
+                  </div>
+                </Card>
+              </motion.div>
+
             </div>
           </motion.section>
 

@@ -7,6 +7,7 @@ import DashboardPage from "@/pages/DashboardPage"; // Ini Portal Pasien / Dashbo
 import DokterPage from "@/pages/DoctorPage";
 import ProfilRsPage from "@/pages/ProfilRsPage"; // Halaman Profil RSJD AHM
 import StrukturPage from "@/pages/StrukturPage"; // Halaman Struktur Organisasi baru
+import TarifPage from "@/pages/TarifPage";       // Halaman Daftar Tarif Pelayanan baru
 import EdukasiPage from "@/pages/EdukasiPage";
 import SkriningPage from "@/pages/SkriningPage";
 import BookingPage from "@/pages/BookingPage";
@@ -53,6 +54,10 @@ export const router = createBrowserRouter([
       {
         path: "/struktur",
         element: <StrukturPage />, // Rute Halaman Struktur Organisasi
+      },
+      {
+        path: "/tarif",
+        element: <TarifPage />, // Rute Halaman Daftar Tarif Pelayanan
       },
       {
         path: "/skrining",

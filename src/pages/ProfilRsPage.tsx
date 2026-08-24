@@ -478,21 +478,25 @@ export default function ProfilRsPage() {
           </Accordion>
         </motion.div>
 
-        {/* CTA KE HALAMAN DOKTER DAN STRUKTUR*/}
-        <div className="pt-4 flex items-center justify-between">
+      {/* CTA NAVIGASI BAWAH */}
+        <div className="pt-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+          {/* Tombol Kembali (Secondary / Netral) */}
           <Button 
-            onClick={() => navigate("/dokter")}
-            className="rounded-full bg-cyan-600 hover:bg-cyan-700 text-white text-xs px-6 py-5 gap-2 shadow-sm font-medium transition-transform hover:scale-105 active:scale-95"
+            variant="outline" // Bisa diganti "secondary" atau kelas warna kustom jika pakai shadcn UI standar
+            onClick={() => navigate("/")}
+            className="w-full sm:w-auto rounded-full border-border bg-card text-foreground hover:bg-muted text-xs px-6 py-3 gap-2 shadow-sm font-medium transition-transform hover:scale-105 active:scale-95 cursor-pointer"
           >
-            <ArrowLeft className="w-4 h-4" />
-            <span>Dokter & Spesialis</span>
+            <ArrowLeft className="w-4 h-4 shrink-0" />
+            <span>Kembali ke Beranda</span>
           </Button>
+          
+          {/* Tombol Aksi Utama (Primary Cyan) */}
           <Button 
             onClick={() => navigate("/struktur")}
-            className="rounded-full bg-cyan-600 hover:bg-cyan-700 text-white text-xs px-6 py-5 gap-2 shadow-sm font-medium transition-transform hover:scale-105 active:scale-95"
+            className="w-full sm:w-auto rounded-full bg-cyan-600 hover:bg-cyan-700 text-white text-xs px-6 py-3 gap-2 shadow-sm font-medium transition-transform hover:scale-105 active:scale-95 whitespace-normal h-auto text-center sm:text-right"
           >
             <span>Struktur Organisasi & Satuan Kerja</span>
-            <ArrowRight className="w-4 h-4" />
+            <ArrowRight className="w-4 h-4 shrink-0" />
           </Button>
         </div>
 

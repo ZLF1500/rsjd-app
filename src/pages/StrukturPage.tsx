@@ -1,9 +1,10 @@
 // src/pages/StrukturPage.tsx
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import { motion } from "framer-motion"
 import { useNavigate } from "react-router-dom"
 import { Button } from "@/components/ui/button"
 import { Skeleton } from "@/components/ui/skeleton"
+import { Slider } from "@/components/ui/slider"
 
 // Shadcn UI Accordion Components
 import {
@@ -22,6 +23,14 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"
 
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+} from "@/components/ui/dialog"
+
 import { 
   Users, 
   ArrowRight,
@@ -35,7 +44,11 @@ import {
   GraduationCap,
   Activity,
   Layers,
-  ArrowLeft
+  ArrowLeft,
+  ZoomIn,
+  ZoomOut,
+  RotateCcw,
+  Image as ImageIcon
 } from "lucide-react"
 
 // Varian animasi untuk efek stagger daftar item (muncul berurutan)
@@ -69,12 +82,45 @@ function GroupDivider() {
   )
 }
 
+const STRUKTUR_IMAGE_URL = "https://rsjdahm.kaltimprov.go.id/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-28-at-06.26.13-1024x575.jpeg"
+
 export default function StrukturPage() {
   const navigate = useNavigate()
   const [loading, setLoading] = useState(true)
   // State global accordion: memastikan cuma 1 item yang bisa terbuka
   // di seluruh halaman, meskipun item-nya tersebar di beberapa "grup" visual.
   const [openItem, setOpenItem] = useState<string>("")
+
+  // State untuk Preview Modal Gambar (zoom & pan)
+  const [previewImage, setPreviewImage] = useState<string | null>(null)
+  const [zoomLevel, setZoomLevel] = useState(1)
+  const [panPosition, setPanPosition] = useState({ x: 0, y: 0 })
+  const [isDragging, setIsDragging] = useState(false)
+  const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
+  const imgRef = useRef<HTMLImageElement>(null)
+
+  // Hitung batas pan berdasarkan ukuran render ASLI gambar (offsetWidth/Height
+  // tidak berubah oleh CSS transform: scale), bukan asumsi persentase window.
+  // Ini yang bikin gambar "mentok" pas di tepi asli, gak nyisain area hitam.
+  const getPanBounds = (zoom: number) => {
+    const el = imgRef.current
+    if (!el) return { maxPanX: 0, maxPanY: 0 }
+    return {
+      maxPanX: (el.offsetWidth * (zoom - 1)) / 2,
+      maxPanY: (el.offsetHeight * (zoom - 1)) / 2,
+    }
+  }
+
+  const handleMouseDown = (e: React.MouseEvent) => {
+    if (zoomLevel > 1) {
+      setIsDragging(true)
+      setDragStart({ x: e.clientX - panPosition.x, y: e.clientY - panPosition.y })
+    }
+  }
+
+  const handleMouseUp = () => {
+    setIsDragging(false)
+  }
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 1200)
@@ -143,16 +189,24 @@ export default function StrukturPage() {
               </div>
               <div>
                 <h2 className="text-base sm:text-lg font-bold text-foreground">Bagan Struktur Organisasi</h2>
-                <p className="text-xs sm:text-muted-foreground font-normal">Visualisasi hierarki pimpinan dan satuan kerja rumah sakit</p>
+                <p className="text-xs sm:text-muted-foreground font-normal">Visualisasi hierarki pimpinan dan satuan kerja rumah sakit <span className="text-cyan-600">(Klik gambar untuk memperbesar)</span></p>
               </div>
             </div>
 
-            <div className="overflow-hidden rounded-2xl border border-border bg-secondary/20 p-3 shadow-sm">
+            <div 
+              onClick={() => setPreviewImage(STRUKTUR_IMAGE_URL)}
+              className="overflow-hidden rounded-2xl border border-border bg-secondary/20 p-3 shadow-sm cursor-pointer group relative"
+            >
               <img 
-                src="https://rsjdahm.kaltimprov.go.id/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-28-at-06.26.13-1024x575.jpeg" 
+                src={STRUKTUR_IMAGE_URL} 
                 alt="Struktur Organisasi RSJD Atma Husada Mahakam" 
-                className="w-full h-auto object-contain rounded-xl"
+                className="w-full h-auto object-contain rounded-xl transition-transform duration-300 group-hover:scale-[1.01]"
               />
+              <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center rounded-xl">
+                <span className="bg-black/70 text-white text-xs px-4 py-2 rounded-full font-medium shadow-lg backdrop-blur-sm flex items-center gap-1.5">
+                  <ZoomIn className="w-4 h-4" /> Klik untuk Perbesar
+                </span>
+              </div>
             </div>
 
             <div className="space-y-3 pt-2 text-xs sm:text-sm text-muted-foreground leading-relaxed">
@@ -988,25 +1042,191 @@ export default function StrukturPage() {
 
         </Accordion>
 
-        {/* CTA KE HALAMAN PROFILE DAN DOKTER */}
-        <div className="pt-4 flex items-center justify-between">
+        {/* CTA NAVIGASI BAWAH */}
+        <div className="pt-4 flex flex-col sm:flex-row items-center justify-between gap-3">
           <Button 
-            onClick={() => navigate("/profil-rs")}
-            className="rounded-full bg-cyan-600 hover:bg-cyan-700 text-white text-xs px-6 py-5 gap-2 shadow-sm font-medium transition-transform hover:scale-105 active:scale-95"
+            variant="outline" // Bisa diganti "secondary" atau kelas warna kustom jika pakai shadcn UI standar
+            onClick={() => navigate("/")}
+            className="w-full sm:w-auto rounded-full border-border bg-card text-foreground hover:bg-muted text-xs px-6 py-3 gap-2 shadow-sm font-medium transition-transform hover:scale-105 active:scale-95 cursor-pointer"
           >
-            <ArrowLeft className="w-4 h-4" />
-            <span>Profil Rumah Sakit</span>
+            <ArrowLeft className="w-4 h-4 shrink-0" />
+            <span>Kembali ke Beranda</span>
           </Button>
+          
           <Button 
             onClick={() => navigate("/dokter")}
-            className="rounded-full bg-cyan-600 hover:bg-cyan-700 text-white text-xs px-6 py-5 gap-2 shadow-sm font-medium transition-transform hover:scale-105 active:scale-95"
+            className="w-full sm:w-auto rounded-full bg-cyan-600 hover:bg-cyan-700 text-white text-xs px-6 py-3 gap-2 shadow-sm font-medium transition-transform hover:scale-105 active:scale-95 whitespace-normal h-auto text-center sm:text-right"
           >
             <span>Dokter & Spesialis</span>
-            <ArrowRight className="w-4 h-4" />
+            <ArrowRight className="w-4 h-4 shrink-0" />
           </Button>
         </div>
 
       </div>
+
+      {/* MODAL PREVIEW GAMBAR MENGGUNAKAN SHADCN DIALOG */}
+      <Dialog open={!!previewImage} onOpenChange={(open) => {
+        if (!open) {
+          setPreviewImage(null)
+          setZoomLevel(1)
+          setPanPosition({ x: 0, y: 0 })
+        }
+      }}>
+        <DialogContent className="!max-w-7xl !w-[95vw] h-[90vh] max-h-[90vh] p-0 overflow-hidden bg-black/95 border-none flex flex-col items-center justify-center shadow-2xl">
+          <DialogHeader className="sr-only">
+            <DialogTitle>Pratinjau Gambar Struktur Organisasi</DialogTitle>
+            <DialogDescription>Lihat bagan struktur organisasi dalam ukuran penuh</DialogDescription>
+          </DialogHeader>
+
+          {/* Top Toolbar di dalam Dialog */}
+          <div className="absolute top-4 left-6 right-6 flex flex-col sm:flex-row items-center justify-between gap-4 z-10 px-5 py-3 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 text-white">
+            <div className="flex items-center gap-2 text-xs font-medium">
+              <ImageIcon className="w-4 h-4 text-cyan-400" />
+              <span>Pratinjau Struktur Organisasi</span>
+            </div>
+
+            {/* Kontrol Zoom (Tombol Minus, Slider, Tombol Plus) */}
+            <div className="flex items-center gap-2.5 w-full sm:w-auto justify-end">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="w-8 h-8 rounded-xl text-white hover:bg-white/20 shrink-0"
+                onClick={() => {
+                  const newZoom = Math.max(zoomLevel - 0.25, 0.5)
+                  setZoomLevel(newZoom)
+                  if (newZoom <= 1) setPanPosition({ x: 0, y: 0 })
+                }}
+                title="Perkecil (-)"
+              >
+                <ZoomOut className="w-4 h-4" />
+              </Button>
+
+              <div className="flex items-center gap-2 bg-black/30 px-3 py-1.5 rounded-xl border border-white/10 w-44 sm:w-52">
+                <Slider
+                  value={[zoomLevel]}
+                  min={0.5}
+                  max={3}
+                  step={0.05}
+                  onValueChange={(val) => {
+                    const newZoom = val[0]
+                    setZoomLevel(newZoom)
+                    if (newZoom <= 1) {
+                      setPanPosition({ x: 0, y: 0 })
+                    } else {
+                      const { maxPanX, maxPanY } = getPanBounds(newZoom)
+                      setPanPosition((prev) => ({
+                        x: Math.max(Math.min(prev.x, maxPanX), -maxPanX),
+                        y: Math.max(Math.min(prev.y, maxPanY), -maxPanY)
+                      }))
+                    }
+                  }}
+                  className="cursor-pointer"
+                />
+              </div>
+
+              <Button
+                variant="ghost"
+                size="icon"
+                className="w-8 h-8 rounded-xl text-white hover:bg-white/20 shrink-0"
+                onClick={() => {
+                  const newZoom = Math.min(zoomLevel + 0.25, 3)
+                  setZoomLevel(newZoom)
+                }}
+                title="Perbesar (+)"
+              >
+                <ZoomIn className="w-4 h-4" />
+              </Button>
+
+              <span className="text-xs font-semibold text-cyan-300 w-12 text-right">
+                {Math.round(zoomLevel * 100)}%
+              </span>
+
+              <div className="w-[1px] h-4 bg-white/20 mx-1" />
+
+              <Button
+                variant="ghost"
+                size="icon"
+                className="w-8 h-8 rounded-xl text-white hover:bg-white/20 shrink-0"
+                onClick={() => {
+                  setZoomLevel(1)
+                  setPanPosition({ x: 0, y: 0 })
+                }}
+                title="Reset Posisi"
+              >
+                <RotateCcw className="w-4 h-4" />
+              </Button>
+            </div>
+          </div>
+
+          {/* Image Container dengan Dukungan Mouse & Touch (Mobile Friendly) */}
+          <div 
+            ref={(node) => {
+              if (!node) return
+              const handleWheel = (e: WheelEvent) => {
+                e.preventDefault()
+                const zoomFactor = -e.deltaY * 0.0015
+                setZoomLevel((prev) => {
+                  const nextZoom = Math.max(0.5, Math.min(3, prev + zoomFactor))
+                  if (nextZoom <= 1) setPanPosition({ x: 0, y: 0 })
+                  return nextZoom
+                })
+              }
+              node.addEventListener("wheel", handleWheel, { passive: false })
+            }}
+            className="relative w-full h-full flex items-center justify-center overflow-hidden cursor-grab active:cursor-grabbing p-8 touch-none"
+            onMouseDown={handleMouseDown}
+            onMouseMove={(e) => {
+              if (!isDragging || zoomLevel <= 1) return
+              const { maxPanX, maxPanY } = getPanBounds(zoomLevel)
+              
+              const newX = e.clientX - dragStart.x
+              const newY = e.clientY - dragStart.y
+
+              setPanPosition({
+                x: Math.max(Math.min(newX, maxPanX), -maxPanX),
+                y: Math.max(Math.min(newY, maxPanY), -maxPanY)
+              })
+            }}
+            onMouseUp={handleMouseUp}
+            onMouseLeave={handleMouseUp}
+            // Touch Events untuk Smartphone / Touchscreen
+            onTouchStart={(e) => {
+              if (e.touches.length === 1 && zoomLevel > 1) {
+                setIsDragging(true)
+                setDragStart({ 
+                  x: e.touches[0].clientX - panPosition.x, 
+                  y: e.touches[0].clientY - panPosition.y 
+                })
+              }
+            }}
+            onTouchMove={(e) => {
+              if (!isDragging || zoomLevel <= 1 || e.touches.length !== 1) return
+              const { maxPanX, maxPanY } = getPanBounds(zoomLevel)
+              
+              const newX = e.touches[0].clientX - dragStart.x
+              const newY = e.touches[0].clientY - dragStart.y
+
+              setPanPosition({
+                x: Math.max(Math.min(newX, maxPanX), -maxPanX),
+                y: Math.max(Math.min(newY, maxPanY), -maxPanY)
+              })
+            }}
+            onTouchEnd={() => setIsDragging(false)}
+          >
+            <img 
+              ref={imgRef}
+              src={previewImage || ""} 
+              alt="Fullscreen Preview Struktur Organisasi"
+              className="max-h-[80vh] max-w-[85vw] object-contain rounded-xl shadow-2xl transition-transform duration-75 ease-out"
+              style={{
+                transform: `scale(${zoomLevel}) translate(${panPosition.x / zoomLevel}px, ${panPosition.y / zoomLevel}px)`
+              }}
+              draggable={false}
+            />
+          </div>
+
+        </DialogContent>
+      </Dialog>
 
     </div>
   )

@@ -1,4 +1,4 @@
-// src/pages/DokterPage.tsx
+// src/pages/TarifPage.tsx
 import { useState, useEffect, useRef } from "react"
 import { useNavigate } from "react-router-dom"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -28,16 +28,16 @@ import {
   Info,
   ArrowRight,
   ArrowLeft,
-  Calendar,
+  Receipt,
   Sparkles,
-  Users,
-  Image as ImageIcon,
+  PhoneCall,
   ZoomIn,
   ZoomOut,
-  RotateCcw
+  RotateCcw,
+  Image as ImageIcon
 } from "lucide-react"
 
-export default function DokterPage() {
+export default function TarifPage() {
   const navigate = useNavigate()
   const [loading, setLoading] = useState(true)
 
@@ -99,18 +99,18 @@ export default function DokterPage() {
                 <BreadcrumbSeparator />
                 <BreadcrumbItem>
                   <BreadcrumbPage className="font-semibold text-foreground">
-                    Dokter & Spesialis
+                    Tarif Pelayanan
                   </BreadcrumbPage>
                 </BreadcrumbItem>
               </BreadcrumbList>
             </Breadcrumb>
 
             <h1 className="text-2xl sm:text-3xl font-extrabold text-foreground pt-1 flex items-center gap-2">
-              Direktori Dokter & Jadwal Praktik <Sparkles className="w-5 h-5 text-cyan-500" />
+              Daftar Tarif Pelayanan RSJD AHM <Sparkles className="w-5 h-5 text-cyan-500" />
             </h1>
             <p className="text-xs sm:text-sm text-muted-foreground flex items-center gap-1.5">
               <Info className="w-4 h-4 text-cyan-600 shrink-0" />
-              Informasi lengkap jajaran dokter spesialis serta jadwal pelayanan medis di RSJD Atma Husada Mahakam.
+              Transparansi rincian biaya pemeriksaan, akomodasi, laboratorium, MCU, hingga tindakan medis di rumah sakit.
             </p>
           </div>
         </div>
@@ -119,74 +119,49 @@ export default function DokterPage() {
         {loading ? (
           <Card className="rounded-3xl p-8 space-y-6 border-border bg-card shadow-sm">
             <Skeleton className="h-6 w-1/3" />
-            <Skeleton className="h-[450px] w-full rounded-2xl" />
+            <Skeleton className="h-[500px] w-full rounded-2xl" />
           </Card>
         ) : (
           <div className="space-y-8">
             
-            {/* CARD 1: DOKTER KAMI (MEET OUR DOCTORS) */}
+            {/* CARD BANNER TARIF PELAYANAN */}
             <Card className="rounded-3xl border-border bg-card shadow-sm overflow-hidden">
               <CardHeader className="p-6 sm:p-8 pb-4">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-2xl bg-cyan-500/10 text-cyan-600 flex items-center justify-center font-bold">
-                    <Users className="w-5 h-5" />
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-2xl bg-cyan-500/10 text-cyan-600 flex items-center justify-center font-bold shrink-0">
+                      <Receipt className="w-5 h-5" />
+                    </div>
+                    <div>
+                      <CardTitle className="text-lg sm:text-xl font-bold">
+                        Rincian Resmi Tarif Pelayanan Rumah Sakit
+                      </CardTitle>
+                      <CardDescription className="text-xs sm:text-sm text-muted-foreground mt-0.5">
+                        Meliputi tarif pemeriksaan elektromedik, rawat jalan, akomodasi, lab, MCU, MHCU, dan tindakan psikiatri.{" "}
+                        <span className="text-cyan-600 dark:text-cyan-400 font-medium">(Klik gambar untuk memperbesar)</span>
+                      </CardDescription>
+                    </div>
                   </div>
-                  <div>
-                    <CardTitle className="text-lg sm:text-xl font-bold">
-                      Dokter Kami (Meet Our Doctors)
-                    </CardTitle>
-                    <CardDescription className="text-xs sm:text-sm text-muted-foreground mt-0.5">
-                      Jajaran dokter spesialis kedokteran jiwa dan umum yang bertugas di rumah sakit.{" "}
-                      <span className="text-cyan-600 dark:text-cyan-400 font-medium">(Klik gambar untuk memperbesar)</span>
-                    </CardDescription>
-                  </div>
-                </div>
-              </CardHeader>
-              <CardContent className="p-6 sm:p-8 pt-0">
-                <div 
-                  onClick={() => setPreviewImage("https://rsjdahm.kaltimprov.go.id/wp-content/uploads/2026/07/dokter-2048x1152.png")}
-                  className="rounded-2xl overflow-hidden border border-border/60 bg-muted/20 shadow-inner p-2 cursor-pointer group relative"
-                >
-                  <img 
-                    src="https://rsjdahm.kaltimprov.go.id/wp-content/uploads/2026/07/dokter-2048x1152.png" 
-                    alt="Meet Our Doctors" 
-                    className="w-full h-auto object-contain rounded-xl transition-transform duration-300 group-hover:scale-[1.01]"
-                  />
-                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                    <span className="bg-black/70 text-white text-xs px-4 py-2 rounded-full font-medium shadow-lg backdrop-blur-sm flex items-center gap-1.5">
-                      <ZoomIn className="w-4 h-4" /> Klik untuk Perbesar
-                    </span>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
 
-            {/* CARD 2: JADWAL PRAKTIK POLIKLINIK (AGUSTUS) */}
-            <Card className="rounded-3xl border-border bg-card shadow-sm overflow-hidden">
-              <CardHeader className="p-6 sm:p-8 pb-4">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-2xl bg-cyan-500/10 text-cyan-600 flex items-center justify-center font-bold">
-                    <Calendar className="w-5 h-5" />
-                  </div>
-                  <div>
-                    <CardTitle className="text-lg sm:text-xl font-bold">
-                      Jadwal Praktik Poliklinik RSJD AHM (Agustus)
-                    </CardTitle>
-                    <CardDescription className="text-xs sm:text-sm text-muted-foreground mt-0.5">
-                      Rincian jam pelayanan poliklinik eksekutif, psikiatri, psikogeriatri, anak, dan penyakit dalam.{" "}
-                      <span className="text-cyan-600 dark:text-cyan-400 font-medium">(Klik gambar untuk memperbesar)</span>
-                    </CardDescription>
+                  {/* HOTLINE BADGE */}
+                  <div className="bg-secondary/60 border border-border/80 px-4 py-2.5 rounded-2xl flex items-center gap-2.5 shrink-0">
+                    <PhoneCall className="w-4 h-4 text-cyan-600" />
+                    <div className="text-xs">
+                      <p className="text-[10px] text-muted-foreground font-medium">Hotline Service:</p>
+                      <p className="font-bold text-foreground">08115878787</p>
+                    </div>
                   </div>
                 </div>
               </CardHeader>
+              
               <CardContent className="p-6 sm:p-8 pt-0 space-y-4">
                 <div 
-                  onClick={() => setPreviewImage("https://rsjdahm.kaltimprov.go.id/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-05-at-11.14.14-1024x576.jpeg")}
+                  onClick={() => setPreviewImage("https://rsjdahm.kaltimprov.go.id/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-05-at-11.27.01-1024x576.jpeg")}
                   className="rounded-2xl overflow-hidden border border-border/60 bg-muted/20 shadow-inner p-2 cursor-pointer group relative"
                 >
                   <img 
-                    src="https://rsjdahm.kaltimprov.go.id/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-05-at-11.14.14-1024x576.jpeg" 
-                    alt="Jadwal Dokter RSJD AHM" 
+                    src="https://rsjdahm.kaltimprov.go.id/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-05-at-11.27.01-1024x576.jpeg" 
+                    alt="Daftar Tarif Pelayanan RSJD Atma Husada Mahakam" 
                     className="w-full h-auto object-contain rounded-xl transition-transform duration-300 group-hover:scale-[1.01]"
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
@@ -195,8 +170,8 @@ export default function DokterPage() {
                     </span>
                   </div>
                 </div>
-                <p className="text-xs text-muted-foreground text-center leading-relaxed">
-                  * Untuk pendaftaran online atau konfirmasi kehadiran, silakan melalui menu Booking.
+                <p className="text-xs text-muted-foreground text-center leading-relaxed pt-2">
+                  * Tarif sewaktu-waktu dapat menyesuaikan dengan ketentuan dan regulasi rumah sakit yang berlaku.
                 </p>
               </CardContent>
             </Card>
@@ -214,12 +189,12 @@ export default function DokterPage() {
             <ArrowLeft className="w-4 h-4 shrink-0" />
             <span>Kembali ke Beranda</span>
           </Button>
-          
+            
           <Button 
-            onClick={() => navigate("/tarif")}
+            onClick={() => navigate("/profil-rs")}
             className="w-full sm:w-auto rounded-full bg-cyan-600 hover:bg-cyan-700 text-white text-xs px-6 py-3 gap-2 shadow-sm font-medium transition-transform hover:scale-105 active:scale-95 whitespace-normal h-auto text-center sm:text-right"
           >
-            <span>Tarif Pelayanan</span>
+            <span>Profil Rumah Sakit</span>
             <ArrowRight className="w-4 h-4 shrink-0" />
           </Button>
         </div>
@@ -236,15 +211,15 @@ export default function DokterPage() {
       }}>
         <DialogContent className="!max-w-7xl !w-[95vw] h-[90vh] max-h-[90vh] p-0 overflow-hidden bg-black/95 border-none flex flex-col items-center justify-center shadow-2xl">
           <DialogHeader className="sr-only">
-            <DialogTitle>Pratinjau Gambar</DialogTitle>
-            <DialogDescription>Lihat lampiran gambar dalam ukuran penuh</DialogDescription>
+            <DialogTitle>Pratinjau Gambar Tarif</DialogTitle>
+            <DialogDescription>Lihat lampiran daftar tarif dalam ukuran penuh</DialogDescription>
           </DialogHeader>
 
           {/* Top Toolbar di dalam Dialog */}
           <div className="absolute top-4 left-6 right-6 flex flex-col sm:flex-row items-center justify-between gap-4 z-10 px-5 py-3 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 text-white">
             <div className="flex items-center gap-2 text-xs font-medium">
               <ImageIcon className="w-4 h-4 text-cyan-400" />
-              <span>Pratinjau Lampiran</span>
+              <span>Pratinjau Tarif Pelayanan</span>
             </div>
 
             {/* Kontrol Zoom (Tombol Minus, Slider, Tombol Plus) */}
@@ -378,7 +353,7 @@ export default function DokterPage() {
             <img 
               ref={imgRef}
               src={previewImage || ""} 
-              alt="Fullscreen Preview"
+              alt="Fullscreen Preview Tarif"
               className="max-h-[80vh] max-w-[85vw] object-contain rounded-xl shadow-2xl transition-transform duration-75 ease-out"
               style={{
                 transform: `scale(${zoomLevel}) translate(${panPosition.x / zoomLevel}px, ${panPosition.y / zoomLevel}px)`

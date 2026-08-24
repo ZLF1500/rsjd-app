@@ -28,6 +28,7 @@ import {
   ShieldAlert,
   Sparkles,
   PhoneCall,
+  MessageCircle,
   MapPin,
   Send,
   Plus,
@@ -60,6 +61,19 @@ export default function DashboardPage() {
   const [panPosition, setPanPosition] = useState<{ x: number; y: number }>({ x: 0, y: 0 })
   const [isDragging, setIsDragging] = useState<boolean>(false)
   const [dragStart, setDragStart] = useState<{ x: number; y: number }>({ x: 0, y: 0 })
+  const imgRef = useRef<HTMLImageElement>(null)
+
+  // Hitung batas pan berdasarkan ukuran render ASLI gambar (offsetWidth/Height
+  // tidak berubah oleh CSS transform: scale), bukan asumsi persentase window.
+  // Ini yang bikin gambar "mentok" pas di tepi asli, gak nyisain area hitam.
+  const getPanBounds = (zoom: number) => {
+    const el = imgRef.current
+    if (!el) return { maxPanX: 0, maxPanY: 0 }
+    return {
+      maxPanX: (el.offsetWidth * (zoom - 1)) / 2,
+      maxPanY: (el.offsetHeight * (zoom - 1)) / 2,
+    }
+  }
   
   const fileInputRef = useRef<HTMLInputElement>(null)
 
@@ -129,19 +143,11 @@ export default function DashboardPage() {
     setShowAttachMenu(false)
   }
 
-  // Handler untuk mulai drag/geser gambar
+  // Handler untuk mulai drag/geser gambar (dipakai di modal preview)
   const handleMouseDown = (e: React.MouseEvent) => {
     if (zoomLevel <= 1) return
     setIsDragging(true)
     setDragStart({ x: e.clientX - panPosition.x, y: e.clientY - panPosition.y })
-  }
-
-  const handleMouseMove = (e: React.MouseEvent) => {
-    if (!isDragging || zoomLevel <= 1) return
-    setPanPosition({
-      x: e.clientX - dragStart.x,
-      y: e.clientY - dragStart.y
-    })
   }
 
   const handleMouseUp = () => {
@@ -700,19 +706,53 @@ export default function DashboardPage() {
                       <span>Bantuan Krisis & Darurat Medis Jiwa</span>
                     </div>
                     <CardDescription className="text-xs">
-                      Jika Anda mengalami pikiran membahayakan diri atau krisis panik parah, segera hubungi kontak di bawah ini.
+                      Jika Anda mengalami pikiran membahayakan diri atau krisis panik parah, segera kunjungi IGD RSJD terdekat atau hubungi kontak di bawah ini.
                     </CardDescription>
                   </CardHeader>
                   <CardContent className="space-y-4">
+                    
+                    {/* 1. IGD RSJD Atma Husada Mahakam (Telepon) */}
+                    <div className="bg-rose-500/10 border border-rose-500/20 p-4 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                      <div className="space-y-1">
+                        <span className="font-bold text-xs text-rose-600 dark:text-rose-400">IGD RSJD Atma Husada Mahakam</span>
+                        <p className="text-xs text-foreground font-semibold">(0541) 743364 • Layanan Gawat Darurat 24 Jam</p>
+                      </div>
+                      <Button 
+                        onClick={() => window.location.href = "tel:0541743364"}
+                        className="bg-rose-600 hover:bg-rose-700 text-white text-xs rounded-full h-10 px-5 gap-2 shrink-0"
+                      >
+                        <PhoneCall className="w-3.5 h-3.5" /> Hubungi IGD
+                      </Button>
+                    </div>
+
+                    {/* 2. Hotline WhatsApp RSJD (Chat) */}
+                    <div className="bg-rose-500/10 border border-rose-500/20 p-4 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                      <div className="space-y-1">
+                        <span className="font-bold text-xs text-rose-600 dark:text-rose-400">Hotline WhatsApp RSJD</span>
+                        <p className="text-xs text-foreground font-semibold">0811 587 8787 • Layanan Konsultasi & Pesan Teks</p>
+                      </div>
+                      <Button 
+                        onClick={() => window.open("https://wa.me/628115878787", "_blank")}
+                        className="bg-rose-600 hover:bg-rose-700 text-white text-xs rounded-full h-10 px-5 gap-2 shrink-0"
+                      >
+                        <MessageCircle className="w-3.5 h-3.5" /> Chat WhatsApp
+                      </Button>
+                    </div>
+
+                    {/* 3. Hotline Kemenkes / Sesama Jiwa (Telepon) */}
                     <div className="bg-rose-500/10 border border-rose-500/20 p-4 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
                       <div className="space-y-1">
                         <span className="font-bold text-xs text-rose-600 dark:text-rose-400">Hotline Kemenkes / Sesama Jiwa</span>
                         <p className="text-xs text-foreground font-semibold">119 (Ext. 8) • Layanan Bebas Pulsa 24 Jam</p>
                       </div>
-                      <Button className="bg-rose-600 hover:bg-rose-700 text-white text-xs rounded-full h-10 px-5 gap-2 shrink-0">
+                      <Button 
+                        onClick={() => window.location.href = "tel:119"}
+                        className="bg-rose-600 hover:bg-rose-700 text-white text-xs rounded-full h-10 px-5 gap-2 shrink-0"
+                      >
                         <PhoneCall className="w-3.5 h-3.5" /> Panggil Darurat Sekarang
                       </Button>
                     </div>
+
                   </CardContent>
                 </Card>
               </motion.div>
@@ -722,7 +762,7 @@ export default function DashboardPage() {
         </div>
       </div>
 
-        {/* MODAL PREVIEW GAMBAR MENGGUNAKAN SHADCN DIALOG */}
+      {/* MODAL PREVIEW GAMBAR MENGGUNAKAN SHADCN DIALOG */}
       <Dialog open={!!previewImage} onOpenChange={(open) => {
         if (!open) {
           setPreviewImage(null)
@@ -771,8 +811,7 @@ export default function DashboardPage() {
                     if (newZoom <= 1) {
                       setPanPosition({ x: 0, y: 0 })
                     } else {
-                      const maxPanX = (window.innerWidth * 0.85 * (newZoom - 1)) / 2
-                      const maxPanY = (window.innerHeight * 0.75 * (newZoom - 1)) / 2
+                      const { maxPanX, maxPanY } = getPanBounds(newZoom)
                       setPanPosition((prev) => ({
                         x: Math.max(Math.min(prev.x, maxPanX), -maxPanX),
                         y: Math.max(Math.min(prev.y, maxPanY), -maxPanY)
@@ -836,8 +875,7 @@ export default function DashboardPage() {
             onMouseDown={handleMouseDown}
             onMouseMove={(e) => {
               if (!isDragging || zoomLevel <= 1) return
-              const maxPanX = (window.innerWidth * 0.85 * (zoomLevel - 1)) / 2
-              const maxPanY = (window.innerHeight * 0.75 * (zoomLevel - 1)) / 2
+              const { maxPanX, maxPanY } = getPanBounds(zoomLevel)
               
               const newX = e.clientX - dragStart.x
               const newY = e.clientY - dragStart.y
@@ -861,8 +899,7 @@ export default function DashboardPage() {
             }}
             onTouchMove={(e) => {
               if (!isDragging || zoomLevel <= 1 || e.touches.length !== 1) return
-              const maxPanX = (window.innerWidth * 0.85 * (zoomLevel - 1)) / 2
-              const maxPanY = (window.innerHeight * 0.75 * (zoomLevel - 1)) / 2
+              const { maxPanX, maxPanY } = getPanBounds(zoomLevel)
               
               const newX = e.touches[0].clientX - dragStart.x
               const newY = e.touches[0].clientY - dragStart.y
@@ -875,6 +912,7 @@ export default function DashboardPage() {
             onTouchEnd={() => setIsDragging(false)}
           >
             <img 
+              ref={imgRef}
               src={previewImage || ""} 
               alt="Fullscreen Preview"
               className="max-h-[80vh] max-w-[85vw] object-contain rounded-xl shadow-2xl transition-transform duration-75 ease-out"
