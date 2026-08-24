@@ -47,6 +47,20 @@ import { Message, MessageAvatar, MessageContent, MessageFooter } from "@/compone
 import { Bubble, BubbleContent } from "@/components/ui/bubble"
 import { MessageScrollerProvider, MessageScroller, MessageScrollerViewport, MessageScrollerContent, MessageScrollerItem, MessageScrollerButton } from "@/components/ui/message-scroller"
 
+type MessageFile = {
+  name: string
+  size: string
+  type: string
+  url?: string
+}
+
+type ChatMessage = {
+  sender: string
+  text: string
+  time: string
+  file: MessageFile | null
+}
+
 export default function DashboardPage() {
   const navigate = useNavigate()
   const [loading, setLoading] = useState(true)
@@ -95,7 +109,7 @@ export default function DashboardPage() {
     }
   }, [previewImage])
 
-  const [messages, setMessages] = useState([
+ const [messages, setMessages] = useState<ChatMessage[]>([
     { sender: "doctor", text: "Halo Saudara Andi, bagaimana kondisi Anda setelah sesi terakhir kemarin?", time: "Kemarin, 14:30", file: null },
     { sender: "user", text: "Sudah agak lebih tenang dok, obat rutin juga sudah diminum teratur.", time: "Kemarin, 15:00", file: null },
     { sender: "doctor", text: "Bagus sekali. Pertahankan pola istirahatnya ya. Kita ketemu besok sesuai jadwal.", time: "Kemarin, 15:10", file: null }
